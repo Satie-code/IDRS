@@ -1,0 +1,44 @@
+# Normalize line endings for everything Git considers text; let Git pick
+# text vs. binary automatically and always store text with LF in the repo.
+* text=auto eol=lf
+
+# Explicit text types
+*.py     text
+*.pyi    text
+*.cpp    text
+*.hpp    text
+*.h      text
+*.cc     text
+*.cxx    text
+*.cmake  text
+CMakeLists.txt text
+*.md     text
+*.yaml   text
+*.yml    text
+*.toml   text
+*.json   text
+*.cfg    text
+*.ini    text
+*.sh     text eol=lf
+*.editorconfig text
+
+# Windows-only scripts keep CRLF
+*.bat    text eol=crlf
+*.ps1    text eol=crlf
+
+# Binary types — do not diff, do not normalize line endings
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.pdf    binary
+*.onnx   binary
+*.pt     binary
+*.pth    binary
+*.ckpt   binary
+
+# Git LFS is intentionally NOT configured in Phase 0.
+# Rationale: no large binary artifacts are tracked yet (datasets and model
+# checkpoints are gitignored — see data/README.md and .gitignore). Enable
+# LFS in a later phase only once a specific artifact type genuinely needs
+# to be version-controlled in Git.

@@ -1,0 +1,5 @@
+# Configuration used when IDR_ENVIRONMENT=testing (e.g. CI). Kept quiet by
+# default so test output isn't dominated by DEBUG-level noise.
+
+logging:
+  level: WARNING

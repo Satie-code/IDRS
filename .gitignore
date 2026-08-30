@@ -1,0 +1,116 @@
+## ---------------------------------------------------------------------------
+## Python
+## ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+.eggs/
+build/
+dist/
+wheels/
+pip-wheel-metadata/
+
+# Test / quality tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+.tox/
+
+## ---------------------------------------------------------------------------
+## C++ / CMake
+## ---------------------------------------------------------------------------
+core/build/
+core/**/build/
+/build/
+/out/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+*.obj
+*.o
+*.obj
+*.exe
+*.dll
+*.lib
+*.pdb
+*.ilk
+*.exp
+compile_commands.json
+.vs/
+
+## ---------------------------------------------------------------------------
+## IDE / editor metadata
+## ---------------------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+## ---------------------------------------------------------------------------
+## OS cruft
+## ---------------------------------------------------------------------------
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+## ---------------------------------------------------------------------------
+## Logs and reports
+## ---------------------------------------------------------------------------
+*.log
+logs/
+reports/*
+!reports/.gitkeep
+!reports/README.md
+
+## ---------------------------------------------------------------------------
+## Data (see data/README.md — datasets are NEVER committed to Git)
+## ---------------------------------------------------------------------------
+# Raw source datasets (e.g. IO-VNBD) must never be tracked.
+data/raw/*
+!data/raw/.gitkeep
+data/IO-VNBD_dataset/
+
+# Derived data is regenerable from raw data + code; ignored by default.
+data/intermediate/*
+!data/intermediate/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/sequences/*
+!data/sequences/.gitkeep
+
+# data/metadata/ IS tracked by default (small, hand-written dataset docs).
+
+## ---------------------------------------------------------------------------
+## Models
+## ---------------------------------------------------------------------------
+models/checkpoints/*
+!models/checkpoints/.gitkeep
+models/exported/*
+!models/exported/.gitkeep
+*.onnx
+*.pt
+*.pth
+*.ckpt
+
+# models/metadata/ IS tracked by default (small, hand-written model docs).
+
+## ---------------------------------------------------------------------------
+## Secrets / local overrides
+## ---------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+*.local.yaml

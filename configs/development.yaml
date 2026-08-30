@@ -1,0 +1,7 @@
+# Local development defaults. See configs/README.md for how this is loaded
+# and overridden. Keep this file limited to foundation-level settings —
+# see pyproject.toml / docs/architecture for why algorithm parameters don't
+# belong here yet.
+
+logging:
+  level: DEBUG
