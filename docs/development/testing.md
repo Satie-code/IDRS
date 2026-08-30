@@ -5,6 +5,7 @@
 ```text
 tests/
 ├── python/       # Unit tests for the idr Python package and tools/.
+│   └── dataset/  #   Dataset inspection layer, on synthetic fixtures only.
 ├── integration/  # Cross-module tests: does the foundation initialize
 │                 # end-to-end with no errors? No mocking across the
 │                 # boundary being tested.
@@ -13,6 +14,22 @@ tests/
 
 core/tests/       # C++ unit tests for the idr_core library, run via CTest.
 ```
+
+## Dataset tests never touch the real dataset
+
+`tests/python/dataset/` builds every input it needs in `tmp_path` from
+`conftest.py` fixtures — a 20-row smartphone CSV, a vehicle CSV offset by one
+hour, a file with a controlled GNSS gap, an LFS pointer stub. The suite runs
+in about a second and works on a clone with no data downloaded.
+
+This is deliberate: a test that needs 1.8 GB of external data is a test that
+stops being run. It also means assertions can be *exact* — a fixture with a
+known 1.0 s gap lets the test assert the measured duration is 1.0 s, which
+real data could never support.
+
+One test (`test_inspection_does_not_modify_the_dataset`) hashes every input
+file before and after a full deep scan, enforcing the read-only guarantee that
+Rule 1 depends on.
 
 ## Unit tests (`tests/python/`, `core/tests/`)
 

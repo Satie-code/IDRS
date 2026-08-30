@@ -1,0 +1,420 @@
+session_id,stream,relative_path,start_time_s,end_time_s,duration_s,start_index,end_index,source,confidence,evidence
+M,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/M (Driver B)/S-M.csv,992.1270000000001,1033.128,41.00099999999986,9879,10289,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+M,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/M (Driver B)/S-M.csv,3098.128,3228.128,130.0,30939,32239,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+M,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/M (Driver B)/S-M.csv,4083.228,4154.227,70.9989999999998,40790,41500,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+M,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/M (Driver B)/S-M.csv,4232.227,4264.127,31.900000000000546,42280,42599,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+M,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/M (Driver B)/S-M.csv,378.31,410.312,32.00200000000001,48009,48329,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+M,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/M (Driver B)/S-M.csv,1746.276,1792.275,45.999000000000024,61676,62136,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+M,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/M (Driver B)/S-M.csv,2640.276,2679.275,38.99900000000025,70616,71006,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+M,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/M (Driver B)/S-M.csv,3287.275,3317.2760000000003,30.001000000000204,77086,77386,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+M,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/M (Driver B)/S-M.csv,5533.275000000001,5577.276,44.000999999999294,99546,99986,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S1,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/S (Driver A)/S1/S-S1.csv,11.922,55.822,43.900000000000006,90,529,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S1,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/S (Driver A)/S1/S-S1.csv,4245.921,4315.9220000000005,70.0010000000002,42430,43130,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S1,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/S (Driver A)/S1/S-S1.csv,4622.9220000000005,4675.9220000000005,53.0,46200,46730,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S1,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/S (Driver A)/S1/S-S1.csv,4808.9220000000005,4859.9220000000005,51.0,48060,48570,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S1,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/S (Driver A)/S1/S-S1.csv,5029.921,5059.9220000000005,30.001000000000204,50270,50570,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S2,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/S (Driver A)/S2/S-S2.csv,100.71000000000001,246.71,146.0,2871,4331,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S2,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/S (Driver A)/S2/S-S2.csv,1159.71,1243.711,84.00099999999998,13461,14301,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S2,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/S (Driver A)/S2/S-S2.csv,2483.71,2520.71,37.0,26701,27071,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S2,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/S (Driver A)/S2/S-S2.csv,2666.7110000000002,2773.71,106.9989999999998,28531,29601,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S2,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/S (Driver A)/S2/S-S2.csv,2908.812,2940.71,31.89800000000014,30952,31271,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S2,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/S (Driver A)/S2/S-S2.csv,3167.7090000000003,3205.71,38.00099999999975,33541,33921,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S2,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/S (Driver A)/S2/S-S2.csv,3343.71,3394.7110000000002,51.001000000000204,35301,35811,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S2,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/S (Driver A)/S2/S-S2.csv,3793.811,3877.71,83.89899999999989,39802,40641,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S2,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/S (Driver A)/S2/S-S2.csv,4057.71,4091.71,34.0,42441,42781,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S2,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/S (Driver A)/S2/S-S2.csv,7112.81,7224.709,111.89899999999943,72992,74111,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S3A,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/S (Driver A)/S3a/S-S3a.csv,322.321,364.32,41.99899999999997,2910,3330,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S3A,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/S (Driver A)/S3a/S-S3a.csv,1357.32,1422.32,65.0,13260,13910,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S3A,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/S (Driver A)/S3a/S-S3a.csv,1508.32,1550.32,42.0,14770,15190,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S3C,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/S (Driver A)/S3c/S-S3c.csv,503.407,540.307,36.900000000000034,270,639,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S3C,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/S (Driver A)/S3c/S-S3c.csv,1362.407,1395.407,33.0,8860,9190,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S3C,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/S (Driver A)/S3c/S-S3c.csv,2484.408,2542.407,57.99900000000025,20080,20660,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S3C,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/S (Driver A)/S3c/S-S3c.csv,2578.407,2618.408,40.00099999999975,21020,21420,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S3C,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/S (Driver A)/S3c/S-S3c.csv,3982.407,4042.408,60.00099999999975,35060,35660,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S4,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/S (Driver A)/S4/S-S4.csv,72.428,113.428,41.0,640,1050,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S4,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/S (Driver A)/S4/S-S4.csv,809.429,839.429,30.0,8010,8310,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S4,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/S (Driver A)/S4/S-S4.csv,1136.429,1178.429,42.0,11280,11700,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S4,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/S (Driver A)/S4/S-S4.csv,1389.428,1482.428,93.0,13810,14740,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S4,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/S (Driver A)/S4/S-S4.csv,2906.529,2957.429,50.90000000000009,28981,29490,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S4,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/S (Driver A)/S4/S-S4.csv,10.409,342.409,332.0,35290,38610,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S4,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/S (Driver A)/S4/S-S4.csv,342.409,433.41,91.00100000000003,38610,39520,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S4,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/S (Driver A)/S4/S-S4.csv,433.41,503.41,70.0,39520,40220,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S4,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/S (Driver A)/S4/S-S4.csv,1721.409,1759.41,38.000999999999976,52400,52780,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S4,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/S (Driver A)/S4/S-S4.csv,1884.41,1961.409,76.99900000000002,54030,54800,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S4,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/S (Driver A)/S4/S-S4.csv,2553.409,2589.409,36.0,60720,61080,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S4,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/S (Driver A)/S4/S-S4.csv,2967.409,3002.409,35.0,64860,65210,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S4,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/S (Driver A)/S4/S-S4.csv,4781.409,4811.409,30.0,83000,83300,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VFA01,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/Vf (Driver E)/V-Vfa01/S-Vfa01.csv,989.5070000000001,1023.5070000000001,34.0,9869,10209,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTA1A,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/Vta (Driver E)/Vta01a/S-Vta1a.csv,0.02,36.02,36.0,0,360,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTA2,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/Vta (Driver E)/Vta02/S-Vta2.csv,3393.02,3438.02,45.0,7091,7541,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTA8,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/Vta (Driver E)/Vta08/S-Vta8.csv,559.5120000000001,641.514,82.00199999999995,81,901,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTA16,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/Vta (Driver E)/Vta16/S-Vta16.csv,2058.512,2092.516,34.003999999999905,3717,4057,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTA20,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/Vta (Driver E)/Vta20/S-Vta20.csv,0.014,238.51500000000001,238.501,0,2385,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTA26,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/Vta (Driver E)/Vta26/S-Vta26.csv,1066.516,1128.515,61.999000000000024,793,1413,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTA28,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/Vta (Driver E)/Vta28/S-Vta28.csv,1552.5140000000001,1584.5140000000001,32.0,793,1113,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTA29,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/Vta (Driver E)/Vta29/S-Vta29.csv,1048.115,1082.115,34.0,10481,10821,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTA29,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/Vta (Driver E)/Vta29/S-Vta29.csv,1127.093,1160.094,33.000999999999976,11277,11607,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTA30,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/Vta (Driver E)/Vta30/S-Vta30.csv,2729.093,2766.093,37.0,3460,3830,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTA30,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/Vta (Driver E)/Vta30/S-Vta30.csv,2784.093,2832.093,48.0,4010,4490,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTA30,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/Vta (Driver E)/Vta30/S-Vta30.csv,3207.094,3290.3940000000002,83.30000000000018,8240,9073,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTA30,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/Vta (Driver E)/Vta30/S-Vta30.csv,3290.3940000000002,3339.0950000000003,48.70100000000002,9073,9560,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTA30,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/Vta (Driver E)/Vta30/S-Vta30.csv,3911.0930000000003,3947.0930000000003,36.0,15280,15640,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTB1,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/Vtb (Driver E)/Vtb01/S-Vtb1.csv,0.029,67.328,67.299,0,673,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTB1,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/Vtb (Driver E)/Vtb01/S-Vtb1.csv,67.328,730.7470000000001,663.4190000000001,673,3061,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTB2,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/Vtb (Driver E)/Vtb02/S-Vtb2.csv,456.913,492.914,36.000999999999976,4569,4929,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTB3,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/Vtb (Driver E)/Vtb03/S-Vtb3.csv,625.914,735.013,109.09900000000005,447,1538,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTB3,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/Vtb (Driver E)/Vtb03/S-Vtb3.csv,735.013,783.914,48.900999999999954,1538,2027,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTB3,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/Vtb (Driver E)/Vtb03/S-Vtb3.csv,783.914,833.913,49.999000000000024,2027,2527,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTB3,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/Vtb (Driver E)/Vtb03/S-Vtb3.csv,851.914,937.914,86.0,2707,3567,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTB3,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/Vtb (Driver E)/Vtb03/S-Vtb3.csv,970.914,1012.914,42.0,3897,4317,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTB3,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/Vtb (Driver E)/Vtb03/S-Vtb3.csv,1246.914,1312.914,66.0,6657,7317,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTB3,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/Vtb (Driver E)/Vtb03/S-Vtb3.csv,1367.914,1399.914,32.0,7867,8187,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTB5,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/Vtb (Driver E)/Vtb05/S-Vtb5.csv,3526.913,3566.914,40.001000000000204,20543,20943,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VW2,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/Vw (Driver E)/Vw02/S-Vw2.csv,653.311,688.311,35.0,6533,6883,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VW2,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/Vw (Driver E)/Vw02/S-Vw2.csv,1034.31,1092.311,58.000999999999976,10343,10923,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VW4,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/Vw (Driver E)/Vw04/S-Vw4.csv,626.41,692.41,66.0,6230,6890,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VW4,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/Vw (Driver E)/Vw04/S-Vw4.csv,889.41,960.3100000000001,70.90000000000009,8860,9569,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VW4,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/Vw (Driver E)/Vw04/S-Vw4.csv,8912.41,8949.309,36.89899999999943,89090,89459,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VW4,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/Vw (Driver E)/Vw04/S-Vw4.csv,10972.31,11067.309000000001,94.99900000000162,109689,110639,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VW4,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/Vw (Driver E)/Vw04/S-Vw4.csv,11622.31,11709.309000000001,86.99900000000162,116189,117059,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VW4,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/Vw (Driver E)/Vw04/S-Vw4.csv,12514.31,12560.31,46.0,125109,125569,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VW11,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/Vw (Driver E)/Vw11/S-Vw11.csv,14082.31,14131.31,49.0,704,1194,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VW14C,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/Vw (Driver E)/Vw14c/S-Vw14c.csv,3288.0080000000003,3336.0080000000003,48.0,10140,10620,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VW16A,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/Vw (Driver E)/Vw16a/S-Vw16a.csv,25.310000000000002,71.312,46.001999999999995,253,713,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+Y1,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/Y (Driver D)/Y1/S-Y1.csv,491.115,527.116,36.000999999999976,8286,8646,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+Y1,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/Y (Driver D)/Y1/S-Y1.csv,671.116,706.115,34.999000000000024,10086,10436,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+Y1,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/Y (Driver D)/Y1/S-Y1.csv,1590.115,1627.114,36.999000000000024,19276,19646,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+Y1,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/Y (Driver D)/Y1/S-Y1.csv,2297.114,2359.114,62.0,26346,26966,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+Y1,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/Y (Driver D)/Y1/S-Y1.csv,2404.114,2439.114,35.0,27416,27766,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+Y1,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/Y (Driver D)/Y1/S-Y1.csv,6446.109,6497.109,51.0,67837,68347,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+Y1,smartphone,Synchronised V abd S datasets/Categorised IOVNB Dataset/Y (Driver D)/Y1/S-Y1.csv,6497.109,6592.109,95.0,68347,69297,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+Y1,vehicle,Synchronised V abd S datasets/Categorised IOVNB Dataset/Y (Driver D)/Y1/V-Y1.csv,62415.6,62669.6,254.0,4557,4558,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+Y1,vehicle,Synchronised V abd S datasets/Categorised IOVNB Dataset/Y (Driver D)/Y1/V-Y1.csv,69223.7,69608.3,384.6000000000058,70099,70100,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+M,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-M.csv,992.1270000000001,1033.128,41.00099999999986,9879,10289,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+M,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-M.csv,3098.128,3228.128,130.0,30939,32239,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+M,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-M.csv,4083.228,4154.227,70.9989999999998,40790,41500,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+M,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-M.csv,4232.227,4264.127,31.900000000000546,42280,42599,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+M,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-M.csv,378.31,410.312,32.00200000000001,48009,48329,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+M,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-M.csv,1746.276,1792.275,45.999000000000024,61676,62136,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+M,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-M.csv,2640.276,2679.275,38.99900000000025,70616,71006,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+M,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-M.csv,3287.275,3317.2760000000003,30.001000000000204,77086,77386,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+M,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-M.csv,5533.275000000001,5577.276,44.000999999999294,99546,99986,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S1,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-S1.csv,11.922,55.822,43.900000000000006,90,529,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S1,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-S1.csv,4245.921,4315.9220000000005,70.0010000000002,42430,43130,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S1,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-S1.csv,4622.9220000000005,4675.9220000000005,53.0,46200,46730,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S1,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-S1.csv,4808.9220000000005,4859.9220000000005,51.0,48060,48570,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S1,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-S1.csv,5029.921,5059.9220000000005,30.001000000000204,50270,50570,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S2,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-S2.csv,100.71000000000001,246.71,146.0,2871,4331,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S2,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-S2.csv,1159.71,1243.711,84.00099999999998,13461,14301,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S2,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-S2.csv,2483.71,2520.71,37.0,26701,27071,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S2,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-S2.csv,2666.7110000000002,2773.71,106.9989999999998,28531,29601,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S2,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-S2.csv,2908.812,2940.71,31.89800000000014,30952,31271,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S2,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-S2.csv,3167.7090000000003,3205.71,38.00099999999975,33541,33921,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S2,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-S2.csv,3343.71,3394.7110000000002,51.001000000000204,35301,35811,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S2,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-S2.csv,3793.811,3877.71,83.89899999999989,39802,40641,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S2,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-S2.csv,4057.71,4091.71,34.0,42441,42781,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S2,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-S2.csv,7112.81,7224.709,111.89899999999943,72992,74111,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S3A,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-S3a.csv,322.321,364.32,41.99899999999997,2910,3330,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S3A,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-S3a.csv,1357.32,1422.32,65.0,13260,13910,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S3A,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-S3a.csv,1508.32,1550.32,42.0,14770,15190,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S3C,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-S3c.csv,503.407,540.307,36.900000000000034,270,639,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S3C,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-S3c.csv,1362.407,1395.407,33.0,8860,9190,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S3C,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-S3c.csv,2484.408,2542.407,57.99900000000025,20080,20660,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S3C,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-S3c.csv,2578.407,2618.408,40.00099999999975,21020,21420,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S3C,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-S3c.csv,3982.407,4042.408,60.00099999999975,35060,35660,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S4,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-S4.csv,72.428,113.428,41.0,640,1050,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S4,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-S4.csv,809.429,839.429,30.0,8010,8310,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S4,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-S4.csv,1136.429,1178.429,42.0,11280,11700,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S4,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-S4.csv,1389.428,1482.428,93.0,13810,14740,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S4,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-S4.csv,2906.529,2957.429,50.90000000000009,28981,29490,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S4,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-S4.csv,10.409,342.409,332.0,35290,38610,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S4,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-S4.csv,342.409,433.41,91.00100000000003,38610,39520,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S4,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-S4.csv,433.41,503.41,70.0,39520,40220,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S4,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-S4.csv,1721.409,1759.41,38.000999999999976,52400,52780,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S4,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-S4.csv,1884.41,1961.409,76.99900000000002,54030,54800,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S4,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-S4.csv,2553.409,2589.409,36.0,60720,61080,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S4,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-S4.csv,2967.409,3002.409,35.0,64860,65210,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S4,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-S4.csv,4781.409,4811.409,30.0,83000,83300,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VFA01,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vfa01.csv,989.5070000000001,1023.5070000000001,34.0,9869,10209,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTA16,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vta16.csv,2058.512,2092.516,34.003999999999905,3717,4057,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTA1A,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vta1a.csv,0.02,36.02,36.0,0,360,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTA2,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vta2.csv,3393.02,3438.02,45.0,7091,7541,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTA20,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vta20.csv,0.014,238.51500000000001,238.501,0,2385,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTA26,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vta26.csv,1066.516,1128.515,61.999000000000024,793,1413,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTA28,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vta28.csv,1552.5140000000001,1584.5140000000001,32.0,793,1113,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTA29,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vta29.csv,1048.115,1082.115,34.0,10481,10821,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTA29,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vta29.csv,1127.093,1160.094,33.000999999999976,11277,11607,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTA30,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vta30.csv,2729.093,2766.093,37.0,3460,3830,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTA30,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vta30.csv,2784.093,2832.093,48.0,4010,4490,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTA30,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vta30.csv,3207.094,3290.3940000000002,83.30000000000018,8240,9073,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTA30,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vta30.csv,3290.3940000000002,3339.0950000000003,48.70100000000002,9073,9560,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTA30,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vta30.csv,3911.0930000000003,3947.0930000000003,36.0,15280,15640,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTA8,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vta8.csv,559.5120000000001,641.514,82.00199999999995,81,901,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTB1,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vtb1.csv,0.029,67.328,67.299,0,673,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTB1,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vtb1.csv,67.328,730.7470000000001,663.4190000000001,673,3061,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTB2,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vtb2.csv,456.913,492.914,36.000999999999976,4569,4929,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTB3,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vtb3.csv,625.914,735.013,109.09900000000005,447,1538,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTB3,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vtb3.csv,735.013,783.914,48.900999999999954,1538,2027,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTB3,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vtb3.csv,783.914,833.913,49.999000000000024,2027,2527,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTB3,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vtb3.csv,851.914,937.914,86.0,2707,3567,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTB3,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vtb3.csv,970.914,1012.914,42.0,3897,4317,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTB3,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vtb3.csv,1246.914,1312.914,66.0,6657,7317,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTB3,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vtb3.csv,1367.914,1399.914,32.0,7867,8187,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTB5,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vtb5.csv,3526.913,3566.914,40.001000000000204,20543,20943,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VW11,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vw11.csv,14082.31,14131.31,49.0,704,1194,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VW14C,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vw14c.csv,3288.0080000000003,3336.0080000000003,48.0,10140,10620,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VW16A,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vw16a.csv,25.310000000000002,71.312,46.001999999999995,253,713,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VW2,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vw2.csv,653.311,688.311,35.0,6533,6883,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VW2,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vw2.csv,1034.31,1092.311,58.000999999999976,10343,10923,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VW4,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vw4.csv,626.41,692.41,66.0,6230,6890,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VW4,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vw4.csv,889.41,960.3100000000001,70.90000000000009,8860,9569,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VW4,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vw4.csv,8912.41,8949.309,36.89899999999943,89090,89459,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VW4,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vw4.csv,10972.31,11067.309000000001,94.99900000000162,109689,110639,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VW4,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vw4.csv,11622.31,11709.309000000001,86.99900000000162,116189,117059,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VW4,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vw4.csv,12514.31,12560.31,46.0,125109,125569,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+Y1,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Y1.csv,491.115,527.116,36.000999999999976,8286,8646,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+Y1,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Y1.csv,671.116,706.115,34.999000000000024,10086,10436,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+Y1,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Y1.csv,1590.115,1627.114,36.999000000000024,19276,19646,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+Y1,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Y1.csv,2297.114,2359.114,62.0,26346,26966,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+Y1,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Y1.csv,2404.114,2439.114,35.0,27416,27766,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+Y1,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Y1.csv,6446.109,6497.109,51.0,67837,68347,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+Y1,smartphone,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Y1.csv,6497.109,6592.109,95.0,68347,69297,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+Y1,vehicle,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/V-Dataset/V-Y1.csv,62415.6,62669.6,254.0,4557,4558,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+Y1,vehicle,Synchronised V abd S datasets/Uncategorised IOVNB Dataset/V-Dataset/V-Y1.csv,69223.7,69608.3,384.6000000000058,70099,70100,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+Y1,vehicle,Unsynchronised V and S Dataset/Categorised IOVNB (V) Dataset/V Dataset/Y (Driver D)/Y1/V-Y1.csv,62415.6,62669.6,254.0,4612,4613,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+Y1,vehicle,Unsynchronised V and S Dataset/Categorised IOVNB (V) Dataset/V Dataset/Y (Driver D)/Y1/V-Y1.csv,69223.7,69608.3,384.6000000000058,70154,70155,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A1,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A1.csv,0.043000000000000003,69.542,69.499,0,139,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A1,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A1.csv,69.542,207.542,138.0,139,415,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A1,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A1.csv,207.542,384.54200000000003,177.00000000000003,415,769,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A1,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A1.csv,384.54200000000003,519.542,135.0,769,1039,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A1,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A1.csv,519.542,615.542,96.0,1039,1231,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A1,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A1.csv,615.542,793.042,177.5,1231,1586,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A1,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A1.csv,793.042,925.043,132.00099999999998,1586,1850,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A1,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A1.csv,925.043,1107.0430000000001,182.0000000000001,1850,2214,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A1,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A1.csv,1107.0430000000001,1240.0430000000001,133.0,2214,2480,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A1,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A1.csv,1240.0430000000001,1352.5430000000001,112.5,2480,2705,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A1,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A1.csv,1352.5430000000001,1466.5420000000001,113.99900000000002,2705,2933,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A1,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A1.csv,1466.5420000000001,1562.5420000000001,96.0,2933,3125,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A1,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A1.csv,1562.5420000000001,1658.5430000000001,96.00099999999998,3125,3317,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A1,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A1.csv,1658.5430000000001,1796.5420000000001,137.99900000000002,3317,3593,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A1,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A1.csv,1796.5420000000001,1902.5420000000001,106.0,3593,3805,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A1,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A1.csv,1904.5430000000001,2005.0430000000001,100.5,3809,4010,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A1,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A1.csv,2005.0430000000001,2157.042,151.9989999999998,4010,4314,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A1,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A1.csv,2157.042,2255.043,98.0010000000002,4314,4510,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A1,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A1.csv,2255.043,2361.042,105.9989999999998,4510,4722,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A1,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A1.csv,2361.042,2544.043,183.0010000000002,4722,5088,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A1,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A1.csv,2544.043,2728.042,183.9989999999998,5088,5456,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A1,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A1.csv,2728.042,2906.044,178.00199999999995,5456,5812,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A10,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A10.csv,1504.048,1576.048,72.0,3008,3152,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A10,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A10.csv,3243.049,3293.049,50.0,6486,6586,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A10,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A10.csv,3342.0480000000002,3396.0480000000002,54.0,6684,6792,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A10,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A10.csv,3818.0480000000002,3848.0480000000002,30.0,7636,7696,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A11,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A11.csv,0.098,33.599000000000004,33.501000000000005,0,67,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A11,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A11.csv,2488.099,2545.099,57.0,4976,5090,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A12,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A12.csv,0.021,86.521,86.5,0,173,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A12,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A12.csv,980.5210000000001,1011.5210000000001,31.0,1961,2023,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A12,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A12.csv,2136.521,2173.52,36.998999999999796,4273,4347,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A13,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A13.csv,0.062,159.561,159.499,0,319,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A13,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A13.csv,159.561,436.562,277.001,319,873,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A13,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A13.csv,436.562,555.062,118.5,873,1110,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A13,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A13.csv,888.061,918.062,30.000999999999976,1776,1836,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A13,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A13.csv,1926.063,2187.062,260.9989999999998,3852,4374,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A2,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A2.csv,0.057,58.557,58.5,0,117,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A2,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A2.csv,58.557,234.55700000000002,176.0,117,469,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A2,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A2.csv,234.55700000000002,400.557,166.0,469,801,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A2,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A2.csv,400.557,495.557,95.0,801,991,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A2,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A2.csv,495.557,593.556,97.99900000000002,991,1187,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A2,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A2.csv,593.556,772.557,179.00099999999998,1187,1545,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A2,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A2.csv,772.557,953.557,181.0,1545,1907,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A2,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A2.csv,953.557,1133.558,180.00099999999998,1907,2267,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A2,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A2.csv,1133.558,1308.556,174.99800000000005,2267,2617,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A2,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A2.csv,1308.556,1495.558,187.00199999999995,2617,2991,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A2,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A2.csv,1495.558,1674.557,178.99900000000002,2991,3349,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A2,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A2.csv,1674.557,1853.557,179.0,3349,3707,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A2,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A2.csv,1853.557,2033.557,180.0,3707,4067,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A2,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A2.csv,2033.557,2215.556,181.99900000000002,4067,4431,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A2,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A2.csv,2215.556,2397.5570000000002,182.0010000000002,4431,4795,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A2,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A2.csv,2397.5570000000002,2575.556,177.9989999999998,4795,5151,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A2,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A2.csv,2575.556,2755.5570000000002,180.0010000000002,5151,5511,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A2,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A2.csv,2755.5570000000002,2935.558,180.00099999999975,5511,5871,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A2,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A2.csv,2935.558,3117.558,182.0,5871,6235,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A2,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A2.csv,3117.558,3294.5570000000002,176.99900000000025,6235,6589,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A2,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A2.csv,3294.5570000000002,3468.5570000000002,174.0,6589,6937,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A2,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A2.csv,3468.5570000000002,3655.5570000000002,187.0,6937,7311,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A2,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A2.csv,3655.5570000000002,3834.5570000000002,179.0,7311,7669,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A2,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A2.csv,3834.5570000000002,4016.5570000000002,182.0,7669,8033,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A2,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A2.csv,4016.5570000000002,4124.557,107.99999999999955,8033,8249,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A2,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A2.csv,4124.557,4225.557,101.0,8249,8451,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A2,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A2.csv,4225.557,4375.5560000000005,149.9990000000007,8451,8751,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A2,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A2.csv,4375.5560000000005,4553.5560000000005,178.0,8751,9107,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A2,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A2.csv,4557.557,4737.557,180.0,9115,9475,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A2,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A2.csv,4737.557,4837.557,100.0,9475,9675,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A2,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A2.csv,4837.557,4939.558,102.0010000000002,9675,9879,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A2,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A2.csv,4939.558,5039.557,99.9989999999998,9879,10079,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A2,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A2.csv,5039.557,5170.557,131.0,10079,10341,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A2,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A2.csv,5170.557,5335.557,165.0,10341,10671,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A2,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A2.csv,5335.557,5436.557,101.0,10671,10873,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A2,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A2.csv,5436.557,5539.558,103.0010000000002,10873,11079,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A2,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A2.csv,5539.558,5719.557,179.9989999999998,11079,11439,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A3,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A3.csv,0.017,150.018,150.001,0,300,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A3,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A3.csv,150.018,334.01800000000003,184.00000000000003,300,668,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A3,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A3.csv,334.01800000000003,511.017,176.99899999999997,668,1022,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A3,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A3.csv,511.017,688.017,177.00000000000006,1022,1376,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A3,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A3.csv,688.017,872.018,184.00099999999998,1376,1744,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A3,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A3.csv,872.018,1049.017,176.99900000000002,1744,2098,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A3,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A3.csv,1049.017,1229.018,180.00099999999998,2098,2458,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A3,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A3.csv,1229.018,1407.017,177.99900000000002,2458,2814,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A3,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A3.csv,1407.017,1593.018,186.00099999999998,2814,3186,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A3,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A3.csv,1593.018,1706.1670000000001,113.14900000000011,3186,3414,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A3,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A3.csv,1706.1670000000001,1807.666,101.4989999999998,3414,3617,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A3,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A3.csv,1807.666,1873.166,65.5,3617,3748,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A3,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A3.csv,1873.166,1951.166,78.0,3748,3904,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A3,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A3.csv,1951.166,2134.166,183.00000000000023,3904,4270,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A3,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A3.csv,2134.166,2314.166,180.0,4270,4630,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A3,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A3.csv,2314.166,2491.167,177.00099999999975,4630,4984,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A3,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A3.csv,2491.167,2673.167,182.0,4984,5348,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A3,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A3.csv,2673.167,2852.166,178.99900000000025,5348,5706,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A3,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A3.csv,2852.166,3031.167,179.00099999999975,5706,6064,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A3,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A3.csv,3031.167,3188.166,156.99900000000025,6064,6378,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A3,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A3.csv,3188.166,3290.166,102.0,6378,6582,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A3,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A3.csv,3290.166,3389.166,99.0,6582,6780,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A3,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A3.csv,3389.166,3572.666,183.5,6780,7147,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A3,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A3.csv,3572.666,3754.666,182.0,7147,7511,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A3,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A3.csv,3754.666,3828.167,73.50099999999975,7511,7658,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A3,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A3.csv,3828.167,3931.666,103.49900000000025,7658,7865,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A3,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A3.csv,3931.666,4111.666,180.0,7865,8225,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A3,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A3.csv,4111.666,4295.166,183.5,8225,8592,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A3,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A3.csv,4295.166,4390.667,95.5010000000002,8592,8783,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A3,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A3.csv,4390.667,4489.666,98.9989999999998,8783,8981,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A3,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A3.csv,4489.666,4651.166,161.5,8981,9304,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A3,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A3.csv,4651.166,4835.166,184.0,9304,9672,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A3,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A3.csv,4835.166,5010.167,175.0010000000002,9672,10022,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A3,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A3.csv,5010.167,5192.166,181.9989999999998,10022,10386,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A3,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A3.csv,5192.166,5371.166,179.0,10386,10744,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A3,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A3.csv,5371.166,5552.045,180.8789999999999,10744,11103,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A5,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A5.csv,0.023,38.823,38.8,0,388,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A5,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A5.csv,2783.823,2832.823,49.0,27838,28328,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A5,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A5.csv,3226.823,3256.823,30.0,32268,32568,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A5,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A5.csv,3305.823,3339.823,34.0,33058,33398,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A5,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A5.csv,3402.823,3437.822,34.99900000000025,34028,34378,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A6,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A6.csv,5104.54,5175.2390000000005,70.69900000000052,51044,51751,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A6,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A6.csv,5198.2390000000005,5347.6410000000005,149.40200000000004,51981,54134,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A6,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A6.csv,5347.6410000000005,5529.6410000000005,182.0,54134,55954,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A6,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A6.csv,8177.6410000000005,8252.641,74.99999999999909,82434,83184,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A6,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A6.csv,8252.641,8287.641,35.0,83184,83534,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A6,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A6.csv,8317.641,8453.643,136.0020000000004,83834,85194,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A9,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A9.csv,1039.054,1071.054,32.0,2078,2142,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A9,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A9.csv,1633.053,1664.054,31.000999999999976,3266,3328,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A9,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A9.csv,2023.053,2071.054,48.000999999999976,4046,4142,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A9,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A9.csv,2265.053,2297.054,32.001000000000204,4530,4594,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A9,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A9.csv,2714.053,2745.053,31.0,5428,5490,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A9,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A9.csv,2806.053,2847.053,41.0,5612,5694,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A9,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A9.csv,3161.054,3196.0550000000003,35.001000000000204,6322,6392,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A9,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A9.csv,3706.053,3740.054,34.001000000000204,7412,7480,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A9,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A9.csv,3765.053,3810.054,45.001000000000204,7530,7620,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+A9,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A9.csv,3847.553,3907.053,59.5,7695,7814,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+I,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-I.csv,0.013000000000000001,436.51300000000003,436.50000000000006,0,4365,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+M,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-M.csv,992.1270000000001,1033.128,41.00099999999986,9879,10289,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+M,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-M.csv,3098.128,3228.128,130.0,30939,32239,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+M,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-M.csv,4083.228,4154.227,70.9989999999998,40790,41500,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+M,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-M.csv,4232.227,4264.127,31.900000000000546,42280,42599,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+M,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-M.csv,378.31,410.312,32.00200000000001,48009,48329,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+M,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-M.csv,1746.276,1792.275,45.999000000000024,61676,62136,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+M,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-M.csv,2640.276,2679.275,38.99900000000025,70616,71006,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+M,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-M.csv,3287.275,3317.2760000000003,30.001000000000204,77086,77386,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+M,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-M.csv,5533.275000000001,5577.276,44.000999999999294,99546,99986,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S1,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-S1.csv,11.922,55.822,43.900000000000006,90,529,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S1,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-S1.csv,4245.921,4315.9220000000005,70.0010000000002,42430,43130,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S1,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-S1.csv,4622.9220000000005,4675.9220000000005,53.0,46200,46730,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S1,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-S1.csv,4808.9220000000005,4859.9220000000005,51.0,48060,48570,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S1,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-S1.csv,5029.921,5059.9220000000005,30.001000000000204,50270,50570,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S2,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-S2.csv,100.71000000000001,246.71,146.0,2871,4331,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S2,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-S2.csv,1159.71,1243.711,84.00099999999998,13461,14301,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S2,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-S2.csv,2483.71,2520.71,37.0,26701,27071,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S2,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-S2.csv,2666.7110000000002,2773.71,106.9989999999998,28531,29601,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S2,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-S2.csv,2908.812,2940.71,31.89800000000014,30952,31271,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S2,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-S2.csv,3167.7090000000003,3205.71,38.00099999999975,33541,33921,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S2,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-S2.csv,3343.71,3394.7110000000002,51.001000000000204,35301,35811,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S2,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-S2.csv,3793.811,3877.71,83.89899999999989,39802,40641,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S2,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-S2.csv,4057.71,4091.71,34.0,42441,42781,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S2,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-S2.csv,7112.81,7224.709,111.89899999999943,72992,74111,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S3A,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-S3a.csv,322.321,364.32,41.99899999999997,2910,3330,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S3A,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-S3a.csv,1357.32,1422.32,65.0,13260,13910,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S3A,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-S3a.csv,1508.32,1550.32,42.0,14770,15190,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S3C,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-S3c.csv,503.407,540.307,36.900000000000034,270,639,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S3C,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-S3c.csv,1362.407,1395.407,33.0,8860,9190,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S3C,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-S3c.csv,2484.408,2542.407,57.99900000000025,20080,20660,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S3C,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-S3c.csv,2578.407,2618.408,40.00099999999975,21020,21420,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S3C,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-S3c.csv,3982.407,4042.408,60.00099999999975,35060,35660,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S4,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-S4.csv,72.428,113.428,41.0,640,1050,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S4,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-S4.csv,809.429,839.429,30.0,8010,8310,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S4,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-S4.csv,1136.429,1178.429,42.0,11280,11700,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S4,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-S4.csv,1389.428,1482.428,93.0,13810,14740,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S4,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-S4.csv,2906.529,2957.429,50.90000000000009,28981,29490,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S4,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-S4.csv,10.409,342.409,332.0,35290,38610,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S4,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-S4.csv,342.409,433.41,91.00100000000003,38610,39520,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S4,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-S4.csv,433.41,503.41,70.0,39520,40220,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S4,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-S4.csv,1721.409,1759.41,38.000999999999976,52400,52780,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S4,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-S4.csv,1884.41,1961.409,76.99900000000002,54030,54800,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S4,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-S4.csv,2553.409,2589.409,36.0,60720,61080,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S4,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-S4.csv,2967.409,3002.409,35.0,64860,65210,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+S4,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-S4.csv,4781.409,4811.409,30.0,83000,83300,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+T10,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-T10.csv,207.52100000000002,242.42000000000002,34.899,2075,2424,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+T10,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-T10.csv,352.521,386.521,34.0,3525,3865,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+T10,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-T10.csv,422.521,463.52,40.99899999999997,4225,4635,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+T10,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-T10.csv,563.521,603.52,39.999000000000024,5635,6035,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+T11,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-T11.csv,333.705,388.706,55.00100000000003,3228,3778,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+T11,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-T11.csv,424.706,459.706,35.0,4138,4488,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+T2,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-T2.csv,0.01,51.611000000000004,51.601000000000006,0,516,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+T2,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-T2.csv,3137.611,3239.511,101.90000000000009,31376,32395,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+T2,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-T2.csv,3239.511,3650.611,411.0999999999999,32395,36506,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+T3,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-T3.csv,0.011,91.61,91.599,0,916,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+T7,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-T7.csv,4785.143,4868.344,83.20100000000002,47844,48676,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+T7,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-T7.csv,4868.344,5239.143,370.799,48676,52384,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+T9,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-T9.csv,0.029,32.429,32.4,0,324,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VFA01,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vfa01.csv,989.5070000000001,1023.5070000000001,34.0,9869,10209,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTA16,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vta16.csv,2058.512,2092.516,34.003999999999905,3717,4057,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTA1A,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vta1a.csv,0.02,36.02,36.0,0,360,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTA2,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vta2.csv,3393.02,3438.02,45.0,7091,7541,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTA20,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vta20.csv,0.014,238.51500000000001,238.501,0,2385,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTA26,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vta26.csv,1066.516,1128.515,61.999000000000024,793,1413,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTA28,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vta28.csv,1552.5140000000001,1584.5140000000001,32.0,793,1113,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTA29,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vta29.csv,1048.115,1082.115,34.0,10481,10821,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTA29,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vta29.csv,1127.093,1160.094,33.000999999999976,11277,11607,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTA30,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vta30.csv,2729.093,2766.093,37.0,3460,3830,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTA30,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vta30.csv,2784.093,2832.093,48.0,4010,4490,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTA30,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vta30.csv,3207.094,3290.3940000000002,83.30000000000018,8240,9073,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTA30,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vta30.csv,3290.3940000000002,3339.0950000000003,48.70100000000002,9073,9560,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTA30,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vta30.csv,3911.0930000000003,3947.0930000000003,36.0,15280,15640,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTA8,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vta8.csv,559.5120000000001,641.514,82.00199999999995,81,901,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTB1,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vtb1.csv,0.029,67.328,67.299,0,673,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTB1,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vtb1.csv,67.328,730.7470000000001,663.4190000000001,673,3061,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTB2,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vtb2.csv,456.913,492.914,36.000999999999976,4569,4929,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTB3,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vtb3.csv,625.914,735.013,109.09900000000005,447,1538,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTB3,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vtb3.csv,735.013,783.914,48.900999999999954,1538,2027,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTB3,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vtb3.csv,783.914,833.913,49.999000000000024,2027,2527,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTB3,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vtb3.csv,851.914,937.914,86.0,2707,3567,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTB3,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vtb3.csv,970.914,1012.914,42.0,3897,4317,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTB3,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vtb3.csv,1246.914,1312.914,66.0,6657,7317,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTB3,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vtb3.csv,1367.914,1399.914,32.0,7867,8187,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VTB5,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vtb5.csv,3526.913,3566.914,40.001000000000204,20543,20943,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VW11,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vw11.csv,14082.31,14131.31,49.0,704,1194,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VW14C,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vw14c.csv,3288.0080000000003,3336.0080000000003,48.0,10140,10620,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VW16A,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vw16a.csv,25.310000000000002,71.312,46.001999999999995,253,713,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VW2,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vw2.csv,653.311,688.311,35.0,6533,6883,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VW2,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vw2.csv,1034.31,1092.311,58.000999999999976,10343,10923,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VW4,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vw4.csv,626.41,692.41,66.0,6230,6890,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VW4,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vw4.csv,889.41,960.3100000000001,70.90000000000009,8860,9569,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VW4,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vw4.csv,8912.41,8949.309,36.89899999999943,89090,89459,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VW4,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vw4.csv,10972.31,11067.309000000001,94.99900000000162,109689,110639,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VW4,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vw4.csv,11622.31,11709.309000000001,86.99900000000162,116189,117059,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+VW4,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vw4.csv,12514.31,12560.31,46.0,125109,125569,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+Y1,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Y1.csv,491.115,527.116,36.000999999999976,8286,8646,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+Y1,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Y1.csv,671.116,706.115,34.999000000000024,10086,10436,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+Y1,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Y1.csv,1590.115,1627.114,36.999000000000024,19276,19646,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+Y1,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Y1.csv,2297.114,2359.114,62.0,26346,26966,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+Y1,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Y1.csv,2404.114,2439.114,35.0,27416,27766,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+Y1,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Y1.csv,6446.109,6497.109,51.0,67837,68347,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+Y1,smartphone,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Y1.csv,6497.109,6592.109,95.0,68347,69297,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+Y1,vehicle,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/V-Dataset/V-Y1.csv,62415.6,62669.6,254.0,4612,4613,observed_position_hold,observed_high,VERIFIED_FROM_FILE
+Y1,vehicle,Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/V-Dataset/V-Y1.csv,69223.7,69608.3,384.6000000000058,70154,70155,observed_position_hold,observed_high,VERIFIED_FROM_FILE

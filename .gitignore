@@ -75,6 +75,15 @@ reports/*
 !reports/.gitkeep
 !reports/README.md
 
+# Exception: the IO-VNBD forensic report and its diagnostic plots (~470 KB)
+# ARE tracked. They are nominally "generated", but regenerating them requires
+# downloading the full 1.8 GB dataset, so for anyone cloning this repo they
+# are effectively source documents — and the root README links to the report.
+!reports/io_vnbd/
+!reports/io_vnbd/IO_VNBD_Forensic_Report.md
+!reports/io_vnbd/plots/
+!reports/io_vnbd/plots/*.png
+
 ## ---------------------------------------------------------------------------
 ## Data (see data/README.md — datasets are NEVER committed to Git)
 ## ---------------------------------------------------------------------------

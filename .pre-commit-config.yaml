@@ -6,8 +6,13 @@ repos:
       - id: end-of-file-fixer
       - id: check-yaml
       - id: check-toml
+      # Guards against accidentally committing dataset files. `data/metadata/`
+      # is excluded because it holds intentional analysis outputs that are
+      # legitimately large (the per-file/per-column missingness report is ~2 MB);
+      # the raw dataset itself is blocked by .gitignore, not by this hook.
       - id: check-added-large-files
         args: ["--maxkb=1024"]
+        exclude: ^data/metadata/
       - id: check-merge-conflict
 
   - repo: https://github.com/astral-sh/ruff-pre-commit

@@ -19,7 +19,10 @@ class CheckResult:
 
 
 def _check_python_version() -> CheckResult:
-    required = (3, 10)
+    # Must track `requires-python` in pyproject.toml. Raised to 3.12 in Phase 1:
+    # the dataset layer uses StrEnum and datetime.UTC (3.11+), and numpy's type
+    # stubs require 3.12 syntax to type-check.
+    required = (3, 12)
     actual = sys.version_info[:2]
     if actual < required:
         return CheckResult(

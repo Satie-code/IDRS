@@ -26,13 +26,22 @@ data/
   `data/IO-VNBD_dataset/` by name specifically, since a local copy of the
   dataset already exists there on some development machines.
 
+## Acquired IO-VNBD content
+
+`data/raw/io_vnbd/` holds the real IO-VNBD CSV content, materialized from the
+Git LFS pointers in `data/IO-VNBD_dataset/` and SHA-256 verified against the
+upstream objects. It is gitignored (`data/raw/*`) and regenerable — see
+`docs/datasets/io_vnbd.md` for the exact command. Provenance for every file
+is recorded in `data/metadata/io_vnbd/acquisition_manifest.csv`, which *is*
+tracked.
+
 ## Local dataset note
 
-A local copy of the IO-VNBD dataset may exist under
-`data/IO-VNBD_dataset/IO-VNBD-master/` on this machine. It predates Phase 0
-and is left in place rather than reorganized — dataset ingestion,
-inspection, and preprocessing are explicitly out of scope for Phase 0 (see
-`docs/sih/phase0_scope.md`) and are handled in a later phase.
+`data/IO-VNBD_dataset/IO-VNBD-master/` predates Phase 0 and is left in place
+rather than reorganized. Phase 1 established that **every CSV and JPG in it is
+a Git LFS pointer stub, not data** — it is kept, untouched, as the provenance
+record that acquisition verifies against. Never parse a file from this tree as
+CSV; see `docs/datasets/io_vnbd.md`.
 
 ## What IS tracked
 

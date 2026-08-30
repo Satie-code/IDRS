@@ -1,0 +1,10 @@
+{
+  "source_repository": "https://github.com/onyekpeu/IO-VNBD.git",
+  "source_kind": "Git LFS batch API (official upstream repository)",
+  "objects_requested": 564,
+  "objects_sha256_verified": 564,
+  "objects_failed": 0,
+  "total_bytes": 1794609089,
+  "verification_method": "each object's Git LFS oid is the SHA-256 of its content; every downloaded file was hashed and compared before being moved into place",
+  "note": "The pointer tree under data/IO-VNBD_dataset/ was left untouched and remains the provenance record; real content was written to a separate destination."
+}

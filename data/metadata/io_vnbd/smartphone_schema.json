@@ -1,0 +1,1232 @@
+{
+  "stream": "smartphone",
+  "schema_variant_count": 5,
+  "variants": [
+    {
+      "schema_id": "5c757e87e009",
+      "file_count": 9,
+      "column_count": 18,
+      "encoding": "cp1252",
+      "encoding_is_utf8": false,
+      "encoding_note": "not valid UTF-8 (byte 215); decoded with cp1252 fallback",
+      "example_file": "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-T1.csv",
+      "files": [
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-T1.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-T2.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-T3.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-T4.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-T5.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-T6.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-T7.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-T8.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-T9.csv"
+      ],
+      "columns": [
+        {
+          "index": 0,
+          "raw_name": "GPS LATITUDE (degrees)",
+          "normalized_name": "GPS LATITUDE",
+          "unit": "degrees",
+          "semantic_role": "gnss_latitude",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 1,
+          "raw_name": "GPS LONGITUDE (degrees)",
+          "normalized_name": "GPS LONGITUDE",
+          "unit": "degrees",
+          "semantic_role": "gnss_longitude",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 2,
+          "raw_name": " GPS ALTITUDE (m)",
+          "normalized_name": "GPS ALTITUDE",
+          "unit": "m",
+          "semantic_role": "gnss_altitude",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 3,
+          "raw_name": "GPS SPEED (Kmh)",
+          "normalized_name": "GPS SPEED",
+          "unit": "Kmh",
+          "semantic_role": "gnss_speed",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 4,
+          "raw_name": "GPS ACCURACY (m)",
+          "normalized_name": "GPS ACCURACY",
+          "unit": "m",
+          "semantic_role": "gnss_accuracy",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 5,
+          "raw_name": "GPS ORIENTATION (\u00c2\u00b0)",
+          "normalized_name": "GPS ORIENTATION",
+          "unit": "\u00c2\u00b0",
+          "semantic_role": "gnss_heading",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 6,
+          "raw_name": " SATELLITES IN RANGE",
+          "normalized_name": "SATELLITES IN RANGE",
+          "unit": null,
+          "semantic_role": "gnss_satellites",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 7,
+          "raw_name": " TIME SINCE START (ms)",
+          "normalized_name": "TIME SINCE START",
+          "unit": "ms",
+          "semantic_role": "time_since_start_ms",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 8,
+          "raw_name": " DATE (YYYY-MO-DD HH-MI-SS_SSS)",
+          "normalized_name": "DATE",
+          "unit": "YYYY-MO-DD HH-MI-SS_SSS",
+          "semantic_role": "datetime_string",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 9,
+          "raw_name": "ACCELEROMETER X (m/s\u00b2) ",
+          "normalized_name": "ACCELEROMETER X",
+          "unit": "m/s\u00b2",
+          "semantic_role": "accel_x",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 10,
+          "raw_name": " ACCELEROMETER Y (m/s\u00b2)",
+          "normalized_name": "ACCELEROMETER Y",
+          "unit": "m/s\u00b2",
+          "semantic_role": "accel_y",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 11,
+          "raw_name": " ACCELEROMETER Z (m/s\u00b2)",
+          "normalized_name": "ACCELEROMETER Z",
+          "unit": "m/s\u00b2",
+          "semantic_role": "accel_z",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 12,
+          "raw_name": " GRAVITY X (m/s\u00b2)",
+          "normalized_name": "GRAVITY X",
+          "unit": "m/s\u00b2",
+          "semantic_role": "gravity_x",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 13,
+          "raw_name": " GRAVITY Y (m/s\u00b2)",
+          "normalized_name": "GRAVITY Y",
+          "unit": "m/s\u00b2",
+          "semantic_role": "gravity_y",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 14,
+          "raw_name": " GRAVITY Z (m/s\u00b2)",
+          "normalized_name": "GRAVITY Z",
+          "unit": "m/s\u00b2",
+          "semantic_role": "gravity_z",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 15,
+          "raw_name": " GYROSCOPE Yaw (rad/s)",
+          "normalized_name": "GYROSCOPE Yaw",
+          "unit": "rad/s",
+          "semantic_role": "gyro_yaw",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 16,
+          "raw_name": " GYROSCOPE Pitch (rad/s)",
+          "normalized_name": "GYROSCOPE Pitch",
+          "unit": "rad/s",
+          "semantic_role": "gyro_pitch",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 17,
+          "raw_name": " GYROSCOPE Roll (rad/s)",
+          "normalized_name": "GYROSCOPE Roll",
+          "unit": "rad/s",
+          "semantic_role": "gyro_roll",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        }
+      ]
+    },
+    {
+      "schema_id": "92b4dd4cd83d",
+      "file_count": 71,
+      "column_count": 24,
+      "encoding": "cp1252",
+      "encoding_is_utf8": false,
+      "encoding_note": "not valid UTF-8 (byte 223); decoded with cp1252 fallback",
+      "example_file": "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-M.csv",
+      "files": [
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-M.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-S1.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-S2.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-S3a.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-S3b.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-S3c.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-S4.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vta10.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vta11.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vta12.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vta13.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vta14.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vta15.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vta16.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vta17.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vta19.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vta1a.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vta1b.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vta2.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vta20.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vta21.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vta22.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vta23.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vta24.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vta25.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vta26.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vta27.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vta28.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vta29.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vta3.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vta30.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vta4.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vta5.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vta6.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vta7.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vta8.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vta9.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vtb1.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vtb10.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vtb11.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vtb12.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vtb2.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vtb3.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vtb4.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vtb5.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vtb6.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vtb7.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vtb8.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vtb9.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vw1.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vw10.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vw11.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vw12.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vw13.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vw14a.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vw14b.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vw14c.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vw15.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vw16a.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vw16b.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vw17.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vw2.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vw3.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vw4.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vw5.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vw6.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vw7.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vw8.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vw9.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Y1.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-S3b.csv"
+      ],
+      "columns": [
+        {
+          "index": 0,
+          "raw_name": "GPS LATITUDE (degrees)",
+          "normalized_name": "GPS LATITUDE",
+          "unit": "degrees",
+          "semantic_role": "gnss_latitude",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 1,
+          "raw_name": " GPS LONGITUDE (degrees)",
+          "normalized_name": "GPS LONGITUDE",
+          "unit": "degrees",
+          "semantic_role": "gnss_longitude",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 2,
+          "raw_name": " GPS ALTITUDE (m)",
+          "normalized_name": "GPS ALTITUDE",
+          "unit": "m",
+          "semantic_role": "gnss_altitude",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 3,
+          "raw_name": " GPS SPEED (Kmh)",
+          "normalized_name": "GPS SPEED",
+          "unit": "Kmh",
+          "semantic_role": "gnss_speed",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 4,
+          "raw_name": " GPS ACCURACY (m)",
+          "normalized_name": "GPS ACCURACY",
+          "unit": "m",
+          "semantic_role": "gnss_accuracy",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 5,
+          "raw_name": " GPS ORIENTATION (\u00c2\u00b0)",
+          "normalized_name": "GPS ORIENTATION",
+          "unit": "\u00c2\u00b0",
+          "semantic_role": "gnss_heading",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 6,
+          "raw_name": "GPS SATELLITES IN RANGE",
+          "normalized_name": "GPS SATELLITES IN RANGE",
+          "unit": null,
+          "semantic_role": "gnss_satellites",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 7,
+          "raw_name": " TIME SINCE START (ms)",
+          "normalized_name": "TIME SINCE START",
+          "unit": "ms",
+          "semantic_role": "time_since_start_ms",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 8,
+          "raw_name": " DATE (YYYY-MO-DD HH-MI-SS_SSS)",
+          "normalized_name": "DATE",
+          "unit": "YYYY-MO-DD HH-MI-SS_SSS",
+          "semantic_role": "datetime_string",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 9,
+          "raw_name": " ACCELEROMETER X (m/s\u00b2) ",
+          "normalized_name": "ACCELEROMETER X",
+          "unit": "m/s\u00b2",
+          "semantic_role": "accel_x",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 10,
+          "raw_name": " ACCELEROMETER Y (m/s\u00b2)",
+          "normalized_name": "ACCELEROMETER Y",
+          "unit": "m/s\u00b2",
+          "semantic_role": "accel_y",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 11,
+          "raw_name": " ACCELEROMETER Z (m/s\u00b2)",
+          "normalized_name": "ACCELEROMETER Z",
+          "unit": "m/s\u00b2",
+          "semantic_role": "accel_z",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 12,
+          "raw_name": " GRAVITY X (m/s\u00b2)",
+          "normalized_name": "GRAVITY X",
+          "unit": "m/s\u00b2",
+          "semantic_role": "gravity_x",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 13,
+          "raw_name": " GRAVITY Y (m/s\u00b2)",
+          "normalized_name": "GRAVITY Y",
+          "unit": "m/s\u00b2",
+          "semantic_role": "gravity_y",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 14,
+          "raw_name": " GRAVITY Z (m/s\u00b2)",
+          "normalized_name": "GRAVITY Z",
+          "unit": "m/s\u00b2",
+          "semantic_role": "gravity_z",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 15,
+          "raw_name": " GYROSCOPE X (rad/s)",
+          "normalized_name": "GYROSCOPE X",
+          "unit": "rad/s",
+          "semantic_role": "unknown",
+          "role_evidence": "UNVERIFIED"
+        },
+        {
+          "index": 16,
+          "raw_name": " GYROSCOPE Y (rad/s)",
+          "normalized_name": "GYROSCOPE Y",
+          "unit": "rad/s",
+          "semantic_role": "unknown",
+          "role_evidence": "UNVERIFIED"
+        },
+        {
+          "index": 17,
+          "raw_name": " GYROSCOPE Z (rad/s)",
+          "normalized_name": "GYROSCOPE Z",
+          "unit": "rad/s",
+          "semantic_role": "unknown",
+          "role_evidence": "UNVERIFIED"
+        },
+        {
+          "index": 18,
+          "raw_name": " MAGNETIC FIELD X (\u00ce\u00bcT)",
+          "normalized_name": "MAGNETIC FIELD X",
+          "unit": "\u00ce\u00bcT",
+          "semantic_role": "mag_x",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 19,
+          "raw_name": " MAGNETIC FIELD Y (\u00ce\u00bcT)",
+          "normalized_name": "MAGNETIC FIELD Y",
+          "unit": "\u00ce\u00bcT",
+          "semantic_role": "mag_y",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 20,
+          "raw_name": " MAGNETIC FIELD Z (\u00ce\u00bcT)",
+          "normalized_name": "MAGNETIC FIELD Z",
+          "unit": "\u00ce\u00bcT",
+          "semantic_role": "mag_z",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 21,
+          "raw_name": " ORIENTATION (Azimuth) (\u00c2\u00b0)",
+          "normalized_name": "ORIENTATION (Azimuth)",
+          "unit": "\u00c2\u00b0",
+          "semantic_role": "unknown",
+          "role_evidence": "UNVERIFIED"
+        },
+        {
+          "index": 22,
+          "raw_name": " ORIENTATION (Pitch) (\u00c2\u00b0)",
+          "normalized_name": "ORIENTATION (Pitch)",
+          "unit": "\u00c2\u00b0",
+          "semantic_role": "orientation_pitch",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 23,
+          "raw_name": " ORIENTATION (Roll ) (\u00c2\u00b0)",
+          "normalized_name": "ORIENTATION (Roll )",
+          "unit": "\u00c2\u00b0",
+          "semantic_role": "orientation_roll",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        }
+      ]
+    },
+    {
+      "schema_id": "9cda68cda125",
+      "file_count": 2,
+      "column_count": 24,
+      "encoding": "cp1252",
+      "encoding_is_utf8": false,
+      "encoding_note": "not valid UTF-8 (byte 222); decoded with cp1252 fallback",
+      "example_file": "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vfa01.csv",
+      "files": [
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vfa01.csv",
+        "Synchronised V abd S datasets/Uncategorised IOVNB Dataset/S-Dataset/S-Vfa02.csv"
+      ],
+      "columns": [
+        {
+          "index": 0,
+          "raw_name": "GPS LATITUDE (degrees)",
+          "normalized_name": "GPS LATITUDE",
+          "unit": "degrees",
+          "semantic_role": "gnss_latitude",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 1,
+          "raw_name": " GPS LONGITUDE (degrees)",
+          "normalized_name": "GPS LONGITUDE",
+          "unit": "degrees",
+          "semantic_role": "gnss_longitude",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 2,
+          "raw_name": " GPS ALTITUDE (m)",
+          "normalized_name": "GPS ALTITUDE",
+          "unit": "m",
+          "semantic_role": "gnss_altitude",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 3,
+          "raw_name": " GPS SPEED (Kmh)",
+          "normalized_name": "GPS SPEED",
+          "unit": "Kmh",
+          "semantic_role": "gnss_speed",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 4,
+          "raw_name": " GPS ACCURACY (m)",
+          "normalized_name": "GPS ACCURACY",
+          "unit": "m",
+          "semantic_role": "gnss_accuracy",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 5,
+          "raw_name": " GPS ORIENTATION (\u00c2\u00b0)",
+          "normalized_name": "GPS ORIENTATION",
+          "unit": "\u00c2\u00b0",
+          "semantic_role": "gnss_heading",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 6,
+          "raw_name": "GPS SATELLITES IN RANGE",
+          "normalized_name": "GPS SATELLITES IN RANGE",
+          "unit": null,
+          "semantic_role": "gnss_satellites",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 7,
+          "raw_name": " TIME SINCE START (ms)",
+          "normalized_name": "TIME SINCE START",
+          "unit": "ms",
+          "semantic_role": "time_since_start_ms",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 8,
+          "raw_name": " DATE (YYYY-MO-DD HH-MI-SS_SSS",
+          "normalized_name": "DATE (YYYY-MO-DD HH-MI-SS_SSS",
+          "unit": null,
+          "semantic_role": "datetime_string",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 9,
+          "raw_name": " ACCELEROMETER X (m/s\u00b2) ",
+          "normalized_name": "ACCELEROMETER X",
+          "unit": "m/s\u00b2",
+          "semantic_role": "accel_x",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 10,
+          "raw_name": " ACCELEROMETER Y (m/s\u00b2)",
+          "normalized_name": "ACCELEROMETER Y",
+          "unit": "m/s\u00b2",
+          "semantic_role": "accel_y",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 11,
+          "raw_name": " ACCELEROMETER Z (m/s\u00b2)",
+          "normalized_name": "ACCELEROMETER Z",
+          "unit": "m/s\u00b2",
+          "semantic_role": "accel_z",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 12,
+          "raw_name": " GRAVITY X (m/s\u00b2)",
+          "normalized_name": "GRAVITY X",
+          "unit": "m/s\u00b2",
+          "semantic_role": "gravity_x",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 13,
+          "raw_name": " GRAVITY Y (m/s\u00b2)",
+          "normalized_name": "GRAVITY Y",
+          "unit": "m/s\u00b2",
+          "semantic_role": "gravity_y",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 14,
+          "raw_name": " GRAVITY Z (m/s\u00b2)",
+          "normalized_name": "GRAVITY Z",
+          "unit": "m/s\u00b2",
+          "semantic_role": "gravity_z",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 15,
+          "raw_name": " GYROSCOPE X (rad/s)",
+          "normalized_name": "GYROSCOPE X",
+          "unit": "rad/s",
+          "semantic_role": "unknown",
+          "role_evidence": "UNVERIFIED"
+        },
+        {
+          "index": 16,
+          "raw_name": " GYROSCOPE Y (rad/s)",
+          "normalized_name": "GYROSCOPE Y",
+          "unit": "rad/s",
+          "semantic_role": "unknown",
+          "role_evidence": "UNVERIFIED"
+        },
+        {
+          "index": 17,
+          "raw_name": " GYROSCOPE Z (rad/s)",
+          "normalized_name": "GYROSCOPE Z",
+          "unit": "rad/s",
+          "semantic_role": "unknown",
+          "role_evidence": "UNVERIFIED"
+        },
+        {
+          "index": 18,
+          "raw_name": " MAGNETIC FIELD X (\u00ce\u00bcT)",
+          "normalized_name": "MAGNETIC FIELD X",
+          "unit": "\u00ce\u00bcT",
+          "semantic_role": "mag_x",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 19,
+          "raw_name": " MAGNETIC FIELD Y (\u00ce\u00bcT)",
+          "normalized_name": "MAGNETIC FIELD Y",
+          "unit": "\u00ce\u00bcT",
+          "semantic_role": "mag_y",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 20,
+          "raw_name": " MAGNETIC FIELD Z (\u00ce\u00bcT)",
+          "normalized_name": "MAGNETIC FIELD Z",
+          "unit": "\u00ce\u00bcT",
+          "semantic_role": "mag_z",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 21,
+          "raw_name": " ORIENTATION (Azimuth) (\u00c2\u00b0)",
+          "normalized_name": "ORIENTATION (Azimuth)",
+          "unit": "\u00c2\u00b0",
+          "semantic_role": "unknown",
+          "role_evidence": "UNVERIFIED"
+        },
+        {
+          "index": 22,
+          "raw_name": " ORIENTATION (Pitch) (\u00c2\u00b0)",
+          "normalized_name": "ORIENTATION (Pitch)",
+          "unit": "\u00c2\u00b0",
+          "semantic_role": "orientation_pitch",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 23,
+          "raw_name": " ORIENTATION (Roll ) (\u00c2\u00b0)",
+          "normalized_name": "ORIENTATION (Roll )",
+          "unit": "\u00c2\u00b0",
+          "semantic_role": "orientation_roll",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        }
+      ]
+    },
+    {
+      "schema_id": "abf7a2b063f9",
+      "file_count": 1,
+      "column_count": 25,
+      "encoding": "cp1252",
+      "encoding_is_utf8": false,
+      "encoding_note": "not valid UTF-8 (byte 223); decoded with cp1252 fallback",
+      "example_file": "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A4.csv",
+      "files": [
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A4.csv"
+      ],
+      "columns": [
+        {
+          "index": 0,
+          "raw_name": "GPS LATITUDE (degrees)",
+          "normalized_name": "GPS LATITUDE",
+          "unit": "degrees",
+          "semantic_role": "gnss_latitude",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 1,
+          "raw_name": " GPS LONGITUDE (degrees)",
+          "normalized_name": "GPS LONGITUDE",
+          "unit": "degrees",
+          "semantic_role": "gnss_longitude",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 2,
+          "raw_name": " GPS ALTITUDE (m)",
+          "normalized_name": "GPS ALTITUDE",
+          "unit": "m",
+          "semantic_role": "gnss_altitude",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 3,
+          "raw_name": " GPS SPEED (Kmh)",
+          "normalized_name": "GPS SPEED",
+          "unit": "Kmh",
+          "semantic_role": "gnss_speed",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 4,
+          "raw_name": " GPS ACCURACY (m)",
+          "normalized_name": "GPS ACCURACY",
+          "unit": "m",
+          "semantic_role": "gnss_accuracy",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 5,
+          "raw_name": " GPS ORIENTATION (\u00c2\u00b0)",
+          "normalized_name": "GPS ORIENTATION",
+          "unit": "\u00c2\u00b0",
+          "semantic_role": "gnss_heading",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 6,
+          "raw_name": "GPS SATELLITES IN RANGE",
+          "normalized_name": "GPS SATELLITES IN RANGE",
+          "unit": null,
+          "semantic_role": "gnss_satellites",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 7,
+          "raw_name": " TIME SINCE START (ms)",
+          "normalized_name": "TIME SINCE START",
+          "unit": "ms",
+          "semantic_role": "time_since_start_ms",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 8,
+          "raw_name": " DATE (YYYY-MO-DD HH-MI-SS_SSS)",
+          "normalized_name": "DATE",
+          "unit": "YYYY-MO-DD HH-MI-SS_SSS",
+          "semantic_role": "datetime_string",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 9,
+          "raw_name": " ACCELEROMETER X (m/s\u00b2) ",
+          "normalized_name": "ACCELEROMETER X",
+          "unit": "m/s\u00b2",
+          "semantic_role": "accel_x",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 10,
+          "raw_name": " ACCELEROMETER Y (m/s\u00b2)",
+          "normalized_name": "ACCELEROMETER Y",
+          "unit": "m/s\u00b2",
+          "semantic_role": "accel_y",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 11,
+          "raw_name": " ACCELEROMETER Z (m/s\u00b2)",
+          "normalized_name": "ACCELEROMETER Z",
+          "unit": "m/s\u00b2",
+          "semantic_role": "accel_z",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 12,
+          "raw_name": " GRAVITY X (m/s\u00b2)",
+          "normalized_name": "GRAVITY X",
+          "unit": "m/s\u00b2",
+          "semantic_role": "gravity_x",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 13,
+          "raw_name": " GRAVITY Y (m/s\u00b2)",
+          "normalized_name": "GRAVITY Y",
+          "unit": "m/s\u00b2",
+          "semantic_role": "gravity_y",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 14,
+          "raw_name": " GRAVITY Z (m/s\u00b2)",
+          "normalized_name": "GRAVITY Z",
+          "unit": "m/s\u00b2",
+          "semantic_role": "gravity_z",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 15,
+          "raw_name": " GYROSCOPE Yaw (rad/s)",
+          "normalized_name": "GYROSCOPE Yaw",
+          "unit": "rad/s",
+          "semantic_role": "gyro_yaw",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 16,
+          "raw_name": " GYROSCOPE Pitch (rad/s)",
+          "normalized_name": "GYROSCOPE Pitch",
+          "unit": "rad/s",
+          "semantic_role": "gyro_pitch",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 17,
+          "raw_name": " GYROSCOPE Roll (rad/s)",
+          "normalized_name": "GYROSCOPE Roll",
+          "unit": "rad/s",
+          "semantic_role": "gyro_roll",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 18,
+          "raw_name": " MAGNETIC FIELD X (\u00ce\u00bcT)",
+          "normalized_name": "MAGNETIC FIELD X",
+          "unit": "\u00ce\u00bcT",
+          "semantic_role": "mag_x",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 19,
+          "raw_name": " MAGNETIC FIELD Y (\u00ce\u00bcT)",
+          "normalized_name": "MAGNETIC FIELD Y",
+          "unit": "\u00ce\u00bcT",
+          "semantic_role": "mag_y",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 20,
+          "raw_name": " MAGNETIC FIELD Z (\u00ce\u00bcT)",
+          "normalized_name": "MAGNETIC FIELD Z",
+          "unit": "\u00ce\u00bcT",
+          "semantic_role": "mag_z",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 21,
+          "raw_name": " ORIENTATION (Yaw) (\u00c2\u00b0)",
+          "normalized_name": "ORIENTATION (Yaw)",
+          "unit": "\u00c2\u00b0",
+          "semantic_role": "orientation_yaw",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 22,
+          "raw_name": " ORIENTATION (Pitch) (\u00c2\u00b0)",
+          "normalized_name": "ORIENTATION (Pitch)",
+          "unit": "\u00c2\u00b0",
+          "semantic_role": "orientation_pitch",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 23,
+          "raw_name": " ORIENTATION (Roll ) (\u00c2\u00b0)",
+          "normalized_name": "ORIENTATION (Roll )",
+          "unit": "\u00c2\u00b0",
+          "semantic_role": "orientation_roll",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 24,
+          "raw_name": "",
+          "normalized_name": "",
+          "unit": null,
+          "semantic_role": "unknown",
+          "role_evidence": "UNVERIFIED"
+        }
+      ]
+    },
+    {
+      "schema_id": "fab516807f4c",
+      "file_count": 158,
+      "column_count": 24,
+      "encoding": "cp1252",
+      "encoding_is_utf8": false,
+      "encoding_note": "not valid UTF-8 (byte 223); decoded with cp1252 fallback",
+      "example_file": "Synchronised V abd S datasets/Categorised IOVNB Dataset/M (Driver B)/S-M.csv",
+      "files": [
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/M (Driver B)/S-M.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/S (Driver A)/S1/S-S1.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/S (Driver A)/S2/S-S2.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/S (Driver A)/S3a/S-S3a.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/S (Driver A)/S3b/S-S3b.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/S (Driver A)/S3c/S-S3c.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/S (Driver A)/S4/S-S4.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vf (Driver E)/V-Vfa01/S-Vfa01.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vf (Driver E)/V-Vfa02/S-Vfa02.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vta (Driver E)/Vta01a/S-Vta1a.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vta (Driver E)/Vta01b/S-Vta1b.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vta (Driver E)/Vta02/S-Vta2.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vta (Driver E)/Vta03/S-Vta3.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vta (Driver E)/Vta04/S-Vta4.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vta (Driver E)/Vta05/S-Vta5.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vta (Driver E)/Vta06/S-Vta6.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vta (Driver E)/Vta07/S-Vta7.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vta (Driver E)/Vta08/S-Vta8.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vta (Driver E)/Vta09/S-Vta9.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vta (Driver E)/Vta10/S-Vta10.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vta (Driver E)/Vta11/S-Vta11.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vta (Driver E)/Vta12/S-Vta12.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vta (Driver E)/Vta13/S-Vta13.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vta (Driver E)/Vta14/S-Vta14.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vta (Driver E)/Vta15/S-Vta15.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vta (Driver E)/Vta16/S-Vta16.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vta (Driver E)/Vta17/S-Vta17.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vta (Driver E)/Vta19/S-Vta19.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vta (Driver E)/Vta20/S-Vta20.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vta (Driver E)/Vta21/S-Vta21.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vta (Driver E)/Vta22/S-Vta22.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vta (Driver E)/Vta23/S-Vta23.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vta (Driver E)/Vta24/S-Vta24.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vta (Driver E)/Vta25/S-Vta25.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vta (Driver E)/Vta26/S-Vta26.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vta (Driver E)/Vta27/S-Vta27.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vta (Driver E)/Vta28/S-Vta28.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vta (Driver E)/Vta29/S-Vta29.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vta (Driver E)/Vta30/S-Vta30.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vtb (Driver E)/Vtb01/S-Vtb1.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vtb (Driver E)/Vtb02/S-Vtb2.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vtb (Driver E)/Vtb03/S-Vtb3.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vtb (Driver E)/Vtb04/S-Vtb4.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vtb (Driver E)/Vtb05/S-Vtb5.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vtb (Driver E)/Vtb06/S-Vtb6.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vtb (Driver E)/Vtb07/S-Vtb7.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vtb (Driver E)/Vtb08/S-Vtb8.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vtb (Driver E)/Vtb09/S-Vtb9.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vtb (Driver E)/Vtb10/S-Vtb10.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vtb (Driver E)/Vtb11/S-Vtb11.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vtb (Driver E)/Vtb12/S-Vtb12.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vw (Driver E)/Vw01/S-Vw1.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vw (Driver E)/Vw02/S-Vw2.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vw (Driver E)/Vw03/S-Vw3.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vw (Driver E)/Vw04/S-Vw4.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vw (Driver E)/Vw05/S-Vw5.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vw (Driver E)/Vw06/S-Vw6.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vw (Driver E)/Vw07/S-Vw7.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vw (Driver E)/Vw08/S-Vw8.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vw (Driver E)/Vw09/S-Vw9.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vw (Driver E)/Vw10/S-Vw10.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vw (Driver E)/Vw11/S-Vw11.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vw (Driver E)/Vw12/S-Vw12.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vw (Driver E)/Vw13/S-Vw13.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vw (Driver E)/Vw14a/S-Vw14a.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vw (Driver E)/Vw14b/S-Vw14b.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vw (Driver E)/Vw14c/S-Vw14c.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vw (Driver E)/Vw15/S-Vw15.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vw (Driver E)/Vw16a/S-Vw16a.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vw (Driver E)/Vw16b/S-Vw16b.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Vw (Driver E)/Vw17/S-Vw17.csv",
+        "Synchronised V abd S datasets/Categorised IOVNB Dataset/Y (Driver D)/Y1/S-Y1.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A1.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A10.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A11.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A12.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A13.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A2.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A3.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A5.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A6.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A7.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A8.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-A9.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-I.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-M.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-S1.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-S2.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-S3a.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-S3c.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-S4.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-T10.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-T11.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vfa01.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vfa02.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vta10.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vta11.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vta12.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vta13.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vta14.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vta15.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vta16.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vta17.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vta19.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vta1a.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vta1b.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vta2.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vta20.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vta21.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vta22.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vta23.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vta24.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vta25.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vta26.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vta27.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vta28.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vta29.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vta3.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vta30.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vta4.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vta5.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vta6.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vta7.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vta8.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vta9.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vtb1.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vtb10.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vtb11.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vtb12.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vtb2.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vtb3.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vtb4.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vtb5.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vtb6.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vtb7.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vtb8.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vtb9.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vw1.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vw10.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vw11.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vw12.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vw13.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vw14a.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vw14b.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vw14c.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vw15.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vw16a.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vw16b.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vw17.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vw2.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vw3.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vw4.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vw5.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vw6.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vw7.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vw8.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Vw9.csv",
+        "Unsynchronised V and S Dataset/Uncategorised IOVNB (V and S) Dataset/S-Dataset/S-Y1.csv"
+      ],
+      "columns": [
+        {
+          "index": 0,
+          "raw_name": "GPS LATITUDE (degrees)",
+          "normalized_name": "GPS LATITUDE",
+          "unit": "degrees",
+          "semantic_role": "gnss_latitude",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 1,
+          "raw_name": " GPS LONGITUDE (degrees)",
+          "normalized_name": "GPS LONGITUDE",
+          "unit": "degrees",
+          "semantic_role": "gnss_longitude",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 2,
+          "raw_name": " GPS ALTITUDE (m)",
+          "normalized_name": "GPS ALTITUDE",
+          "unit": "m",
+          "semantic_role": "gnss_altitude",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 3,
+          "raw_name": " GPS SPEED (Kmh)",
+          "normalized_name": "GPS SPEED",
+          "unit": "Kmh",
+          "semantic_role": "gnss_speed",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 4,
+          "raw_name": " GPS ACCURACY (m)",
+          "normalized_name": "GPS ACCURACY",
+          "unit": "m",
+          "semantic_role": "gnss_accuracy",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 5,
+          "raw_name": " GPS ORIENTATION (\u00c2\u00b0)",
+          "normalized_name": "GPS ORIENTATION",
+          "unit": "\u00c2\u00b0",
+          "semantic_role": "gnss_heading",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 6,
+          "raw_name": "GPS SATELLITES IN RANGE",
+          "normalized_name": "GPS SATELLITES IN RANGE",
+          "unit": null,
+          "semantic_role": "gnss_satellites",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 7,
+          "raw_name": " TIME SINCE START (ms)",
+          "normalized_name": "TIME SINCE START",
+          "unit": "ms",
+          "semantic_role": "time_since_start_ms",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 8,
+          "raw_name": " DATE (YYYY-MO-DD HH-MI-SS_SSS)",
+          "normalized_name": "DATE",
+          "unit": "YYYY-MO-DD HH-MI-SS_SSS",
+          "semantic_role": "datetime_string",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 9,
+          "raw_name": " ACCELEROMETER X (m/s\u00b2) ",
+          "normalized_name": "ACCELEROMETER X",
+          "unit": "m/s\u00b2",
+          "semantic_role": "accel_x",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 10,
+          "raw_name": " ACCELEROMETER Y (m/s\u00b2)",
+          "normalized_name": "ACCELEROMETER Y",
+          "unit": "m/s\u00b2",
+          "semantic_role": "accel_y",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 11,
+          "raw_name": " ACCELEROMETER Z (m/s\u00b2)",
+          "normalized_name": "ACCELEROMETER Z",
+          "unit": "m/s\u00b2",
+          "semantic_role": "accel_z",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 12,
+          "raw_name": " GRAVITY X (m/s\u00b2)",
+          "normalized_name": "GRAVITY X",
+          "unit": "m/s\u00b2",
+          "semantic_role": "gravity_x",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 13,
+          "raw_name": " GRAVITY Y (m/s\u00b2)",
+          "normalized_name": "GRAVITY Y",
+          "unit": "m/s\u00b2",
+          "semantic_role": "gravity_y",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 14,
+          "raw_name": " GRAVITY Z (m/s\u00b2)",
+          "normalized_name": "GRAVITY Z",
+          "unit": "m/s\u00b2",
+          "semantic_role": "gravity_z",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 15,
+          "raw_name": " GYROSCOPE Yaw (rad/s)",
+          "normalized_name": "GYROSCOPE Yaw",
+          "unit": "rad/s",
+          "semantic_role": "gyro_yaw",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 16,
+          "raw_name": " GYROSCOPE Pitch (rad/s)",
+          "normalized_name": "GYROSCOPE Pitch",
+          "unit": "rad/s",
+          "semantic_role": "gyro_pitch",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 17,
+          "raw_name": " GYROSCOPE Roll (rad/s)",
+          "normalized_name": "GYROSCOPE Roll",
+          "unit": "rad/s",
+          "semantic_role": "gyro_roll",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 18,
+          "raw_name": " MAGNETIC FIELD X (\u00ce\u00bcT)",
+          "normalized_name": "MAGNETIC FIELD X",
+          "unit": "\u00ce\u00bcT",
+          "semantic_role": "mag_x",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 19,
+          "raw_name": " MAGNETIC FIELD Y (\u00ce\u00bcT)",
+          "normalized_name": "MAGNETIC FIELD Y",
+          "unit": "\u00ce\u00bcT",
+          "semantic_role": "mag_y",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 20,
+          "raw_name": " MAGNETIC FIELD Z (\u00ce\u00bcT)",
+          "normalized_name": "MAGNETIC FIELD Z",
+          "unit": "\u00ce\u00bcT",
+          "semantic_role": "mag_z",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 21,
+          "raw_name": " ORIENTATION (Yaw) (\u00c2\u00b0)",
+          "normalized_name": "ORIENTATION (Yaw)",
+          "unit": "\u00c2\u00b0",
+          "semantic_role": "orientation_yaw",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 22,
+          "raw_name": " ORIENTATION (Pitch) (\u00c2\u00b0)",
+          "normalized_name": "ORIENTATION (Pitch)",
+          "unit": "\u00c2\u00b0",
+          "semantic_role": "orientation_pitch",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        },
+        {
+          "index": 23,
+          "raw_name": " ORIENTATION (Roll ) (\u00c2\u00b0)",
+          "normalized_name": "ORIENTATION (Roll )",
+          "unit": "\u00c2\u00b0",
+          "semantic_role": "orientation_roll",
+          "role_evidence": "VERIFIED_FROM_FILE"
+        }
+      ]
+    }
+  ]
+}

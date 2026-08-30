@@ -73,7 +73,33 @@ at configure time the way it is with Makefiles/Ninja.
 ctest --test-dir build --output-on-failure -C Debug
 ```
 
-## 8. Pre-commit hooks (optional but recommended)
+## 8. Dataset acquisition and inspection (Phase 1)
+
+The IO-VNBD copy in the repo is Git LFS pointers, not data. Materialize the
+real content (~1.8 GB, each object SHA-256 verified against its pointer):
+
+```bash
+python -c "from pathlib import Path; from idr.dataset.acquire import acquire_pointers; acquire_pointers(Path('data/IO-VNBD_dataset/IO-VNBD-master'), Path('data/raw/io_vnbd'))"
+```
+
+Then inspect it. Fast mode (inventory + schemas, seconds):
+
+```bash
+python -m idr.dataset.inspect --dataset-path data/raw/io_vnbd
+```
+
+Full forensic scan (~2 minutes for 564 files, writes metadata, plots and the
+report):
+
+```bash
+python -m idr.dataset.inspect --dataset-path data/raw/io_vnbd \
+    --output data/metadata/io_vnbd --report-output reports/io_vnbd --deep
+```
+
+Both are read-only; neither writes into the dataset. See
+[`../datasets/io_vnbd.md`](../datasets/io_vnbd.md).
+
+## 9. Pre-commit hooks (optional but recommended)
 
 ```bash
 pre-commit install

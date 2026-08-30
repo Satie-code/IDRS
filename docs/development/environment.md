@@ -15,6 +15,10 @@ file is still accurate for their setup.
 
 - `python` → Python 3.12.0 (`C:\Users\<user>\AppData\Local\Programs\Python\Python312\python.exe`)
 - `pip` → 23.2.1 (tied to the 3.12 install)
+- **`requires-python` was raised to `>=3.12` in Phase 1.** The dataset layer
+  uses `enum.StrEnum` and `datetime.UTC` (3.11+), and numpy's bundled type
+  stubs need 3.12 syntax for mypy to parse them at all. Ruff's `target-version`
+  and mypy's `python_version` were aligned to `py312`/`3.12` to match.
 - Python 3.11 and 3.14 installations are also present on PATH but are **not**
   the default `python` — always invoke via `python`/`.venv` activation, never
   a hardcoded version-specific path.
@@ -50,6 +54,13 @@ file is still accurate for their setup.
   the Android phase, but note it here so it isn't re-discovered from scratch.
 - `ANDROID_HOME` is set (`...\AppData\Local\Android\Sdk\`) but `adb` is not
   on PATH; SDK contents were not inspected (out of scope for Phase 0).
+
+## Phase 1 runtime dependencies
+
+Added in Phase 1 for dataset forensics (no ML or navigation libraries):
+`numpy`, `pandas`, `matplotlib`, plus `pandas-stubs` for type checking.
+Versions verified at the time of writing: numpy 2.5.2, pandas 3.0.5,
+matplotlib 3.11.1, mypy 2.3.1, ruff 0.16.5, pytest 9.1.1.
 
 ## GPU
 

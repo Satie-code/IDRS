@@ -1,0 +1,15 @@
+{
+  "dataset_path": "data\\raw\\io_vnbd",
+  "scan_timestamp": "2026-08-30T12:05:03.883103+00:00",
+  "file_count": 564,
+  "data_file_count": 564,
+  "lfs_pointer_count": 0,
+  "unreadable_files": [],
+  "parse_failures": [],
+  "schema_variants": 6,
+  "missing_expected_files": "UNKNOWN \u2014 the dataset publishes no manifest of expected files, so absence cannot be distinguished from never having existed",
+  "integrity_status": "PASS_WITH_WARNINGS",
+  "reasons": [
+    "241 file(s) are not valid UTF-8 (cp1252 fallback used)"
+  ]
+}

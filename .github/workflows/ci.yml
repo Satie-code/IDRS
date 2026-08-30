@@ -34,6 +34,12 @@ jobs:
       - name: Health check
         run: python -m tools.health_check
 
+      # The dataset itself is never fetched in CI (~1.8 GB, and CI must not
+      # depend on an external host). Unit tests cover the dataset layer with
+      # synthetic fixtures; this only proves the CLI is wired up.
+      - name: Dataset inspection CLI smoke test
+        run: python -m idr.dataset.inspect --help
+
   cpp:
     name: C++ (configure, build, test)
     runs-on: ubuntu-latest

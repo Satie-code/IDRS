@@ -46,9 +46,23 @@ def configure_logging(config: LoggingConfig | None = None, *, force: bool = Fals
 def get_logger(name: str) -> logging.Logger:
     """Return a logger namespaced under the ``idr`` root logger.
 
+    Callers normally pass ``__name__``. A leading ``idr.`` is stripped so an
+    in-package module does not end up as ``idr.idr.dataset.foo``, and a module
+    executed via ``python -m`` (where ``__name__`` is ``__main__``) is given a
+    neutral name rather than logging as ``idr.__main__``.
+
     Calls :func:`configure_logging` with defaults if logging has not been
     configured yet, so callers get sane output without a separate setup step.
     """
     if not _configured:
         configure_logging()
-    return logging.getLogger(f"{ROOT_LOGGER_NAME}.{name}")
+
+    suffix = name
+    if suffix == "__main__":
+        suffix = "cli"
+    elif suffix == ROOT_LOGGER_NAME:
+        suffix = ""
+    elif suffix.startswith(f"{ROOT_LOGGER_NAME}."):
+        suffix = suffix[len(ROOT_LOGGER_NAME) + 1 :]
+
+    return logging.getLogger(f"{ROOT_LOGGER_NAME}.{suffix}" if suffix else ROOT_LOGGER_NAME)
