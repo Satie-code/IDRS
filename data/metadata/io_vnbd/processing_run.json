@@ -1,0 +1,28 @@
+{
+  "run_id": "782b1643070a4f8f",
+  "timestamp": "2026-08-31T09:42:14.903716+00:00",
+  "code_version": "0.1.0",
+  "schema_version": "2.0.0",
+  "python": "3.12.0",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "dataset_source": "data\\raw\\io_vnbd",
+  "configuration": {
+    "raw_path": "data\\raw\\io_vnbd",
+    "processed": "data\\processed\\io_vnbd",
+    "seed": "sih26168-phase2",
+    "limit": null
+  },
+  "output_paths": {
+    "smartphone": "data\\processed\\io_vnbd\\smartphone",
+    "vehicle": "data\\processed\\io_vnbd\\vehicle"
+  },
+  "row_counts": {
+    "smartphone": 4216806,
+    "vehicle": 4972950
+  },
+  "segment_counts": 585,
+  "error_counts": 0,
+  "warning_counts": 0,
+  "elapsed_seconds": 266.15,
+  "leakage_violations": []
+}

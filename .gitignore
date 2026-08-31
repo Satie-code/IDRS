@@ -83,6 +83,16 @@ reports/*
 !reports/io_vnbd/IO_VNBD_Forensic_Report.md
 !reports/io_vnbd/plots/
 !reports/io_vnbd/plots/*.png
+!reports/io_vnbd/phase2_plots/
+!reports/io_vnbd/phase2_plots/*.png
+
+# Same exception, same reason, for the Phase 3 sensor-frame validation report
+# and its figures: the root README links to the report, and regenerating it
+# needs the full raw dataset plus a Phase 2 run.
+!reports/sensor_alignment/
+!reports/sensor_alignment/Phase3_Sensor_Frame_Validation.md
+!reports/sensor_alignment/plots/
+!reports/sensor_alignment/plots/*.png
 
 ## ---------------------------------------------------------------------------
 ## Data (see data/README.md — datasets are NEVER committed to Git)

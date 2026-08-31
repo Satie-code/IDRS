@@ -1,0 +1,51 @@
+{
+  "files_processed": 564,
+  "files_failed": 0,
+  "segments": 585,
+  "multi_segment_files": 14,
+  "reordered_files": 0,
+  "sync_status": {
+    "CLOCK_ONLY": 14,
+    "CONFIRMED_BY_SIGNAL": 150,
+    "UNRESOLVED": 52
+  },
+  "label_sources": {
+    "TIER_1_VEHICLE_SYNCED": 150,
+    "TIER_2_VEHICLE_CLOCK": 14,
+    "TIER_3_SMARTPHONE_GNSS": 77
+  },
+  "split_summary": {
+    "seed": "sih26168-phase2",
+    "ratios": {
+      "train": 0.7,
+      "validation": 0.15,
+      "test": 0.15
+    },
+    "group_count": 115,
+    "segment_count": 585,
+    "counts": {
+      "test": 135,
+      "validation": 182,
+      "train": 268
+    },
+    "rows": {
+      "test": 1378465,
+      "validation": 1378323,
+      "train": 6432968
+    },
+    "duration_s": {
+      "test": 147113.274,
+      "validation": 139689.152,
+      "train": 642926.77
+    },
+    "grouping_rule": "transitive closure over shared payload_hash and shared (dataset_family, session_id); whole groups packed largest-first into the split with the largest row-count deficit, ordered by (-rows, sha256(seed:group_key), key) for determinism",
+    "notes": []
+  },
+  "leakage_violations": [],
+  "content_audit": {
+    "segments_fingerprinted": 314,
+    "distinct_content_groups": 256,
+    "duplicate_content_groups": 58,
+    "violations": []
+  }
+}

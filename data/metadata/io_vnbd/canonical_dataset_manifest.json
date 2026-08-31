@@ -1,0 +1,22 @@
+{
+  "schema_version": "2.0.0",
+  "generator": "idr 0.1.0 Phase 2",
+  "raw_path": "data\\raw\\io_vnbd",
+  "source_file_count": 564,
+  "segment_count": 585,
+  "row_counts": {
+    "smartphone": 4216806,
+    "vehicle": 4972950
+  },
+  "canonical_paths": {
+    "smartphone": "data\\processed\\io_vnbd\\smartphone",
+    "vehicle": "data\\processed\\io_vnbd\\vehicle"
+  },
+  "storage_format": "parquet (snappy)",
+  "encodings": {
+    "cp1252": 241,
+    "utf-8": 323
+  },
+  "repairs_applied": 1,
+  "files_with_encoding_warning": 241
+}

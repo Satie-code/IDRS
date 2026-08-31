@@ -1,0 +1,28 @@
+{
+  "started_at": "2026-08-31T15:49:17.299431+00:00",
+  "processed_dir": "data\\processed\\io_vnbd",
+  "summary": {
+    "segments_analyzed": 154,
+    "alignments_succeeded": 94,
+    "gravity_available": 154,
+    "magnetometer_trusted": 86,
+    "segments_needing_lag_correction": 92,
+    "median_abs_lag_s": 4.6000000000000005,
+    "median_forward_correlation": 0.6969028676623207,
+    "elapsed_s": 178.26
+  },
+  "status_counts": {
+    "INSUFFICIENT_MOTION": 51,
+    "LOW_HEADING_CONFIDENCE": 2,
+    "MAG_DISTURBED": 7,
+    "SUCCESS": 94
+  },
+  "performance": {
+    "mean_us_per_sample": 76.86666331527547,
+    "p95_us_per_sample": 123.26511326907877,
+    "mean_s_per_segment": 1.070090386363305,
+    "p95_s_per_segment": 5.6983724550023895,
+    "segments": 154.0
+  },
+  "notes": []
+}

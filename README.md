@@ -27,25 +27,39 @@ navigation core portable enough to also run on an external-IMU edge device.
 ## Current project phase
 
 ```text
-Phase 1 — Dataset Acquisition & Forensic Analysis (complete)
+Phase 3 — Sensor Frames, Orientation & Vehicle Alignment (complete)
 ```
 
-Phase 0 established the engineering foundation. Phase 1 added the IO-VNBD
-dataset acquisition and forensic-inspection layer under
-[`python/idr/dataset/`](python/idr/dataset/): LFS-aware acquisition with
-SHA-256 verification, file/session inventory, schema extraction, timestamp
-and sampling measurement, missingness and range diagnostics, S/V
-synchronization analysis, and GNSS availability/staleness analysis.
+Phase 0 established the engineering foundation. Phase 1 acquired and
+forensically analysed IO-VNBD ([`python/idr/dataset/`](python/idr/dataset/)).
+Phase 2 added the preprocessing pipeline
+([`python/idr/pipeline/`](python/idr/pipeline/)): a canonical schema, an
+encoding-aware reader with derived schema repair, trip segmentation, per-pair
+smartphone/vehicle synchronization, a tiered reference-label hierarchy, GNSS
+freshness, leakage-safe splits, and a causal sequence generator.
 
-**Still no navigation, sensor-fusion, or ML functionality** — Phase 1 is
-observational only and never modifies raw data. See
-[`docs/sih/phase1_scope.md`](docs/sih/phase1_scope.md) for the exact
-boundary and [`docs/development/engineering_rules.md`](docs/development/engineering_rules.md)
-for the rules (Rule 10: don't start future phases early) that keep it that
-way until the next phase deliberately begins.
+Phase 3 added the sensor-frame foundation
+([`python/idr/frames/`](python/idr/frames/)): frame conventions, quaternion and
+rotation-matrix mathematics, gravity estimation, a complementary orientation
+filter, magnetometer quality assessment, and a phone→vehicle alignment engine
+that reports a confidence and refuses to fabricate yaw when the data cannot
+support it.
 
-The forensic findings — including several that materially constrain Phase 2 —
-are in [`reports/io_vnbd/IO_VNBD_Forensic_Report.md`](reports/io_vnbd/IO_VNBD_Forensic_Report.md).
+**Still no model, training, INS, EKF, fusion, or navigation code.** Phase 3
+produces orientation and alignment estimates; integrating them into position or
+velocity begins in Phase 4. See [`docs/sih/phase3_scope.md`](docs/sih/phase3_scope.md)
+for the exact boundary and
+[`docs/development/engineering_rules.md`](docs/development/engineering_rules.md)
+for the rules (Rule 10: don't start future phases early).
+
+Key documents:
+
+- [`reports/io_vnbd/IO_VNBD_Forensic_Report.md`](reports/io_vnbd/IO_VNBD_Forensic_Report.md) — Phase 1 findings
+- [`reports/io_vnbd/IO_VNBD_Phase2_Preprocessing_Report.md`](reports/io_vnbd/IO_VNBD_Phase2_Preprocessing_Report.md) — Phase 2 run report
+- [`docs/datasets/io_vnbd_phase2_contract.md`](docs/datasets/io_vnbd_phase2_contract.md) — **the canonical data contract**
+- [`docs/architecture/sensor_frame_conventions.md`](docs/architecture/sensor_frame_conventions.md) — **the frame conventions Phase 4 builds on**
+- [`docs/mathematics/phase3_orientation.md`](docs/mathematics/phase3_orientation.md) — the implemented equations
+- [`reports/sensor_alignment/Phase3_Sensor_Frame_Validation.md`](reports/sensor_alignment/Phase3_Sensor_Frame_Validation.md) — Phase 3 validation report
 
 ## Architecture overview
 
@@ -67,7 +81,9 @@ for the full breakdown.
 
 ```text
 ├── python/idr/       # ML / research Python package
-│   └── dataset/      #   IO-VNBD acquisition + forensic inspection (Phase 1)
+│   ├── dataset/      #   IO-VNBD acquisition + forensic inspection (Phase 1)
+│   ├── pipeline/     #   Canonicalization + ML-ready pipeline (Phase 2)
+│   └── frames/       #   Sensor frames, orientation, alignment (Phase 3)
 ├── core/             # C++ navigation core (CMake: include/, src/, tests/)
 ├── tools/health_check/  # Foundation health check (python -m tools.health_check)
 ├── tests/            # Python unit tests (tests/python) + integration tests
@@ -147,6 +163,27 @@ python -m idr.dataset.inspect --dataset-path data/raw/io_vnbd
 # 3. Full forensic scan (timing, missingness, ranges, GNSS, sync, plots, report)
 python -m idr.dataset.inspect --dataset-path data/raw/io_vnbd \
     --output data/metadata/io_vnbd --report-output reports/io_vnbd --deep
+```
+
+### Canonical preprocessing pipeline (Phase 2)
+
+Turns the raw tree into canonical Parquet plus split/quality metadata
+(~4.5 minutes for 564 files). Read-only with respect to raw data:
+
+```bash
+python -m idr.pipeline.runner --raw-path data/raw/io_vnbd \
+    --processed data/processed/io_vnbd --metadata data/metadata/io_vnbd \
+    --report-output reports/io_vnbd
+```
+
+### Sensor-frame diagnostics (Phase 3)
+
+Runs the orientation and alignment estimators over the canonical Parquet and
+writes a validation report, figures and metadata. Read-only with respect to
+both raw and canonical data:
+
+```bash
+python -m idr.frames.runner --processed data/processed/io_vnbd     --metadata data/metadata/io_vnbd --report-output reports/sensor_alignment
 ```
 
 Full details, including pre-commit setup, in

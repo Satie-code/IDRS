@@ -1,0 +1,667 @@
+{
+  "schema_version": "2.0.0",
+  "quality_flags": {
+    "MISSING_SENSOR": 1,
+    "INVALID_TIMESTAMP": 2,
+    "DUPLICATE_TIMESTAMP": 4,
+    "NON_MONOTONIC_TIMESTAMP": 8,
+    "ENCODING_WARNING": 16,
+    "SCHEMA_REPAIR": 32,
+    "GNSS_STALE": 64,
+    "SYNC_UNRESOLVED": 128,
+    "REFERENCE_LOW_CONFIDENCE": 256,
+    "SEGMENT_BOUNDARY": 512
+  },
+  "feature_availability_keys": [
+    "has_accelerometer",
+    "has_gyroscope",
+    "has_magnetometer",
+    "has_gravity",
+    "has_orientation",
+    "has_gnss",
+    "has_gnss_accuracy"
+  ],
+  "streams": {
+    "smartphone": [
+      {
+        "name": "dataset_family",
+        "dtype": "string",
+        "unit": null,
+        "description": "Source tree the file came from",
+        "source_unit": null
+      },
+      {
+        "name": "source_file",
+        "dtype": "string",
+        "unit": null,
+        "description": "Path relative to the raw dataset root",
+        "source_unit": null
+      },
+      {
+        "name": "file_hash",
+        "dtype": "string",
+        "unit": null,
+        "description": "SHA-256 of the whole source file",
+        "source_unit": null
+      },
+      {
+        "name": "payload_hash",
+        "dtype": "string",
+        "unit": null,
+        "description": "SHA-256 of the file's data rows excluding the header line; groups recordings that are identical apart from header labels",
+        "source_unit": null
+      },
+      {
+        "name": "session_id",
+        "dtype": "string",
+        "unit": null,
+        "description": "Session identifier parsed from the filename",
+        "source_unit": null
+      },
+      {
+        "name": "segment_id",
+        "dtype": "string",
+        "unit": null,
+        "description": "Logical trip within the file (see timeline.py)",
+        "source_unit": null
+      },
+      {
+        "name": "stream",
+        "dtype": "string",
+        "unit": null,
+        "description": "'smartphone' or 'vehicle'",
+        "source_unit": null
+      },
+      {
+        "name": "elapsed_s",
+        "dtype": "float64",
+        "unit": "s",
+        "description": "Seconds from the first sample of the segment, derived from analysis_time_s. The time axis sequence generation uses.",
+        "source_unit": null
+      },
+      {
+        "name": "analysis_time_s",
+        "dtype": "float64",
+        "unit": "s",
+        "description": "The continuous clock chosen for this stream: wall-clock seconds from the smartphone DATE column where present (it does not reset), else the elapsed counter; seconds-since-midnight for vehicle streams. Segmentation and synchronization operate on this axis.",
+        "source_unit": null
+      },
+      {
+        "name": "analysis_time_source",
+        "dtype": "string",
+        "unit": null,
+        "description": "Which clock analysis_time_s came from: 'wall_clock', 'elapsed', or 'time_of_day'.",
+        "source_unit": null
+      },
+      {
+        "name": "source_time_s",
+        "dtype": "float64",
+        "unit": "s",
+        "description": "The source clock in seconds, unmodified: elapsed-since-recording-start for smartphone files, seconds-since-local-midnight for vehicle files.",
+        "source_unit": "ms (smartphone) / s (vehicle)"
+      },
+      {
+        "name": "time_of_day_s",
+        "dtype": "float64",
+        "unit": "s",
+        "description": "Seconds since local midnight \u2014 the only axis on which a smartphone and a vehicle stream can be compared. NaN where unavailable.",
+        "source_unit": null
+      },
+      {
+        "name": "timestamp_utc",
+        "dtype": "datetime64[ns]",
+        "unit": null,
+        "description": "Wall-clock timestamp from the smartphone DATE column. NaT for vehicle streams, which carry no date. NOT timezone-resolved \u2014 see the contract.",
+        "source_unit": null
+      },
+      {
+        "name": "accel_x",
+        "dtype": "float32",
+        "unit": "m/s^2",
+        "description": "Accelerometer, device X axis",
+        "source_unit": null
+      },
+      {
+        "name": "accel_y",
+        "dtype": "float32",
+        "unit": "m/s^2",
+        "description": "Accelerometer, device Y axis",
+        "source_unit": null
+      },
+      {
+        "name": "accel_z",
+        "dtype": "float32",
+        "unit": "m/s^2",
+        "description": "Accelerometer, device Z axis",
+        "source_unit": null
+      },
+      {
+        "name": "gyro_x",
+        "dtype": "float32",
+        "unit": "rad/s",
+        "description": "Gyroscope, device X axis (source may label 'Yaw')",
+        "source_unit": null
+      },
+      {
+        "name": "gyro_y",
+        "dtype": "float32",
+        "unit": "rad/s",
+        "description": "Gyroscope, device Y axis (source may label 'Pitch')",
+        "source_unit": null
+      },
+      {
+        "name": "gyro_z",
+        "dtype": "float32",
+        "unit": "rad/s",
+        "description": "Gyroscope, device Z axis (source may label 'Roll')",
+        "source_unit": null
+      },
+      {
+        "name": "mag_x",
+        "dtype": "float32",
+        "unit": "uT",
+        "description": "Magnetometer, device X axis",
+        "source_unit": null
+      },
+      {
+        "name": "mag_y",
+        "dtype": "float32",
+        "unit": "uT",
+        "description": "Magnetometer, device Y axis",
+        "source_unit": null
+      },
+      {
+        "name": "mag_z",
+        "dtype": "float32",
+        "unit": "uT",
+        "description": "Magnetometer, device Z axis",
+        "source_unit": null
+      },
+      {
+        "name": "gravity_x",
+        "dtype": "float32",
+        "unit": "m/s^2",
+        "description": "Gravity vector, device X axis",
+        "source_unit": null
+      },
+      {
+        "name": "gravity_y",
+        "dtype": "float32",
+        "unit": "m/s^2",
+        "description": "Gravity vector, device Y axis",
+        "source_unit": null
+      },
+      {
+        "name": "gravity_z",
+        "dtype": "float32",
+        "unit": "m/s^2",
+        "description": "Gravity vector, device Z axis",
+        "source_unit": null
+      },
+      {
+        "name": "orientation_yaw",
+        "dtype": "float32",
+        "unit": "deg",
+        "description": "Device orientation yaw/azimuth (source labels 'Yaw' or 'Azimuth')",
+        "source_unit": null
+      },
+      {
+        "name": "orientation_pitch",
+        "dtype": "float32",
+        "unit": "deg",
+        "description": "Device orientation pitch",
+        "source_unit": null
+      },
+      {
+        "name": "orientation_roll",
+        "dtype": "float32",
+        "unit": "deg",
+        "description": "Device orientation roll",
+        "source_unit": null
+      },
+      {
+        "name": "latitude",
+        "dtype": "float64",
+        "unit": "deg",
+        "description": "WGS-84 latitude (float64: 1e-7 deg matters)",
+        "source_unit": null
+      },
+      {
+        "name": "longitude",
+        "dtype": "float64",
+        "unit": "deg",
+        "description": "WGS-84 longitude",
+        "source_unit": null
+      },
+      {
+        "name": "altitude_m",
+        "dtype": "float32",
+        "unit": "m",
+        "description": "Altitude above sea level",
+        "source_unit": "m / km"
+      },
+      {
+        "name": "gnss_speed_mps",
+        "dtype": "float32",
+        "unit": "m/s",
+        "description": "GNSS speed over ground",
+        "source_unit": "km/h"
+      },
+      {
+        "name": "gnss_accuracy_m",
+        "dtype": "float32",
+        "unit": "m",
+        "description": "Reported horizontal accuracy",
+        "source_unit": null
+      },
+      {
+        "name": "gnss_heading_deg",
+        "dtype": "float32",
+        "unit": "deg",
+        "description": "GNSS course over ground",
+        "source_unit": null
+      },
+      {
+        "name": "gnss_satellites_raw",
+        "dtype": "string",
+        "unit": null,
+        "description": "Satellite field exactly as written in the source (e.g. '27 / 28'). Preserved verbatim; see satellites parsing for the derived integers.",
+        "source_unit": null
+      },
+      {
+        "name": "gnss_satellites_in_use",
+        "dtype": "float32",
+        "unit": null,
+        "description": "Parsed left value of 'a / b'",
+        "source_unit": null
+      },
+      {
+        "name": "gnss_satellites_in_view",
+        "dtype": "float32",
+        "unit": null,
+        "description": "Parsed right value of 'a / b'",
+        "source_unit": null
+      },
+      {
+        "name": "gnss_fix_available",
+        "dtype": "boolean",
+        "unit": null,
+        "description": "Position present, finite, and not (0,0)",
+        "source_unit": null
+      },
+      {
+        "name": "gnss_position_fresh",
+        "dtype": "boolean",
+        "unit": null,
+        "description": "Position differs from the previous sample",
+        "source_unit": null
+      },
+      {
+        "name": "gnss_stale_duration_s",
+        "dtype": "float32",
+        "unit": "s",
+        "description": "Seconds since the position last changed. 0 on a fresh sample.",
+        "source_unit": null
+      },
+      {
+        "name": "quality_flags",
+        "dtype": "int32",
+        "unit": null,
+        "description": "Bitmask of QualityFlag values",
+        "source_unit": null
+      }
+    ],
+    "vehicle": [
+      {
+        "name": "dataset_family",
+        "dtype": "string",
+        "unit": null,
+        "description": "Source tree the file came from",
+        "source_unit": null
+      },
+      {
+        "name": "source_file",
+        "dtype": "string",
+        "unit": null,
+        "description": "Path relative to the raw dataset root",
+        "source_unit": null
+      },
+      {
+        "name": "file_hash",
+        "dtype": "string",
+        "unit": null,
+        "description": "SHA-256 of the whole source file",
+        "source_unit": null
+      },
+      {
+        "name": "payload_hash",
+        "dtype": "string",
+        "unit": null,
+        "description": "SHA-256 of the file's data rows excluding the header line; groups recordings that are identical apart from header labels",
+        "source_unit": null
+      },
+      {
+        "name": "session_id",
+        "dtype": "string",
+        "unit": null,
+        "description": "Session identifier parsed from the filename",
+        "source_unit": null
+      },
+      {
+        "name": "segment_id",
+        "dtype": "string",
+        "unit": null,
+        "description": "Logical trip within the file (see timeline.py)",
+        "source_unit": null
+      },
+      {
+        "name": "stream",
+        "dtype": "string",
+        "unit": null,
+        "description": "'smartphone' or 'vehicle'",
+        "source_unit": null
+      },
+      {
+        "name": "elapsed_s",
+        "dtype": "float64",
+        "unit": "s",
+        "description": "Seconds from the first sample of the segment, derived from analysis_time_s. The time axis sequence generation uses.",
+        "source_unit": null
+      },
+      {
+        "name": "analysis_time_s",
+        "dtype": "float64",
+        "unit": "s",
+        "description": "The continuous clock chosen for this stream: wall-clock seconds from the smartphone DATE column where present (it does not reset), else the elapsed counter; seconds-since-midnight for vehicle streams. Segmentation and synchronization operate on this axis.",
+        "source_unit": null
+      },
+      {
+        "name": "analysis_time_source",
+        "dtype": "string",
+        "unit": null,
+        "description": "Which clock analysis_time_s came from: 'wall_clock', 'elapsed', or 'time_of_day'.",
+        "source_unit": null
+      },
+      {
+        "name": "source_time_s",
+        "dtype": "float64",
+        "unit": "s",
+        "description": "The source clock in seconds, unmodified: elapsed-since-recording-start for smartphone files, seconds-since-local-midnight for vehicle files.",
+        "source_unit": "ms (smartphone) / s (vehicle)"
+      },
+      {
+        "name": "time_of_day_s",
+        "dtype": "float64",
+        "unit": "s",
+        "description": "Seconds since local midnight \u2014 the only axis on which a smartphone and a vehicle stream can be compared. NaN where unavailable.",
+        "source_unit": null
+      },
+      {
+        "name": "timestamp_utc",
+        "dtype": "datetime64[ns]",
+        "unit": null,
+        "description": "Wall-clock timestamp from the smartphone DATE column. NaT for vehicle streams, which carry no date. NOT timezone-resolved \u2014 see the contract.",
+        "source_unit": null
+      },
+      {
+        "name": "latitude",
+        "dtype": "float64",
+        "unit": "deg",
+        "description": "WGS-84 latitude (float64: 1e-7 deg matters)",
+        "source_unit": null
+      },
+      {
+        "name": "longitude",
+        "dtype": "float64",
+        "unit": "deg",
+        "description": "WGS-84 longitude",
+        "source_unit": null
+      },
+      {
+        "name": "altitude_m",
+        "dtype": "float32",
+        "unit": "m",
+        "description": "Altitude above sea level",
+        "source_unit": "m / km"
+      },
+      {
+        "name": "gnss_speed_mps",
+        "dtype": "float32",
+        "unit": "m/s",
+        "description": "GNSS speed over ground",
+        "source_unit": "km/h"
+      },
+      {
+        "name": "gnss_accuracy_m",
+        "dtype": "float32",
+        "unit": "m",
+        "description": "Reported horizontal accuracy",
+        "source_unit": null
+      },
+      {
+        "name": "gnss_heading_deg",
+        "dtype": "float32",
+        "unit": "deg",
+        "description": "GNSS course over ground",
+        "source_unit": null
+      },
+      {
+        "name": "gnss_satellites_raw",
+        "dtype": "string",
+        "unit": null,
+        "description": "Satellite field exactly as written in the source (e.g. '27 / 28'). Preserved verbatim; see satellites parsing for the derived integers.",
+        "source_unit": null
+      },
+      {
+        "name": "gnss_satellites_in_use",
+        "dtype": "float32",
+        "unit": null,
+        "description": "Parsed left value of 'a / b'",
+        "source_unit": null
+      },
+      {
+        "name": "gnss_satellites_in_view",
+        "dtype": "float32",
+        "unit": null,
+        "description": "Parsed right value of 'a / b'",
+        "source_unit": null
+      },
+      {
+        "name": "gnss_fix_available",
+        "dtype": "boolean",
+        "unit": null,
+        "description": "Position present, finite, and not (0,0)",
+        "source_unit": null
+      },
+      {
+        "name": "gnss_position_fresh",
+        "dtype": "boolean",
+        "unit": null,
+        "description": "Position differs from the previous sample",
+        "source_unit": null
+      },
+      {
+        "name": "gnss_stale_duration_s",
+        "dtype": "float32",
+        "unit": "s",
+        "description": "Seconds since the position last changed. 0 on a fresh sample.",
+        "source_unit": null
+      },
+      {
+        "name": "ref_speed_mps",
+        "dtype": "float32",
+        "unit": "m/s",
+        "description": "GNSS-derived vehicle velocity",
+        "source_unit": "km/h"
+      },
+      {
+        "name": "ref_indicated_speed_mps",
+        "dtype": "float32",
+        "unit": "m/s",
+        "description": "Vehicle indicated speed",
+        "source_unit": "km/h"
+      },
+      {
+        "name": "ref_heading_deg",
+        "dtype": "float32",
+        "unit": "deg",
+        "description": "Vehicle heading",
+        "source_unit": null
+      },
+      {
+        "name": "ref_vertical_speed_mps",
+        "dtype": "float32",
+        "unit": "m/s",
+        "description": "Vertical velocity",
+        "source_unit": "km/h"
+      },
+      {
+        "name": "ref_yaw_rate_dps",
+        "dtype": "float32",
+        "unit": "deg/s",
+        "description": "Vehicle yaw rate",
+        "source_unit": null
+      },
+      {
+        "name": "ref_accel_long_mps2",
+        "dtype": "float32",
+        "unit": "m/s^2",
+        "description": "Longitudinal acceleration",
+        "source_unit": "g"
+      },
+      {
+        "name": "ref_accel_lat_mps2",
+        "dtype": "float32",
+        "unit": "m/s^2",
+        "description": "Lateral acceleration",
+        "source_unit": "g"
+      },
+      {
+        "name": "ref_steering_angle_deg",
+        "dtype": "float32",
+        "unit": "deg",
+        "description": "Steering wheel angle",
+        "source_unit": null
+      },
+      {
+        "name": "ref_wheel_speed_fl",
+        "dtype": "float32",
+        "unit": "rad/s",
+        "description": "Wheel speed front left",
+        "source_unit": null
+      },
+      {
+        "name": "ref_wheel_speed_fr",
+        "dtype": "float32",
+        "unit": "rad/s",
+        "description": "Wheel speed front right",
+        "source_unit": null
+      },
+      {
+        "name": "ref_wheel_speed_rl",
+        "dtype": "float32",
+        "unit": "rad/s",
+        "description": "Wheel speed rear left",
+        "source_unit": null
+      },
+      {
+        "name": "ref_wheel_speed_rr",
+        "dtype": "float32",
+        "unit": "rad/s",
+        "description": "Wheel speed rear right",
+        "source_unit": null
+      },
+      {
+        "name": "ref_engine_speed_rpm",
+        "dtype": "float32",
+        "unit": "rev/min",
+        "description": "Engine speed",
+        "source_unit": null
+      },
+      {
+        "name": "ref_gear",
+        "dtype": "float32",
+        "unit": null,
+        "description": "Engaged gear",
+        "source_unit": null
+      },
+      {
+        "name": "ref_gear_requested",
+        "dtype": "float32",
+        "unit": null,
+        "description": "Requested gear",
+        "source_unit": null
+      },
+      {
+        "name": "ref_brake_pressure_psi",
+        "dtype": "float32",
+        "unit": "psi",
+        "description": "Brake pressure",
+        "source_unit": null
+      },
+      {
+        "name": "ref_brake_position",
+        "dtype": "float32",
+        "unit": null,
+        "description": "Brake applied (0/1)",
+        "source_unit": null
+      },
+      {
+        "name": "ref_handbrake",
+        "dtype": "float32",
+        "unit": null,
+        "description": "Handbrake engaged (0/1)",
+        "source_unit": null
+      },
+      {
+        "name": "ref_clutch_position",
+        "dtype": "float32",
+        "unit": null,
+        "description": "Clutch engaged (0/1)",
+        "source_unit": null
+      },
+      {
+        "name": "ref_accelerator_pedal",
+        "dtype": "float32",
+        "unit": null,
+        "description": "Accelerator pedal position",
+        "source_unit": null
+      },
+      {
+        "name": "ref_battery_voltage_v",
+        "dtype": "float32",
+        "unit": "V",
+        "description": "Battery voltage",
+        "source_unit": null
+      },
+      {
+        "name": "ref_coolant_temp_c",
+        "dtype": "float32",
+        "unit": "degC",
+        "description": "Coolant temperature",
+        "source_unit": null
+      },
+      {
+        "name": "ref_air_temp_c",
+        "dtype": "float32",
+        "unit": "degC",
+        "description": "Air temperature",
+        "source_unit": null
+      },
+      {
+        "name": "ref_sample_period_s",
+        "dtype": "float32",
+        "unit": "s",
+        "description": "Sample period reported by the logger",
+        "source_unit": null
+      },
+      {
+        "name": "quality_flags",
+        "dtype": "int32",
+        "unit": null,
+        "description": "Bitmask of QualityFlag values",
+        "source_unit": null
+      }
+    ]
+  }
+}

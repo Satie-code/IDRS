@@ -1,0 +1,4349 @@
+{
+  "note": "Estimated phone->vehicle alignments. R_vehicle_phone maps phone-frame coordinates to vehicle-frame coordinates. rotation is null wherever yaw could not be resolved; there is no ground truth for these values.",
+  "quaternion_order": "xyzw",
+  "alignments": [
+    {
+      "segment_id": "02929be6c896:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        -3.439474821431432e-05,
+        2.135388345146648e-05,
+        -0.07222369695560676,
+        0.9973884579034779
+      ],
+      "confidence": 0.4198719937596738,
+      "quality": {
+        "gravity_confidence": 0.9910394196662115,
+        "gravity_residual_deg": 8.607054116212333e-18,
+        "forward_confidence": 0.42366830766538977,
+        "forward_correlation": 0.9812317208122897,
+        "longitudinal_correlation": 0.025336234266892955,
+        "lateral_correlation": -0.2668681568964451,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.3,
+        "dynamic_sample_count": 236.0,
+        "total_sample_count": 1171.0,
+        "duration_s": 117.00100016593933,
+        "forward_lag_s": 4.4
+      },
+      "notes": [
+        "the speed reference had to be shifted by +4.4s to line up with the accelerometer, lifting the correlation to 0.98. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only 0.03",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.27; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "049ad3efce5a:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        1.2983755031283855e-05,
+        2.6880282268859697e-05,
+        -0.2747516816959344,
+        0.961515216995617
+      ],
+      "confidence": 0.10963338310594943,
+      "quality": {
+        "gravity_confidence": 0.9854588036396965,
+        "gravity_residual_deg": 7.910311553245694e-19,
+        "forward_confidence": 0.11125110730253682,
+        "forward_correlation": 0.5595859170392525,
+        "longitudinal_correlation": 0.007848935804243553,
+        "lateral_correlation": -0.1555520573916469,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.3,
+        "dynamic_sample_count": 448.0,
+        "total_sample_count": 1012.0,
+        "duration_s": 101.10099983215332,
+        "forward_lag_s": 7.0
+      },
+      "notes": [
+        "the speed reference had to be shifted by +7.0s to line up with the accelerometer, lifting the correlation to 0.56. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 33.4\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only 0.01",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.16; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "04b0ee07c4e4:000",
+      "status": "INSUFFICIENT_MOTION",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.9886414095999837,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": null,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.7538021893859989,
+        "dynamic_sample_count": 3.0,
+        "total_sample_count": 404.0,
+        "duration_s": 40.300999879837036,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "3 sample(s) show longitudinal acceleration above 0.4 m/s\u00b2 while moving above 2.0 m/s; need 50. The vehicle never accelerated decisively enough to reveal its heading.",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    },
+    {
+      "segment_id": "052bc3dacd0c:000",
+      "status": "INSUFFICIENT_MOTION",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.988542499018824,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": null,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.9433513484768709,
+        "dynamic_sample_count": 1.0,
+        "total_sample_count": 292.0,
+        "duration_s": 29.10100030899048,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "1 sample(s) show longitudinal acceleration above 0.4 m/s\u00b2 while moving above 2.0 m/s; need 50. The vehicle never accelerated decisively enough to reveal its heading.",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    },
+    {
+      "segment_id": "06ad03911f2d:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        4.8839131120238214e-05,
+        -8.997283938836338e-05,
+        0.5257167874444357,
+        0.8506596551610577
+      ],
+      "confidence": 0.19220013212289522,
+      "quality": {
+        "gravity_confidence": 0.9855612072004951,
+        "gravity_residual_deg": 3.0216381383954396e-18,
+        "forward_confidence": 0.19501592668084336,
+        "forward_correlation": 0.7550371622553012,
+        "longitudinal_correlation": -0.006875561182408571,
+        "lateral_correlation": -0.17973514915968702,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 1700.0,
+        "total_sample_count": 5712.0,
+        "duration_s": 571.0999999046326,
+        "forward_lag_s": 5.2
+      },
+      "notes": [
+        "the speed reference had to be shifted by +5.2s to line up with the accelerometer, lifting the correlation to 0.76. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 64.3\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only -0.01",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.18; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "07a93fc8421c:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        1.836188435054708e-05,
+        -2.4225517605083448e-05,
+        0.05586708975239255,
+        0.9984382140916701
+      ],
+      "confidence": 0.08206865161602787,
+      "quality": {
+        "gravity_confidence": 0.9836641822539198,
+        "gravity_residual_deg": 1.18848080742867e-18,
+        "forward_confidence": 0.08343157461317723,
+        "forward_correlation": 0.49467367409741353,
+        "longitudinal_correlation": -0.007111670864882808,
+        "lateral_correlation": -0.09711139621983009,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.3,
+        "dynamic_sample_count": 1366.0,
+        "total_sample_count": 3861.0,
+        "duration_s": 386.00099992752075,
+        "forward_lag_s": -12.200000000000001
+      },
+      "notes": [
+        "the speed reference had to be shifted by -12.2s to line up with the accelerometer, lifting the correlation to 0.49. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 38.2\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only -0.01",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.10; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "090a788528ac:000",
+      "status": "INSUFFICIENT_MOTION",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.9987807083950412,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": null,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.3,
+        "dynamic_sample_count": 0.0,
+        "total_sample_count": 5800.0,
+        "duration_s": 579.9000000953674,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "0 sample(s) show longitudinal acceleration above 0.4 m/s\u00b2 while moving above 2.0 m/s; need 50. The vehicle never accelerated decisively enough to reveal its heading.",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    },
+    {
+      "segment_id": "0be63d31a967:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        -1.4502884690780904e-05,
+        1.7394257083605966e-05,
+        -0.5381531855200565,
+        0.8428470492335617
+      ],
+      "confidence": 0.23819612876490887,
+      "quality": {
+        "gravity_confidence": 0.9860222693718349,
+        "gravity_residual_deg": 6.582334334014233e-18,
+        "forward_confidence": 0.24157276784088907,
+        "forward_correlation": 0.8636697916287411,
+        "longitudinal_correlation": -0.005189886347164331,
+        "lateral_correlation": -0.027493071272540904,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 3522.0,
+        "total_sample_count": 19588.0,
+        "duration_s": 1958.7009999752045,
+        "forward_lag_s": 5.2
+      },
+      "notes": [
+        "the speed reference had to be shifted by +5.2s to line up with the accelerometer, lifting the correlation to 0.86. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 38.7\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only -0.01",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.03; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "0db4f806fa68:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        -1.4502884690780946e-05,
+        1.7394257083605865e-05,
+        -0.5381531855200564,
+        0.8428470492335617
+      ],
+      "confidence": 0.23819612876490887,
+      "quality": {
+        "gravity_confidence": 0.9860222693718349,
+        "gravity_residual_deg": 6.242652719560442e-19,
+        "forward_confidence": 0.24157276784088907,
+        "forward_correlation": 0.8636697916287411,
+        "longitudinal_correlation": -0.005195554718590374,
+        "lateral_correlation": -0.02763562731861115,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 3522.0,
+        "total_sample_count": 19588.0,
+        "duration_s": 1958.7009999752045,
+        "forward_lag_s": 5.2
+      },
+      "notes": [
+        "the speed reference had to be shifted by +5.2s to line up with the accelerometer, lifting the correlation to 0.86. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 38.7\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only -0.01",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.03; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "0e1987018484:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        -3.425698072931429e-05,
+        2.1574204840417114e-05,
+        -0.07862390519251221,
+        0.9969043484172851
+      ],
+      "confidence": 0.39225242667950677,
+      "quality": {
+        "gravity_confidence": 0.9910394196662115,
+        "gravity_residual_deg": 1.1614959301967083e-17,
+        "forward_confidence": 0.39579901555441654,
+        "forward_correlation": 0.9805624852364127,
+        "longitudinal_correlation": 0.027080697159333294,
+        "lateral_correlation": -0.2711193316892466,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.3,
+        "dynamic_sample_count": 234.0,
+        "total_sample_count": 1171.0,
+        "duration_s": 117.00100016593933,
+        "forward_lag_s": 4.6000000000000005
+      },
+      "notes": [
+        "the speed reference had to be shifted by +4.6s to line up with the accelerometer, lifting the correlation to 0.98. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only 0.03",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.27; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "1048727c0ca2:000",
+      "status": "INSUFFICIENT_MOTION",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.9773144724550707,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": null,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 0.0,
+        "total_sample_count": 556.0,
+        "duration_s": 55.5,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "0 sample(s) show longitudinal acceleration above 0.4 m/s\u00b2 while moving above 2.0 m/s; need 50. The vehicle never accelerated decisively enough to reveal its heading.",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    },
+    {
+      "segment_id": "159116d1f4d5:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        -6.821916457484772e-05,
+        -2.214976065618787e-05,
+        -0.7117067235128682,
+        0.7024767146049125
+      ],
+      "confidence": 0.232744269935599,
+      "quality": {
+        "gravity_confidence": 0.9788996450834189,
+        "gravity_residual_deg": 5.152665282007265e-17,
+        "forward_confidence": 0.23776111382261786,
+        "forward_correlation": 0.8547759322527749,
+        "longitudinal_correlation": -0.006927732380016875,
+        "lateral_correlation": -0.24583098730074368,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.9096632155012849,
+        "dynamic_sample_count": 704.0,
+        "total_sample_count": 2540.0,
+        "duration_s": 253.89999961853027,
+        "forward_lag_s": 5.2
+      },
+      "notes": [
+        "the speed reference had to be shifted by +5.2s to line up with the accelerometer, lifting the correlation to 0.85. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 23.4\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only -0.01",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.25; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "1802cbfa0458:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        -7.600772111126839e-05,
+        5.360050290261562e-06,
+        0.6312567551152334,
+        0.7755739186663528
+      ],
+      "confidence": 0.17242045040431717,
+      "quality": {
+        "gravity_confidence": 0.9854725342343227,
+        "gravity_residual_deg": 1.0325996088307444e-18,
+        "forward_confidence": 0.17496220788972242,
+        "forward_correlation": 0.7082451517426857,
+        "longitudinal_correlation": 0.10476856077557863,
+        "lateral_correlation": -0.009117992526392773,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.3,
+        "dynamic_sample_count": 631.0,
+        "total_sample_count": 1502.0,
+        "duration_s": 150.10000014305115,
+        "forward_lag_s": 5.4
+      },
+      "notes": [
+        "the speed reference had to be shifted by +5.4s to line up with the accelerometer, lifting the correlation to 0.71. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 50.7\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only 0.10",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.01; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "19e3c80523ef:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        2.2635117454642393e-05,
+        -5.716007064189836e-06,
+        -0.10121940262264809,
+        0.9948641274001657
+      ],
+      "confidence": 0.011699453687244387,
+      "quality": {
+        "gravity_confidence": 0.9682527598988737,
+        "gravity_residual_deg": 1.316193577707504e-19,
+        "forward_confidence": 0.012083057412060774,
+        "forward_correlation": 0.3281938006281418,
+        "longitudinal_correlation": 0.006604262965221955,
+        "lateral_correlation": 0.09441303916145836,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 3080.0,
+        "total_sample_count": 6813.0,
+        "duration_s": 685.5279998779297,
+        "forward_lag_s": -12.0
+      },
+      "notes": [
+        "the speed reference had to be shifted by -12.0s to line up with the accelerometer, lifting the correlation to 0.33. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 26.6\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only 0.01",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only 0.09; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "1a9d760bc7d2:000",
+      "status": "INSUFFICIENT_MOTION",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.9844002557684004,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": null,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.3,
+        "dynamic_sample_count": 1.0,
+        "total_sample_count": 552.0,
+        "duration_s": 55.10099983215332,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "1 sample(s) show longitudinal acceleration above 0.4 m/s\u00b2 while moving above 2.0 m/s; need 50. The vehicle never accelerated decisively enough to reveal its heading.",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    },
+    {
+      "segment_id": "1deac04dc111:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        -3.9108054461708044e-05,
+        5.501674422110538e-05,
+        0.2834376687783897,
+        0.9589906586412559
+      ],
+      "confidence": 0.14263841535549046,
+      "quality": {
+        "gravity_confidence": 0.9808122189954819,
+        "gravity_residual_deg": 1.463939007759398e-18,
+        "forward_confidence": 0.1454288727169166,
+        "forward_correlation": 0.6393340363394721,
+        "longitudinal_correlation": -0.006220608076433182,
+        "lateral_correlation": 0.029429311875937128,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.8002877142211009,
+        "dynamic_sample_count": 633.0,
+        "total_sample_count": 1376.0,
+        "duration_s": 137.5,
+        "forward_lag_s": 3.8000000000000003
+      },
+      "notes": [
+        "the speed reference had to be shifted by +3.8s to line up with the accelerometer, lifting the correlation to 0.64. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 54.5\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only -0.01",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only 0.03; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "1fd3d11e1b31:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        0.028748638129543654,
+        0.011966277072055815,
+        -0.05654166105152709,
+        0.9979145076529681
+      ],
+      "confidence": 0.5105526732158476,
+      "quality": {
+        "gravity_confidence": 0.7066393659490587,
+        "gravity_residual_deg": 5.376656756547618e-15,
+        "forward_confidence": 0.7225081106685095,
+        "forward_correlation": 0.8849354591218961,
+        "longitudinal_correlation": 0.45423120258341165,
+        "lateral_correlation": -0.6541763832445165,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 1085.0,
+        "total_sample_count": 8886.0,
+        "duration_s": 4442.5,
+        "forward_lag_s": 1.4000000000000001
+      },
+      "notes": [
+        "the speed reference had to be shifted by +1.4s to line up with the accelerometer, lifting the correlation to 0.88. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.65; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "202fab30375e:000",
+      "status": "INSUFFICIENT_MOTION",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.9801146151976428,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": null,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.3,
+        "dynamic_sample_count": 2.0,
+        "total_sample_count": 196.0,
+        "duration_s": 19.5,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "2 sample(s) show longitudinal acceleration above 0.4 m/s\u00b2 while moving above 2.0 m/s; need 50. The vehicle never accelerated decisively enough to reveal its heading.",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    },
+    {
+      "segment_id": "2053e5e5c9a7:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        -8.79807269902954e-06,
+        2.3008002057430876e-05,
+        0.8997135889037373,
+        0.4364807639921634
+      ],
+      "confidence": 0.5986816397141278,
+      "quality": {
+        "gravity_confidence": 0.9926659253689691,
+        "gravity_residual_deg": 5.499141587741223e-19,
+        "forward_confidence": 0.6031048557364359,
+        "forward_correlation": 0.9838379124712968,
+        "longitudinal_correlation": -0.11718979350305475,
+        "lateral_correlation": -0.17889202440022708,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.3,
+        "dynamic_sample_count": 194.0,
+        "total_sample_count": 3223.0,
+        "duration_s": 322.2000000476837,
+        "forward_lag_s": 6.6000000000000005
+      },
+      "notes": [
+        "the speed reference had to be shifted by +6.6s to line up with the accelerometer, lifting the correlation to 0.98. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only -0.12",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.18; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "2155a872fe5a:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        0.03074297629599068,
+        -0.0032884733326204183,
+        0.9945508150313505,
+        -0.0995627022136367
+      ],
+      "confidence": 0.030313981319262308,
+      "quality": {
+        "gravity_confidence": 0.8828979081667176,
+        "gravity_residual_deg": 5.014649532583125e-15,
+        "forward_confidence": 0.03433463941737886,
+        "forward_correlation": 0.3584052540519323,
+        "longitudinal_correlation": -0.0028431222801416174,
+        "lateral_correlation": 0.24775501712161105,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 55.0,
+        "total_sample_count": 25759.0,
+        "duration_s": 738.3790001869202,
+        "forward_lag_s": -0.2
+      },
+      "notes": [
+        "the speed reference had to be shifted by -0.2s to line up with the accelerometer, lifting the correlation to 0.36. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only -0.00"
+      ]
+    },
+    {
+      "segment_id": "228caace5149:000",
+      "status": "INSUFFICIENT_MOTION",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.9886414095999837,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": null,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.7538021893859989,
+        "dynamic_sample_count": 3.0,
+        "total_sample_count": 404.0,
+        "duration_s": 40.300999879837036,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "3 sample(s) show longitudinal acceleration above 0.4 m/s\u00b2 while moving above 2.0 m/s; need 50. The vehicle never accelerated decisively enough to reveal its heading.",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    },
+    {
+      "segment_id": "25bba4c7024d:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        -2.5568545454609085e-05,
+        5.932829968011811e-06,
+        -0.7741842820111754,
+        0.6329602647859437
+      ],
+      "confidence": 0.04710448396048121,
+      "quality": {
+        "gravity_confidence": 0.9873055807846526,
+        "gravity_residual_deg": 1.3436806578007111e-18,
+        "forward_confidence": 0.04771013643318549,
+        "forward_correlation": 0.4113236516774328,
+        "longitudinal_correlation": -0.026086855886148178,
+        "lateral_correlation": -0.0004822947527002293,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.3,
+        "dynamic_sample_count": 3093.0,
+        "total_sample_count": 11335.0,
+        "duration_s": 1133.4000000953674,
+        "forward_lag_s": 4.800000000000001
+      },
+      "notes": [
+        "the speed reference had to be shifted by +4.8s to line up with the accelerometer, lifting the correlation to 0.41. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 64.6\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only -0.03",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.00; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "25e382fbbc34:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        1.0716308272609619e-05,
+        1.4950523904476126e-06,
+        0.2836565434123892,
+        0.958925943575551
+      ],
+      "confidence": 0.16620558666329882,
+      "quality": {
+        "gravity_confidence": 0.9817413540031943,
+        "gravity_residual_deg": 1.1647373140542372e-19,
+        "forward_confidence": 0.16929671545929198,
+        "forward_correlation": 0.6950256694050146,
+        "longitudinal_correlation": 0.18936848358344355,
+        "lateral_correlation": 0.011973790746301111,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 10066.0,
+        "total_sample_count": 25676.0,
+        "duration_s": 2567.4990000724792,
+        "forward_lag_s": 0.8
+      },
+      "notes": [
+        "the speed reference had to be shifted by +0.8s to line up with the accelerometer, lifting the correlation to 0.70. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 32.3\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only 0.19",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only 0.01; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "2671b8ec2301:000",
+      "status": "INSUFFICIENT_MOTION",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.8809936461035349,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": null,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 1.0,
+        "total_sample_count": 156.0,
+        "duration_s": 15.498000144958496,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "1 sample(s) show longitudinal acceleration above 0.4 m/s\u00b2 while moving above 2.0 m/s; need 50. The vehicle never accelerated decisively enough to reveal its heading.",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    },
+    {
+      "segment_id": "274a8da537e3:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        8.537513336580734e-07,
+        5.881626178794613e-06,
+        0.24121459655246943,
+        0.9704718019472318
+      ],
+      "confidence": 0.05722698480731308,
+      "quality": {
+        "gravity_confidence": 0.9952047731944313,
+        "gravity_residual_deg": 2.7903192722631837e-19,
+        "forward_confidence": 0.057502723407992284,
+        "forward_correlation": 0.4341730212853153,
+        "longitudinal_correlation": 0.013520095607829949,
+        "lateral_correlation": 0.003871523541313772,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 7879.0,
+        "total_sample_count": 24621.0,
+        "duration_s": 2462.0,
+        "forward_lag_s": 4.6000000000000005
+      },
+      "notes": [
+        "the speed reference had to be shifted by +4.6s to line up with the accelerometer, lifting the correlation to 0.43. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 45.0\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only 0.01",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only 0.00; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "28161336944b:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        -1.1352164864121753e-05,
+        -1.4521106463808125e-05,
+        0.07444943263628123,
+        0.99722478992472
+      ],
+      "confidence": 0.17565381893964824,
+      "quality": {
+        "gravity_confidence": 0.9901490054018768,
+        "gravity_residual_deg": 8.455383077856649e-19,
+        "forward_confidence": 0.1774013991645174,
+        "forward_correlation": 0.7139365980505405,
+        "longitudinal_correlation": -0.015388393930870499,
+        "lateral_correlation": -0.021767137942929518,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 3886.0,
+        "total_sample_count": 17136.0,
+        "duration_s": 1713.4999997615814,
+        "forward_lag_s": 5.2
+      },
+      "notes": [
+        "the speed reference had to be shifted by +5.2s to line up with the accelerometer, lifting the correlation to 0.71. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 64.6\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only -0.02",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.02; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "2914b6a69096:000",
+      "status": "INSUFFICIENT_MOTION",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.9863662210427071,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": null,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.9438320542654762,
+        "dynamic_sample_count": 0.0,
+        "total_sample_count": 452.0,
+        "duration_s": 45.099000215530396,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "0 sample(s) show longitudinal acceleration above 0.4 m/s\u00b2 while moving above 2.0 m/s; need 50. The vehicle never accelerated decisively enough to reveal its heading.",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    },
+    {
+      "segment_id": "2addd6cdb9c9:000",
+      "status": "INSUFFICIENT_MOTION",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.9907618669987103,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": null,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 34.0,
+        "total_sample_count": 5155.0,
+        "duration_s": 2577.0,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "34 sample(s) show longitudinal acceleration above 0.4 m/s\u00b2 while moving above 2.0 m/s; need 50. The vehicle never accelerated decisively enough to reveal its heading.",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    },
+    {
+      "segment_id": "2c7f5ff63717:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        0.020505086999520982,
+        0.015216977961129176,
+        -0.23051360442459468,
+        0.9727340146021697
+      ],
+      "confidence": 0.04490712963703776,
+      "quality": {
+        "gravity_confidence": 0.7943956602968822,
+        "gravity_residual_deg": 9.031940467871126e-16,
+        "forward_confidence": 0.0565299281975622,
+        "forward_correlation": 0.5030529030084849,
+        "longitudinal_correlation": 0.02931164222859813,
+        "lateral_correlation": 0.812007436237075,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 104.0,
+        "total_sample_count": 79909.0,
+        "duration_s": 7990.717000246048,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "the lag search found no distinct peak (best 0.54 versus a median of 0.51 across \u00b115s); no lag was applied",
+        "the two halves of the data disagree by 44.2\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only 0.03"
+      ]
+    },
+    {
+      "segment_id": "31640a5f5290:000",
+      "status": "MAG_DISTURBED",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.9912185249376984,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": 0.28278015601535206,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 58.0,
+        "total_sample_count": 9184.0,
+        "duration_s": 4591.499999761581,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "magnetometer could not substitute: unstable magnitude, dip inconsistent",
+        "the lag search found no distinct peak (best 0.29 versus a median of 0.28 across \u00b115s); no lag was applied",
+        "the two halves of the data disagree by 39.0\u00b0, above the 15\u00b0 limit",
+        "predicted and observed longitudinal acceleration correlate at only 0.28; the recovered axis is not supported by the data",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    },
+    {
+      "segment_id": "31906be512c4:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        -0.0004023723498888903,
+        0.00011156862992187627,
+        -0.2620123874903374,
+        0.9650644198448859
+      ],
+      "confidence": 0.2679335221530605,
+      "quality": {
+        "gravity_confidence": 0.9811941297951784,
+        "gravity_residual_deg": 8.823628674961701e-18,
+        "forward_confidence": 0.27306881891862816,
+        "forward_correlation": 0.937160577476799,
+        "longitudinal_correlation": 0.09834776660602741,
+        "lateral_correlation": -0.21099586844995874,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.3,
+        "dynamic_sample_count": 305.0,
+        "total_sample_count": 652.0,
+        "duration_s": 65.09999990463257,
+        "forward_lag_s": 2.2
+      },
+      "notes": [
+        "the speed reference had to be shifted by +2.2s to line up with the accelerometer, lifting the correlation to 0.94. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 27.4\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only 0.10",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.21; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "3590c6ee231d:000",
+      "status": "INSUFFICIENT_MOTION",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.9830846537425039,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": null,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 0.0,
+        "total_sample_count": 66617.0,
+        "duration_s": 6661.600000143051,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "0 sample(s) show longitudinal acceleration above 0.4 m/s\u00b2 while moving above 2.0 m/s; need 50. The vehicle never accelerated decisively enough to reveal its heading.",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    },
+    {
+      "segment_id": "35b361cd3f66:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        -4.672323421608245e-05,
+        1.3331949352188786e-05,
+        -0.7826711826717226,
+        0.6224353921929935
+      ],
+      "confidence": 0.2581647169855864,
+      "quality": {
+        "gravity_confidence": 0.9852123212087063,
+        "gravity_residual_deg": 5.532265125267908e-19,
+        "forward_confidence": 0.26203967553801744,
+        "forward_correlation": 0.9114259095887074,
+        "longitudinal_correlation": 0.04998082027343226,
+        "lateral_correlation": -0.2535924836561906,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.9150856388595325,
+        "dynamic_sample_count": 388.0,
+        "total_sample_count": 1935.0,
+        "duration_s": 193.39999985694885,
+        "forward_lag_s": 3.4000000000000004
+      },
+      "notes": [
+        "the speed reference had to be shifted by +3.4s to line up with the accelerometer, lifting the correlation to 0.91. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 45.6\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only 0.05",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.25; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "392d0b39dc43:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        -0.08990993141595263,
+        -0.09739305188739324,
+        -0.3390775564604152,
+        0.9313738284822439
+      ],
+      "confidence": 0.05331384748484856,
+      "quality": {
+        "gravity_confidence": 0.8238836379104483,
+        "gravity_residual_deg": 6.030492732657529e-16,
+        "forward_confidence": 0.06471040937293562,
+        "forward_correlation": 0.5903672215452239,
+        "longitudinal_correlation": -0.0032946982498368656,
+        "lateral_correlation": 0.7076084443897671,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 50.0,
+        "total_sample_count": 48344.0,
+        "duration_s": 4833.805999755859,
+        "forward_lag_s": 10.4
+      },
+      "notes": [
+        "the speed reference had to be shifted by +10.4s to line up with the accelerometer, lifting the correlation to 0.59. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 23.5\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only -0.00"
+      ]
+    },
+    {
+      "segment_id": "39c4ae392225:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        3.562081393311719e-05,
+        0.00011112669130311182,
+        -0.6773615400263532,
+        0.7356502772888374
+      ],
+      "confidence": 0.10227333210289201,
+      "quality": {
+        "gravity_confidence": 0.983235557972711,
+        "gravity_residual_deg": 8.23840113743547e-18,
+        "forward_confidence": 0.10401712109940854,
+        "forward_correlation": 0.5427066158986199,
+        "longitudinal_correlation": 0.07223166414979078,
+        "lateral_correlation": 0.042719525459697545,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.3,
+        "dynamic_sample_count": 498.0,
+        "total_sample_count": 1281.0,
+        "duration_s": 128.0,
+        "forward_lag_s": -2.2
+      },
+      "notes": [
+        "the speed reference had to be shifted by -2.2s to line up with the accelerometer, lifting the correlation to 0.54. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 101.8\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only 0.07",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only 0.04; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "3b82987cb99d:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        3.770723238140539e-05,
+        6.402752499629412e-05,
+        0.57815038848994,
+        0.8159302193003836
+      ],
+      "confidence": 0.18237705321256512,
+      "quality": {
+        "gravity_confidence": 0.9935138931204253,
+        "gravity_residual_deg": 4.422652912582186e-18,
+        "forward_confidence": 0.18356769288827543,
+        "forward_correlation": 0.9820455680562249,
+        "longitudinal_correlation": 0.07663720811788624,
+        "lateral_correlation": 0.14279086280887562,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.3,
+        "dynamic_sample_count": 95.0,
+        "total_sample_count": 645.0,
+        "duration_s": 64.40000009536743,
+        "forward_lag_s": 4.4
+      },
+      "notes": [
+        "the speed reference had to be shifted by +4.4s to line up with the accelerometer, lifting the correlation to 0.98. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 62.2\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only 0.08",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only 0.14; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "3c912d93a732:000",
+      "status": "INSUFFICIENT_MOTION",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.989055099690217,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": null,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.6872779718964321,
+        "dynamic_sample_count": 1.0,
+        "total_sample_count": 461.0,
+        "duration_s": 46.00099992752075,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "1 sample(s) show longitudinal acceleration above 0.4 m/s\u00b2 while moving above 2.0 m/s; need 50. The vehicle never accelerated decisively enough to reveal its heading.",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    },
+    {
+      "segment_id": "3db4ee68418f:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        -1.7303628889174274e-05,
+        2.864564587121175e-05,
+        -0.6003951198189654,
+        0.7997035069183963
+      ],
+      "confidence": 0.11939356901919529,
+      "quality": {
+        "gravity_confidence": 0.9837005932423001,
+        "gravity_residual_deg": 2.548723259141122e-18,
+        "forward_confidence": 0.12137185830667369,
+        "forward_correlation": 0.7835002589240807,
+        "longitudinal_correlation": -0.010399609591681656,
+        "lateral_correlation": -0.10215664573611939,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.3,
+        "dynamic_sample_count": 77.0,
+        "total_sample_count": 918.0,
+        "duration_s": 91.70000004768372,
+        "forward_lag_s": 2.6
+      },
+      "notes": [
+        "the speed reference had to be shifted by +2.6s to line up with the accelerometer, lifting the correlation to 0.78. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only -0.01",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.10; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "4132d57199e8:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        8.378176186753633e-07,
+        -9.404673555256832e-06,
+        0.4904980279119427,
+        0.8714423013173881
+      ],
+      "confidence": 0.08263189177404706,
+      "quality": {
+        "gravity_confidence": 0.9864918115686969,
+        "gravity_residual_deg": 3.36303297516216e-19,
+        "forward_confidence": 0.08376338333984516,
+        "forward_correlation": 0.4954478944596387,
+        "longitudinal_correlation": -0.005692146157644536,
+        "lateral_correlation": -0.16093789047620746,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 9521.0,
+        "total_sample_count": 32459.0,
+        "duration_s": 3245.7990000247955,
+        "forward_lag_s": 4.6000000000000005
+      },
+      "notes": [
+        "the speed reference had to be shifted by +4.6s to line up with the accelerometer, lifting the correlation to 0.50. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 22.4\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only -0.01",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.16; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "413a1f581614:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        -1.4213875260493837e-05,
+        1.636774594537645e-05,
+        -0.2305181957782795,
+        0.9730680145525232
+      ],
+      "confidence": 0.15430191547687924,
+      "quality": {
+        "gravity_confidence": 0.9852358273851933,
+        "gravity_residual_deg": 7.628306962859243e-20,
+        "forward_confidence": 0.15661419447808256,
+        "forward_correlation": 0.6654331204488593,
+        "longitudinal_correlation": -0.02220941156061671,
+        "lateral_correlation": -0.011153287567310734,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 655.0,
+        "total_sample_count": 2885.0,
+        "duration_s": 288.39999985694885,
+        "forward_lag_s": 5.4
+      },
+      "notes": [
+        "the speed reference had to be shifted by +5.4s to line up with the accelerometer, lifting the correlation to 0.67. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 67.1\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only -0.02",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.01; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "437e6ff31147:000",
+      "status": "INSUFFICIENT_MOTION",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.9884663362420512,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": null,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.3,
+        "dynamic_sample_count": 0.0,
+        "total_sample_count": 498.0,
+        "duration_s": 49.700000047683716,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "0 sample(s) show longitudinal acceleration above 0.4 m/s\u00b2 while moving above 2.0 m/s; need 50. The vehicle never accelerated decisively enough to reveal its heading.",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    },
+    {
+      "segment_id": "43dd8e5594fd:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        -0.002438324611985707,
+        0.033454980735165216,
+        -0.44424679800626965,
+        0.8952762709344378
+      ],
+      "confidence": 0.16331549103463638,
+      "quality": {
+        "gravity_confidence": 0.863850273116442,
+        "gravity_residual_deg": 5.019579470855567e-15,
+        "forward_confidence": 0.18905532141056866,
+        "forward_correlation": 0.6123610154724058,
+        "longitudinal_correlation": 0.011702371294944725,
+        "lateral_correlation": 0.7593793315761532,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 63.0,
+        "total_sample_count": 101690.0,
+        "duration_s": 10170.08599972725,
+        "forward_lag_s": 10.8
+      },
+      "notes": [
+        "the speed reference had to be shifted by +10.8s to line up with the accelerometer, lifting the correlation to 0.61. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only 0.01"
+      ]
+    },
+    {
+      "segment_id": "45a91123027b:000",
+      "status": "MAG_DISTURBED",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.995786494752354,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": 0.04328202921621979,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 13263.0,
+        "total_sample_count": 37183.0,
+        "duration_s": 3718.199000120163,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "magnetometer could not substitute: abrupt direction change, unstable magnitude, dip inconsistent",
+        "the lag search found no distinct peak (best 0.08 versus a median of 0.04 across \u00b115s); no lag was applied",
+        "the two halves of the data disagree by 138.2\u00b0, above the 15\u00b0 limit",
+        "predicted and observed longitudinal acceleration correlate at only 0.04; the recovered axis is not supported by the data",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    },
+    {
+      "segment_id": "4a3b9065b673:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        -3.7116203229094474e-06,
+        -2.883812678014968e-06,
+        0.4123480907601912,
+        0.9110263728478626
+      ],
+      "confidence": 0.03383282961997497,
+      "quality": {
+        "gravity_confidence": 0.9878915304910428,
+        "gravity_residual_deg": 9.431238185006054e-20,
+        "forward_confidence": 0.03424751460634344,
+        "forward_correlation": 0.3565818508248675,
+        "longitudinal_correlation": -0.0021164080746732344,
+        "lateral_correlation": -0.03135526829833508,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 33031.0,
+        "total_sample_count": 94600.0,
+        "duration_s": 9773.105000019073,
+        "forward_lag_s": 4.6000000000000005
+      },
+      "notes": [
+        "the speed reference had to be shifted by +4.6s to line up with the accelerometer, lifting the correlation to 0.36. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only -0.00",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.03; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "4e0f18c9aeea:000",
+      "status": "MAG_DISTURBED",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.9802429746005573,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": 0.033354729582104704,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 24400.0,
+        "total_sample_count": 70285.0,
+        "duration_s": 7391.317999839783,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "magnetometer could not substitute: abrupt direction change, unstable magnitude, dip inconsistent",
+        "the lag search found no distinct peak (best 0.10 versus a median of 0.03 across \u00b115s); no lag was applied",
+        "the two halves of the data disagree by 95.5\u00b0, above the 15\u00b0 limit",
+        "predicted and observed longitudinal acceleration correlate at only 0.03; the recovered axis is not supported by the data",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    },
+    {
+      "segment_id": "4e255b689bb1:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        -8.798072699029542e-06,
+        2.300800205743087e-05,
+        0.8997135889037373,
+        0.4364807639921634
+      ],
+      "confidence": 0.5986816397141304,
+      "quality": {
+        "gravity_confidence": 0.9926659253689691,
+        "gravity_residual_deg": 9.177658445888237e-19,
+        "forward_confidence": 0.6031048557364385,
+        "forward_correlation": 0.983837912471297,
+        "longitudinal_correlation": -0.11718979350305475,
+        "lateral_correlation": -0.17889202440022708,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.3,
+        "dynamic_sample_count": 194.0,
+        "total_sample_count": 3223.0,
+        "duration_s": 322.2000000476837,
+        "forward_lag_s": 6.6000000000000005
+      },
+      "notes": [
+        "the speed reference had to be shifted by +6.6s to line up with the accelerometer, lifting the correlation to 0.98. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only -0.12",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.18; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "4eaf1873275a:000",
+      "status": "MAG_DISTURBED",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.995786494752354,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": 0.04473859956540821,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 13247.0,
+        "total_sample_count": 37183.0,
+        "duration_s": 3718.199000120163,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "magnetometer could not substitute: abrupt direction change, unstable magnitude, dip inconsistent",
+        "the lag search found no distinct peak (best 0.08 versus a median of 0.04 across \u00b115s); no lag was applied",
+        "the two halves of the data disagree by 138.0\u00b0, above the 15\u00b0 limit",
+        "predicted and observed longitudinal acceleration correlate at only 0.04; the recovered axis is not supported by the data",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    },
+    {
+      "segment_id": "50a0ce6338f8:000",
+      "status": "INSUFFICIENT_MOTION",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.988542499018824,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": null,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.9433513484768709,
+        "dynamic_sample_count": 1.0,
+        "total_sample_count": 292.0,
+        "duration_s": 29.10100030899048,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "1 sample(s) show longitudinal acceleration above 0.4 m/s\u00b2 while moving above 2.0 m/s; need 50. The vehicle never accelerated decisively enough to reveal its heading.",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    },
+    {
+      "segment_id": "51abe4136abb:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        -2.8692742948883194e-06,
+        1.3288250430005323e-05,
+        0.5888984917835298,
+        0.8082070070163172
+      ],
+      "confidence": 0.1771895878929996,
+      "quality": {
+        "gravity_confidence": 0.9860743693809162,
+        "gravity_residual_deg": 1.5377163773999932e-18,
+        "forward_confidence": 0.17969191107182306,
+        "forward_correlation": 0.7192811258342537,
+        "longitudinal_correlation": 0.006291171558856409,
+        "lateral_correlation": -0.08592126706786413,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 9762.0,
+        "total_sample_count": 52713.0,
+        "duration_s": 5271.199000120163,
+        "forward_lag_s": 4.6000000000000005
+      },
+      "notes": [
+        "the speed reference had to be shifted by +4.6s to line up with the accelerometer, lifting the correlation to 0.72. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 36.0\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only 0.01",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.09; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "538064be488d:000",
+      "status": "INSUFFICIENT_MOTION",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.9906685906138054,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": null,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 1.0,
+        "total_sample_count": 447.0,
+        "duration_s": 44.60099983215332,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "1 sample(s) show longitudinal acceleration above 0.4 m/s\u00b2 while moving above 2.0 m/s; need 50. The vehicle never accelerated decisively enough to reveal its heading.",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    },
+    {
+      "segment_id": "53a4a5b9494e:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        -6.914703246557386e-05,
+        -1.8147850074664474e-06,
+        0.5448691088352932,
+        0.8385211085312212
+      ],
+      "confidence": 0.051669512469256426,
+      "quality": {
+        "gravity_confidence": 0.9839979855514746,
+        "gravity_residual_deg": 4.349360411061801e-18,
+        "forward_confidence": 0.05250977464176273,
+        "forward_correlation": 0.42252280749744636,
+        "longitudinal_correlation": -0.009482790138216448,
+        "lateral_correlation": -0.0738350041234536,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.3,
+        "dynamic_sample_count": 788.0,
+        "total_sample_count": 1529.0,
+        "duration_s": 152.79999995231628,
+        "forward_lag_s": 7.800000000000001
+      },
+      "notes": [
+        "the speed reference had to be shifted by +7.8s to line up with the accelerometer, lifting the correlation to 0.42. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 35.0\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only -0.01",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.07; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "55296eaadaa7:000",
+      "status": "INSUFFICIENT_MOTION",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.9877382594467241,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": null,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.3,
+        "dynamic_sample_count": 2.0,
+        "total_sample_count": 510.0,
+        "duration_s": 50.90000009536743,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "2 sample(s) show longitudinal acceleration above 0.4 m/s\u00b2 while moving above 2.0 m/s; need 50. The vehicle never accelerated decisively enough to reveal its heading.",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    },
+    {
+      "segment_id": "5851902ce5d4:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        -1.3426612905726422e-05,
+        9.96825532078823e-07,
+        0.05095089351947271,
+        0.9987011596410108
+      ],
+      "confidence": 0.04652723260217778,
+      "quality": {
+        "gravity_confidence": 0.9845713176790845,
+        "gravity_residual_deg": 2.3475701211403885e-18,
+        "forward_confidence": 0.04725633559167227,
+        "forward_correlation": 0.4102647830472353,
+        "longitudinal_correlation": -0.026930562675908428,
+        "lateral_correlation": -0.0752529540124602,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 34358.0,
+        "total_sample_count": 93876.0,
+        "duration_s": 9388.608000040054,
+        "forward_lag_s": 4.6000000000000005
+      },
+      "notes": [
+        "the speed reference had to be shifted by +4.6s to line up with the accelerometer, lifting the correlation to 0.41. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 26.8\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only -0.03",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.08; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "5a5de2c15ce2:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        -6.837537252193853e-05,
+        -2.1662750169418653e-05,
+        -0.716697748947926,
+        0.6973839197375499
+      ],
+      "confidence": 0.23758623079231847,
+      "quality": {
+        "gravity_confidence": 0.9788996450834189,
+        "gravity_residual_deg": 1.8702426433842933e-18,
+        "forward_confidence": 0.2427074440016495,
+        "forward_correlation": 0.8663173693371822,
+        "longitudinal_correlation": 0.026730640678313242,
+        "lateral_correlation": -0.2467539248344478,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.9096632155012849,
+        "dynamic_sample_count": 736.0,
+        "total_sample_count": 2540.0,
+        "duration_s": 253.89999961853027,
+        "forward_lag_s": 3.6
+      },
+      "notes": [
+        "the speed reference had to be shifted by +3.6s to line up with the accelerometer, lifting the correlation to 0.87. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 24.8\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only 0.03",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.25; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "5b2fbe40e507:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        2.266809750875191e-05,
+        -5.583783150968547e-06,
+        -0.09541042110575867,
+        0.995438019667423
+      ],
+      "confidence": 0.011550578427622528,
+      "quality": {
+        "gravity_confidence": 0.9682527598988737,
+        "gravity_residual_deg": 2.1340492657788017e-19,
+        "forward_confidence": 0.0119293008045016,
+        "forward_correlation": 0.3278350352105037,
+        "longitudinal_correlation": 0.0013630983675954607,
+        "lateral_correlation": 0.09436291679587132,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 3081.0,
+        "total_sample_count": 6813.0,
+        "duration_s": 685.5279998779297,
+        "forward_lag_s": -12.0
+      },
+      "notes": [
+        "the speed reference had to be shifted by -12.0s to line up with the accelerometer, lifting the correlation to 0.33. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 23.4\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only 0.00",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only 0.09; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "5d09dd027359:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        -3.896988715925985e-05,
+        5.51146982506936e-05,
+        0.2810305437664627,
+        0.9596988219822113
+      ],
+      "confidence": 0.14372923155680462,
+      "quality": {
+        "gravity_confidence": 0.9808122189954819,
+        "gravity_residual_deg": 1.1826250741171248e-18,
+        "forward_confidence": 0.1465410287241402,
+        "forward_correlation": 0.6419290670229938,
+        "longitudinal_correlation": -0.023989251557735968,
+        "lateral_correlation": 0.02948635911573878,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.8002877142211009,
+        "dynamic_sample_count": 630.0,
+        "total_sample_count": 1376.0,
+        "duration_s": 137.5,
+        "forward_lag_s": 3.8000000000000003
+      },
+      "notes": [
+        "the speed reference had to be shifted by +3.8s to line up with the accelerometer, lifting the correlation to 0.64. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 53.3\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only -0.02",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only 0.03; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "5d699a3e20de:000",
+      "status": "INSUFFICIENT_MOTION",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.9884663362420512,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": null,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.3,
+        "dynamic_sample_count": 0.0,
+        "total_sample_count": 498.0,
+        "duration_s": 49.700000047683716,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "0 sample(s) show longitudinal acceleration above 0.4 m/s\u00b2 while moving above 2.0 m/s; need 50. The vehicle never accelerated decisively enough to reveal its heading.",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    },
+    {
+      "segment_id": "5edb201c6796:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        -0.00015554031539455267,
+        2.1441790060516595e-05,
+        0.30669774153302476,
+        0.9518069503244878
+      ],
+      "confidence": 0.6790580655091564,
+      "quality": {
+        "gravity_confidence": 0.9842010255945427,
+        "gravity_residual_deg": 5.2873576332717144e-18,
+        "forward_confidence": 0.6899587054371809,
+        "forward_correlation": 0.9623028990297081,
+        "longitudinal_correlation": -0.05753326247527556,
+        "lateral_correlation": -0.058044483987803264,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.8874243501097435,
+        "dynamic_sample_count": 525.0,
+        "total_sample_count": 1126.0,
+        "duration_s": 112.50100016593933,
+        "forward_lag_s": 3.8000000000000003
+      },
+      "notes": [
+        "the speed reference had to be shifted by +3.8s to line up with the accelerometer, lifting the correlation to 0.96. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only -0.06",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.06; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "62fb3e3d9457:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        -2.5568545454609092e-05,
+        5.932829968011796e-06,
+        -0.7741842820111755,
+        0.6329602647859436
+      ],
+      "confidence": 0.04710448396048121,
+      "quality": {
+        "gravity_confidence": 0.9873055807846526,
+        "gravity_residual_deg": 2.0778007755358124e-19,
+        "forward_confidence": 0.04771013643318549,
+        "forward_correlation": 0.4113236516774328,
+        "longitudinal_correlation": -0.024875982406825987,
+        "lateral_correlation": 0.00013316466679735088,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.3,
+        "dynamic_sample_count": 3093.0,
+        "total_sample_count": 11335.0,
+        "duration_s": 1133.4000000953674,
+        "forward_lag_s": 4.800000000000001
+      },
+      "notes": [
+        "the speed reference had to be shifted by +4.8s to line up with the accelerometer, lifting the correlation to 0.41. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 64.6\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only -0.02",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only 0.00; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "63dcb0fceb5e:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        -9.304624989396698e-06,
+        -6.474771394772277e-05,
+        0.9680415812706528,
+        0.25078973793233983
+      ],
+      "confidence": 0.09942296151119502,
+      "quality": {
+        "gravity_confidence": 0.9808077214683298,
+        "gravity_residual_deg": 7.711734670017221e-19,
+        "forward_confidence": 0.10136845309736418,
+        "forward_correlation": 0.5365263905605164,
+        "longitudinal_correlation": -0.0016330172818882103,
+        "lateral_correlation": 0.22750621936377957,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.3,
+        "dynamic_sample_count": 721.0,
+        "total_sample_count": 1564.0,
+        "duration_s": 156.30100011825562,
+        "forward_lag_s": -6.2
+      },
+      "notes": [
+        "the speed reference had to be shifted by -6.2s to line up with the accelerometer, lifting the correlation to 0.54. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 38.9\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only -0.00"
+      ]
+    },
+    {
+      "segment_id": "65348172ad4e:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        -3.895509702893978e-06,
+        -1.8123269548419105e-06,
+        0.5657662394863836,
+        0.824565680973309
+      ],
+      "confidence": 0.575720127431867,
+      "quality": {
+        "gravity_confidence": 0.9893289595732622,
+        "gravity_residual_deg": 3.540215865010834e-19,
+        "forward_confidence": 0.5819299251890883,
+        "forward_correlation": 0.8501508893912072,
+        "longitudinal_correlation": -0.019463622537582704,
+        "lateral_correlation": -0.03291554632089516,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 9305.0,
+        "total_sample_count": 67523.0,
+        "duration_s": 6752.2009999752045,
+        "forward_lag_s": 5.0
+      },
+      "notes": [
+        "the speed reference had to be shifted by +5.0s to line up with the accelerometer, lifting the correlation to 0.85. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only -0.02",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.03; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "66355f866e3d:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        -0.00015553361179342564,
+        2.149036241034864e-05,
+        0.30640048855822544,
+        0.951902681978962
+      ],
+      "confidence": 0.6557050891566807,
+      "quality": {
+        "gravity_confidence": 0.9842010255945427,
+        "gravity_residual_deg": 1.8838856783964874e-18,
+        "forward_confidence": 0.6662308533569938,
+        "forward_correlation": 0.9601536586515321,
+        "longitudinal_correlation": -0.05805055168880649,
+        "lateral_correlation": -0.05138406781543998,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.8874243501097435,
+        "dynamic_sample_count": 528.0,
+        "total_sample_count": 1126.0,
+        "duration_s": 112.50100016593933,
+        "forward_lag_s": 3.8000000000000003
+      },
+      "notes": [
+        "the speed reference had to be shifted by +3.8s to line up with the accelerometer, lifting the correlation to 0.96. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only -0.06",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.05; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "6896dfad520b:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        -9.456392157172994e-06,
+        3.3678623742753654e-06,
+        0.4020830529236954,
+        0.9156031992357798
+      ],
+      "confidence": 0.19237337881352742,
+      "quality": {
+        "gravity_confidence": 0.988896963470755,
+        "gravity_residual_deg": 5.404309923012392e-20,
+        "forward_confidence": 0.1945332890277568,
+        "forward_correlation": 0.7539110077314325,
+        "longitudinal_correlation": 0.0016936951398875786,
+        "lateral_correlation": -0.11304009850123366,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 16367.0,
+        "total_sample_count": 64388.0,
+        "duration_s": 6438.7009999752045,
+        "forward_lag_s": 4.800000000000001
+      },
+      "notes": [
+        "the speed reference had to be shifted by +4.8s to line up with the accelerometer, lifting the correlation to 0.75. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 36.8\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only 0.00",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.11; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "68e3eeebef96:000",
+      "status": "INSUFFICIENT_MOTION",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.9986814880885205,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": null,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.9223648003486629,
+        "dynamic_sample_count": 0.0,
+        "total_sample_count": 1380.0,
+        "duration_s": 137.90000009536743,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "0 sample(s) show longitudinal acceleration above 0.4 m/s\u00b2 while moving above 2.0 m/s; need 50. The vehicle never accelerated decisively enough to reveal its heading.",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    },
+    {
+      "segment_id": "6a95e9794088:000",
+      "status": "MAG_DISTURBED",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.854804626061735,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": 0.283871129304846,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 78.0,
+        "total_sample_count": 46387.0,
+        "duration_s": 2036.9920001029968,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "magnetometer could not substitute: unusable",
+        "the lag search found no distinct peak (best 0.39 versus a median of 0.34 across \u00b115s); no lag was applied",
+        "predicted and observed longitudinal acceleration correlate at only 0.28; the recovered axis is not supported by the data",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    },
+    {
+      "segment_id": "6cf4b689fa81:000",
+      "status": "INSUFFICIENT_MOTION",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.9865924478991631,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": null,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.3,
+        "dynamic_sample_count": 0.0,
+        "total_sample_count": 361.0,
+        "duration_s": 36.0,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "0 sample(s) show longitudinal acceleration above 0.4 m/s\u00b2 while moving above 2.0 m/s; need 50. The vehicle never accelerated decisively enough to reveal its heading.",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    },
+    {
+      "segment_id": "6d3b6e43afbe:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        9.313279889040836e-05,
+        9.498418045072886e-06,
+        0.2670305487043267,
+        0.9636880601598881
+      ],
+      "confidence": 0.19084259970439113,
+      "quality": {
+        "gravity_confidence": 0.9865428173553941,
+        "gravity_residual_deg": 1.0515308509661443e-18,
+        "forward_confidence": 0.19344583564652484,
+        "forward_correlation": 0.9797795429345753,
+        "longitudinal_correlation": 0.0031249775453162745,
+        "lateral_correlation": -0.2896268843015611,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.9477147243488913,
+        "dynamic_sample_count": 110.0,
+        "total_sample_count": 668.0,
+        "duration_s": 66.70000004768372,
+        "forward_lag_s": 2.2
+      },
+      "notes": [
+        "the speed reference had to be shifted by +2.2s to line up with the accelerometer, lifting the correlation to 0.98. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 17.7\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only 0.00",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.29; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "71453d0af0d3:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        -1.3001408167656356e-05,
+        4.308706952638847e-06,
+        0.2673127217492724,
+        0.9636098321433809
+      ],
+      "confidence": 0.09485481963081896,
+      "quality": {
+        "gravity_confidence": 0.9869531768581913,
+        "gravity_residual_deg": 4.1496268185715813e-19,
+        "forward_confidence": 0.09610873327625756,
+        "forward_correlation": 0.5242537109779343,
+        "longitudinal_correlation": -0.019673822315884965,
+        "lateral_correlation": -0.07285677554948597,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 32765.0,
+        "total_sample_count": 105974.0,
+        "duration_s": 10599.623000144958,
+        "forward_lag_s": 4.2
+      },
+      "notes": [
+        "the speed reference had to be shifted by +4.2s to line up with the accelerometer, lifting the correlation to 0.52. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 28.9\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only -0.02",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.07; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "751e3a387bd3:000",
+      "status": "INSUFFICIENT_MOTION",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.9844002557684004,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": null,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.3,
+        "dynamic_sample_count": 1.0,
+        "total_sample_count": 552.0,
+        "duration_s": 55.10099983215332,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "1 sample(s) show longitudinal acceleration above 0.4 m/s\u00b2 while moving above 2.0 m/s; need 50. The vehicle never accelerated decisively enough to reveal its heading.",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    },
+    {
+      "segment_id": "7763df94e92d:000",
+      "status": "INSUFFICIENT_MOTION",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.986207905976015,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": null,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 0.0,
+        "total_sample_count": 86034.0,
+        "duration_s": 8537.402000188828,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "0 sample(s) show longitudinal acceleration above 0.4 m/s\u00b2 while moving above 2.0 m/s; need 50. The vehicle never accelerated decisively enough to reveal its heading.",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    },
+    {
+      "segment_id": "77dfd320c66a:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        3.289238854457009e-05,
+        -7.078569297371772e-05,
+        0.32374593611005803,
+        0.9461440496878363
+      ],
+      "confidence": 0.7732134861456933,
+      "quality": {
+        "gravity_confidence": 0.9861037952881659,
+        "gravity_residual_deg": 2.591916085856821e-16,
+        "forward_confidence": 0.784109634138199,
+        "forward_correlation": 0.9369807858273689,
+        "longitudinal_correlation": 0.0330112686098557,
+        "lateral_correlation": -0.20600731106430237,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 1569.0,
+        "total_sample_count": 5879.0,
+        "duration_s": 587.798999786377,
+        "forward_lag_s": 4.4
+      },
+      "notes": [
+        "the speed reference had to be shifted by +4.4s to line up with the accelerometer, lifting the correlation to 0.94. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only 0.03",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.21; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "79a3cb847acd:000",
+      "status": "INSUFFICIENT_MOTION",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.9925882397933837,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": null,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.3,
+        "dynamic_sample_count": 1.0,
+        "total_sample_count": 646.0,
+        "duration_s": 64.4980001449585,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "1 sample(s) show longitudinal acceleration above 0.4 m/s\u00b2 while moving above 2.0 m/s; need 50. The vehicle never accelerated decisively enough to reveal its heading.",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    },
+    {
+      "segment_id": "79d0af64caf8:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        6.630996874955006e-07,
+        1.4219711377188136e-05,
+        -0.07689938363265028,
+        0.9970388581165123
+      ],
+      "confidence": 0.09849582613269008,
+      "quality": {
+        "gravity_confidence": 0.9888575978676387,
+        "gravity_residual_deg": 1.8607214234446514e-18,
+        "forward_confidence": 0.0996056725913674,
+        "forward_correlation": 0.5324132360465239,
+        "longitudinal_correlation": -0.009001906963301385,
+        "lateral_correlation": -0.12897044266052363,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 5330.0,
+        "total_sample_count": 15826.0,
+        "duration_s": 1582.5,
+        "forward_lag_s": 4.2
+      },
+      "notes": [
+        "the speed reference had to be shifted by +4.2s to line up with the accelerometer, lifting the correlation to 0.53. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 36.6\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only -0.01",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.13; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "7a8bd69ead89:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        1.1855843993249548e-05,
+        -8.986360737576536e-06,
+        0.2880023033574471,
+        0.9576297160382448
+      ],
+      "confidence": 0.22094917129144345,
+      "quality": {
+        "gravity_confidence": 0.9942707291905091,
+        "gravity_residual_deg": 4.880910488886136e-19,
+        "forward_confidence": 0.22222234327599127,
+        "forward_correlation": 0.9613760216547359,
+        "longitudinal_correlation": 0.023491060488858687,
+        "lateral_correlation": -0.26881670149104475,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 160.0,
+        "total_sample_count": 8240.0,
+        "duration_s": 823.8999998569489,
+        "forward_lag_s": 3.8000000000000003
+      },
+      "notes": [
+        "the speed reference had to be shifted by +3.8s to line up with the accelerometer, lifting the correlation to 0.96. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 29.6\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only 0.02",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.27; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "7aff2d8777e0:000",
+      "status": "INSUFFICIENT_MOTION",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.9878680251765368,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": null,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.7460950227538876,
+        "dynamic_sample_count": 2.0,
+        "total_sample_count": 307.0,
+        "duration_s": 30.600000143051147,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "2 sample(s) show longitudinal acceleration above 0.4 m/s\u00b2 while moving above 2.0 m/s; need 50. The vehicle never accelerated decisively enough to reveal its heading.",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    },
+    {
+      "segment_id": "7bd4640e4db3:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        1.3470438929764456e-06,
+        -2.4776729897190596e-06,
+        0.10143775802672596,
+        0.9948418875572932
+      ],
+      "confidence": 0.17822379752383702,
+      "quality": {
+        "gravity_confidence": 0.9837729736033024,
+        "gravity_residual_deg": 8.623861443584399e-20,
+        "forward_confidence": 0.18116354312016725,
+        "forward_correlation": 0.7227149339470569,
+        "longitudinal_correlation": 0.21344390082465878,
+        "lateral_correlation": -0.01467051416788474,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 4250.0,
+        "total_sample_count": 10991.0,
+        "duration_s": 1098.9980001449585,
+        "forward_lag_s": 0.6000000000000001
+      },
+      "notes": [
+        "the speed reference had to be shifted by +0.6s to line up with the accelerometer, lifting the correlation to 0.72. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 24.6\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only 0.21",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.01; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "7d5d51193b78:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        1.1974984345140201e-05,
+        2.2627761868911087e-05,
+        -0.8270949848728011,
+        0.5620621721329815
+      ],
+      "confidence": 0.11105629063139874,
+      "quality": {
+        "gravity_confidence": 0.9861110257128883,
+        "gravity_residual_deg": 3.2476932749783984e-18,
+        "forward_confidence": 0.11262047349193051,
+        "forward_correlation": 0.7060276650409526,
+        "longitudinal_correlation": -0.008318351180236773,
+        "lateral_correlation": -0.0056135808100948766,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.9337182454740419,
+        "dynamic_sample_count": 103.0,
+        "total_sample_count": 833.0,
+        "duration_s": 83.20000004768372,
+        "forward_lag_s": 3.0
+      },
+      "notes": [
+        "the speed reference had to be shifted by +3.0s to line up with the accelerometer, lifting the correlation to 0.71. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 107.0\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only -0.01",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.01; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "7f899dfeb1c3:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        -6.913315081334853e-05,
+        -2.283199955601603e-06,
+        0.550537408631476,
+        0.834810491616351
+      ],
+      "confidence": 0.0496659563502288,
+      "quality": {
+        "gravity_confidence": 0.9839979855514746,
+        "gravity_residual_deg": 5.603486373696513e-19,
+        "forward_confidence": 0.050473636206067915,
+        "forward_correlation": 0.41777181781415845,
+        "longitudinal_correlation": -0.008658406613588883,
+        "lateral_correlation": -0.07926241954675368,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.3,
+        "dynamic_sample_count": 788.0,
+        "total_sample_count": 1529.0,
+        "duration_s": 152.79999995231628,
+        "forward_lag_s": 7.800000000000001
+      },
+      "notes": [
+        "the speed reference had to be shifted by +7.8s to line up with the accelerometer, lifting the correlation to 0.42. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 32.2\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only -0.01",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.08; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "819c5c4bb272:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        -1.5854982177757772e-06,
+        8.704008792507771e-06,
+        0.37231709899131554,
+        0.9281055854375715
+      ],
+      "confidence": 0.20007750790601317,
+      "quality": {
+        "gravity_confidence": 0.9912038189655443,
+        "gravity_residual_deg": 1.4347447478491836e-20,
+        "forward_confidence": 0.20185304382182587,
+        "forward_correlation": 0.6482206544360524,
+        "longitudinal_correlation": -0.04207849601011877,
+        "lateral_correlation": -0.0631085976994413,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 18813.0,
+        "total_sample_count": 51746.0,
+        "duration_s": 5174.499000072479,
+        "forward_lag_s": 4.6000000000000005
+      },
+      "notes": [
+        "the speed reference had to be shifted by +4.6s to line up with the accelerometer, lifting the correlation to 0.65. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only -0.04",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.06; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "82e456eb6e00:000",
+      "status": "INSUFFICIENT_MOTION",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.9877382594467241,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": null,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.3,
+        "dynamic_sample_count": 2.0,
+        "total_sample_count": 510.0,
+        "duration_s": 50.90000009536743,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "2 sample(s) show longitudinal acceleration above 0.4 m/s\u00b2 while moving above 2.0 m/s; need 50. The vehicle never accelerated decisively enough to reveal its heading.",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    },
+    {
+      "segment_id": "836db6cc3414:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        -4.883263909410818e-05,
+        2.8957556238451757e-05,
+        -0.6455391575688451,
+        0.7637271717191547
+      ],
+      "confidence": 0.25907603724951594,
+      "quality": {
+        "gravity_confidence": 0.9843565787024101,
+        "gravity_residual_deg": 5.568412109419765e-19,
+        "forward_confidence": 0.2631932806209645,
+        "forward_correlation": 0.9141176547822505,
+        "longitudinal_correlation": -0.0018658786431866741,
+        "lateral_correlation": -0.03483108829351005,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 801.0,
+        "total_sample_count": 3138.0,
+        "duration_s": 313.7000000476837,
+        "forward_lag_s": 4.0
+      },
+      "notes": [
+        "the speed reference had to be shifted by +4.0s to line up with the accelerometer, lifting the correlation to 0.91. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 31.9\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only -0.00",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.03; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "85be9e57dfa6:000",
+      "status": "INSUFFICIENT_MOTION",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.9986814880885205,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": null,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.9223648003486629,
+        "dynamic_sample_count": 0.0,
+        "total_sample_count": 1380.0,
+        "duration_s": 137.90000009536743,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "0 sample(s) show longitudinal acceleration above 0.4 m/s\u00b2 while moving above 2.0 m/s; need 50. The vehicle never accelerated decisively enough to reveal its heading.",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    },
+    {
+      "segment_id": "87c795b6c20e:000",
+      "status": "INSUFFICIENT_MOTION",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.9865924478991631,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": null,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.3,
+        "dynamic_sample_count": 0.0,
+        "total_sample_count": 361.0,
+        "duration_s": 36.0,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "0 sample(s) show longitudinal acceleration above 0.4 m/s\u00b2 while moving above 2.0 m/s; need 50. The vehicle never accelerated decisively enough to reveal its heading.",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    },
+    {
+      "segment_id": "887c7597bd65:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        0.003833937388525901,
+        -0.009299307727712756,
+        0.012095033840973704,
+        0.9998762593222583
+      ],
+      "confidence": 0.6138169307826088,
+      "quality": {
+        "gravity_confidence": 0.7719051478795681,
+        "gravity_residual_deg": 4.788172867292864e-15,
+        "forward_confidence": 0.7951973535463144,
+        "forward_correlation": 0.9141418435546349,
+        "longitudinal_correlation": 0.5118153921146517,
+        "lateral_correlation": -0.4855721541876759,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 1179.0,
+        "total_sample_count": 11962.0,
+        "duration_s": 5980.498999834061,
+        "forward_lag_s": 1.4000000000000001
+      },
+      "notes": [
+        "the speed reference had to be shifted by +1.4s to line up with the accelerometer, lifting the correlation to 0.91. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.49; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "8a6e2591b451:000",
+      "status": "INSUFFICIENT_MOTION",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.9642449034830113,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": null,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 5.0,
+        "total_sample_count": 5942.0,
+        "duration_s": 2970.604999780655,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "5 sample(s) show longitudinal acceleration above 0.4 m/s\u00b2 while moving above 2.0 m/s; need 50. The vehicle never accelerated decisively enough to reveal its heading.",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    },
+    {
+      "segment_id": "8aa3df49db9b:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        -5.6104743766773725e-05,
+        -1.7257012674593323e-05,
+        -0.19493734959467326,
+        0.9808156943521333
+      ],
+      "confidence": 0.15737253385168054,
+      "quality": {
+        "gravity_confidence": 0.9788075601583259,
+        "gravity_residual_deg": 1.997802002133656e-17,
+        "forward_confidence": 0.16077985117547,
+        "forward_correlation": 0.6751529860760966,
+        "longitudinal_correlation": -0.0055248196864740515,
+        "lateral_correlation": -0.1877970661913784,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.3,
+        "dynamic_sample_count": 888.0,
+        "total_sample_count": 2079.0,
+        "duration_s": 207.79999995231628,
+        "forward_lag_s": 4.800000000000001
+      },
+      "notes": [
+        "the speed reference had to be shifted by +4.8s to line up with the accelerometer, lifting the correlation to 0.68. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 84.5\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only -0.01",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.19; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "8e085465f038:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        8.411993338654392e-07,
+        5.883434500995948e-06,
+        0.24328481413706649,
+        0.9699548954332725
+      ],
+      "confidence": 0.05658812849397086,
+      "quality": {
+        "gravity_confidence": 0.9952047731944313,
+        "gravity_residual_deg": 1.0764945362666149e-19,
+        "forward_confidence": 0.056860788872960255,
+        "forward_correlation": 0.43267517403690725,
+        "longitudinal_correlation": 0.008751674202067081,
+        "lateral_correlation": 0.0038548475821267524,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 7886.0,
+        "total_sample_count": 24621.0,
+        "duration_s": 2462.0,
+        "forward_lag_s": 4.6000000000000005
+      },
+      "notes": [
+        "the speed reference had to be shifted by +4.6s to line up with the accelerometer, lifting the correlation to 0.43. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 45.7\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only 0.01",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only 0.00; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "96b4949e2c7d:000",
+      "status": "INSUFFICIENT_MOTION",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.9884879747249113,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": null,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 0.0,
+        "total_sample_count": 43872.0,
+        "duration_s": 4387.100000143051,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "0 sample(s) show longitudinal acceleration above 0.4 m/s\u00b2 while moving above 2.0 m/s; need 50. The vehicle never accelerated decisively enough to reveal its heading.",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    },
+    {
+      "segment_id": "97658ff6d1e6:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        1.1974984345140189e-05,
+        2.262776186891113e-05,
+        -0.8270949848728011,
+        0.5620621721329815
+      ],
+      "confidence": 0.11105629063139874,
+      "quality": {
+        "gravity_confidence": 0.9861110257128883,
+        "gravity_residual_deg": 7.141933386478921e-18,
+        "forward_confidence": 0.11262047349193051,
+        "forward_correlation": 0.7060276650409526,
+        "longitudinal_correlation": -0.008289899584570302,
+        "lateral_correlation": -0.006290053462413602,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.9337182454740419,
+        "dynamic_sample_count": 103.0,
+        "total_sample_count": 833.0,
+        "duration_s": 83.20000004768372,
+        "forward_lag_s": 3.0
+      },
+      "notes": [
+        "the speed reference had to be shifted by +3.0s to line up with the accelerometer, lifting the correlation to 0.71. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 107.0\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only -0.01",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.01; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "9809c567bbe8:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        6.897572669307378e-05,
+        3.2562995612911454e-05,
+        -0.006939607886675149,
+        0.9999759177222118
+      ],
+      "confidence": 0.35262278830816923,
+      "quality": {
+        "gravity_confidence": 0.9895319004406232,
+        "gravity_residual_deg": 1.9934764839151064e-17,
+        "forward_confidence": 0.3563531283338635,
+        "forward_correlation": 0.9521223743538275,
+        "longitudinal_correlation": -0.031932842532314466,
+        "lateral_correlation": 0.0751692449566564,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.704847301767515,
+        "dynamic_sample_count": 329.0,
+        "total_sample_count": 610.0,
+        "duration_s": 60.90000009536743,
+        "forward_lag_s": 8.4
+      },
+      "notes": [
+        "the speed reference had to be shifted by +8.4s to line up with the accelerometer, lifting the correlation to 0.95. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only -0.03",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only 0.08; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "9837d2ebc699:000",
+      "status": "INSUFFICIENT_MOTION",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.989055099690217,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": null,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.6872779718964321,
+        "dynamic_sample_count": 1.0,
+        "total_sample_count": 461.0,
+        "duration_s": 46.00099992752075,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "1 sample(s) show longitudinal acceleration above 0.4 m/s\u00b2 while moving above 2.0 m/s; need 50. The vehicle never accelerated decisively enough to reveal its heading.",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    },
+    {
+      "segment_id": "9879c75d65da:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        1.894871056207366e-05,
+        2.016839428906528e-05,
+        -0.008462743184199973,
+        0.999964189964811
+      ],
+      "confidence": 0.21564224312504685,
+      "quality": {
+        "gravity_confidence": 0.9881062427538541,
+        "gravity_residual_deg": 1.2076146298106408e-17,
+        "forward_confidence": 0.21823791187074326,
+        "forward_correlation": 0.7374786648014169,
+        "longitudinal_correlation": -0.05622434288463701,
+        "lateral_correlation": 0.025727258293635192,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.3,
+        "dynamic_sample_count": 1054.0,
+        "total_sample_count": 3676.0,
+        "duration_s": 367.5,
+        "forward_lag_s": 5.2
+      },
+      "notes": [
+        "the speed reference had to be shifted by +5.2s to line up with the accelerometer, lifting the correlation to 0.74. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only -0.06",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only 0.03; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "99845be37ef3:000",
+      "status": "INSUFFICIENT_MOTION",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.9845382925689303,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": null,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 0.0,
+        "total_sample_count": 32829.0,
+        "duration_s": 3282.800000190735,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "0 sample(s) show longitudinal acceleration above 0.4 m/s\u00b2 while moving above 2.0 m/s; need 50. The vehicle never accelerated decisively enough to reveal its heading.",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    },
+    {
+      "segment_id": "9a03b6e9ec4a:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        1.8449846433337627e-05,
+        -2.4158594055187242e-05,
+        0.059497020224634205,
+        0.9982284826933937
+      ],
+      "confidence": 0.08025720389911097,
+      "quality": {
+        "gravity_confidence": 0.9836641822539198,
+        "gravity_residual_deg": 7.1608688394295e-18,
+        "forward_confidence": 0.08159004398758685,
+        "forward_correlation": 0.4903767693043693,
+        "longitudinal_correlation": -0.00775414132797369,
+        "lateral_correlation": -0.0959071883091205,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.3,
+        "dynamic_sample_count": 1376.0,
+        "total_sample_count": 3861.0,
+        "duration_s": 386.00099992752075,
+        "forward_lag_s": -12.200000000000001
+      },
+      "notes": [
+        "the speed reference had to be shifted by -12.2s to line up with the accelerometer, lifting the correlation to 0.49. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 34.8\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only -0.01",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.10; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "9b6078292366:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        -3.6875940702955386e-06,
+        3.771202779459324e-06,
+        0.11942910992898864,
+        0.992842730584129
+      ],
+      "confidence": 0.27432221051496747,
+      "quality": {
+        "gravity_confidence": 0.9819692761409123,
+        "gravity_residual_deg": 9.825680849219902e-18,
+        "forward_confidence": 0.27935926019298624,
+        "forward_correlation": 0.9518382737836346,
+        "longitudinal_correlation": 0.06087867289733614,
+        "lateral_correlation": -0.13286667989567028,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.3,
+        "dynamic_sample_count": 376.0,
+        "total_sample_count": 1110.0,
+        "duration_s": 110.90000009536743,
+        "forward_lag_s": 3.0
+      },
+      "notes": [
+        "the speed reference had to be shifted by +3.0s to line up with the accelerometer, lifting the correlation to 0.95. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 44.2\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only 0.06",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.13; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "9c89e57dc456:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        -0.006170709691096106,
+        -0.059145262019178586,
+        0.7293550794195002,
+        0.6815459841034688
+      ],
+      "confidence": 0.07288687359628884,
+      "quality": {
+        "gravity_confidence": 0.8453646703278633,
+        "gravity_residual_deg": 4.431505616704897e-15,
+        "forward_confidence": 0.08621944606227827,
+        "forward_correlation": 0.6131673528621564,
+        "longitudinal_correlation": 0.031215726653597512,
+        "lateral_correlation": -0.6271076136399132,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 101.0,
+        "total_sample_count": 65859.0,
+        "duration_s": 6469.2409999370575,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "the lag search found no distinct peak (best 0.62 versus a median of 0.56 across \u00b115s); no lag was applied",
+        "the two halves of the data disagree by 23.5\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only 0.03",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.63; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "9e3fc03408f1:000",
+      "status": "INSUFFICIENT_MOTION",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.9801146151976428,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": null,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.3,
+        "dynamic_sample_count": 2.0,
+        "total_sample_count": 196.0,
+        "duration_s": 19.5,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "2 sample(s) show longitudinal acceleration above 0.4 m/s\u00b2 while moving above 2.0 m/s; need 50. The vehicle never accelerated decisively enough to reveal its heading.",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    },
+    {
+      "segment_id": "a3979f48728a:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        1.0282033133648771e-05,
+        -4.1288709085472565e-05,
+        -0.07090603396292257,
+        0.9974829986206137
+      ],
+      "confidence": 0.24867473864952364,
+      "quality": {
+        "gravity_confidence": 0.9833535572837692,
+        "gravity_residual_deg": 7.713824245904973e-18,
+        "forward_confidence": 0.2528843637240871,
+        "forward_correlation": 0.8900635153562033,
+        "longitudinal_correlation": 0.28156533731684036,
+        "lateral_correlation": -0.0230477309343856,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 526.0,
+        "total_sample_count": 840.0,
+        "duration_s": 83.89999985694885,
+        "forward_lag_s": 4.0
+      },
+      "notes": [
+        "the speed reference had to be shifted by +4.0s to line up with the accelerometer, lifting the correlation to 0.89. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 15.7\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only 0.28",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.02; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "a5d4d99847a8:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        -7.597779589572309e-05,
+        5.768738031001033e-06,
+        0.6270766333970853,
+        0.7789575662649884
+      ],
+      "confidence": 0.17277932241654653,
+      "quality": {
+        "gravity_confidence": 0.9854725342343227,
+        "gravity_residual_deg": 1.5959459735963188e-18,
+        "forward_confidence": 0.17532637025829437,
+        "forward_correlation": 0.7090948639360202,
+        "longitudinal_correlation": 0.09002601014363061,
+        "lateral_correlation": -0.013642796776296394,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.3,
+        "dynamic_sample_count": 647.0,
+        "total_sample_count": 1502.0,
+        "duration_s": 150.10000014305115,
+        "forward_lag_s": 5.6000000000000005
+      },
+      "notes": [
+        "the speed reference had to be shifted by +5.6s to line up with the accelerometer, lifting the correlation to 0.71. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 45.8\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only 0.09",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.01; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "aa2774bec039:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        -4.8742020243707835e-05,
+        -7.971242898144548e-05,
+        0.983736564868547,
+        0.17961726590385266
+      ],
+      "confidence": 0.03513566034191273,
+      "quality": {
+        "gravity_confidence": 0.984685113235697,
+        "gravity_residual_deg": 2.187718239186682e-18,
+        "forward_confidence": 0.03568212809316897,
+        "forward_correlation": 0.38325829888406093,
+        "longitudinal_correlation": -0.003532353741898609,
+        "lateral_correlation": 0.03165006260807578,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.3,
+        "dynamic_sample_count": 783.0,
+        "total_sample_count": 1602.0,
+        "duration_s": 160.0990002155304,
+        "forward_lag_s": -14.600000000000001
+      },
+      "notes": [
+        "the speed reference had to be shifted by -14.6s to line up with the accelerometer, lifting the correlation to 0.38. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 75.3\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only -0.00",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only 0.03; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "aad875202b39:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        1.296545381484252e-05,
+        2.688911446926325e-05,
+        -0.2740970860121378,
+        0.9617020258627551
+      ],
+      "confidence": 0.23778282327719039,
+      "quality": {
+        "gravity_confidence": 0.9854588036396965,
+        "gravity_residual_deg": 7.661781832136918e-18,
+        "forward_confidence": 0.24129149021649873,
+        "forward_correlation": 0.6762133578333952,
+        "longitudinal_correlation": 0.004561661398612806,
+        "lateral_correlation": -0.16828551066653435,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.3,
+        "dynamic_sample_count": 427.0,
+        "total_sample_count": 1012.0,
+        "duration_s": 101.10099983215332,
+        "forward_lag_s": 6.4
+      },
+      "notes": [
+        "the speed reference had to be shifted by +6.4s to line up with the accelerometer, lifting the correlation to 0.68. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only 0.00",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.17; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "abd8373222ff:000",
+      "status": "INSUFFICIENT_MOTION",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.9874589131195497,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": null,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.9429621014496957,
+        "dynamic_sample_count": 0.0,
+        "total_sample_count": 329.0,
+        "duration_s": 32.800999879837036,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "0 sample(s) show longitudinal acceleration above 0.4 m/s\u00b2 while moving above 2.0 m/s; need 50. The vehicle never accelerated decisively enough to reveal its heading.",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    },
+    {
+      "segment_id": "ac7c45d5dfb9:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        1.0190993144283403e-05,
+        -4.131127403069779e-05,
+        -0.07310466919193685,
+        0.9973242730084633
+      ],
+      "confidence": 0.24954747412430817,
+      "quality": {
+        "gravity_confidence": 0.9833535572837692,
+        "gravity_residual_deg": 1.036787655323758e-18,
+        "forward_confidence": 0.25377187307239846,
+        "forward_correlation": 0.8921343705022631,
+        "longitudinal_correlation": 0.28621507201011653,
+        "lateral_correlation": -0.02155665824636965,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 527.0,
+        "total_sample_count": 840.0,
+        "duration_s": 83.89999985694885,
+        "forward_lag_s": 4.0
+      },
+      "notes": [
+        "the speed reference had to be shifted by +4.0s to line up with the accelerometer, lifting the correlation to 0.89. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 16.1\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only 0.29",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.02; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "ade9b3d779ac:000",
+      "status": "LOW_HEADING_CONFIDENCE",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.9810797653793447,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": 0.22657067410840076,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.3,
+        "dynamic_sample_count": 2006.0,
+        "total_sample_count": 4210.0,
+        "duration_s": 420.90000009536743,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "the lag search found no distinct peak (best 0.32 versus a median of 0.24 across \u00b115s); no lag was applied",
+        "predicted and observed longitudinal acceleration correlate at only 0.23; the recovered axis is not supported by the data",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    },
+    {
+      "segment_id": "ae588bfe13db:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        -9.168884892639308e-05,
+        -1.7972502722578078e-05,
+        0.5326915795849156,
+        0.8463094424083142
+      ],
+      "confidence": 0.0019869018897025526,
+      "quality": {
+        "gravity_confidence": 0.984685113235697,
+        "gravity_residual_deg": 2.9706233015278108e-18,
+        "forward_confidence": 0.0020178043345994634,
+        "forward_correlation": 0.3047082101140654,
+        "longitudinal_correlation": -0.073797730706963,
+        "lateral_correlation": -0.12301775059336442,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.3,
+        "dynamic_sample_count": 844.0,
+        "total_sample_count": 1602.0,
+        "duration_s": 160.0990002155304,
+        "forward_lag_s": -6.4
+      },
+      "notes": [
+        "the speed reference had to be shifted by -6.4s to line up with the accelerometer, lifting the correlation to 0.30. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 75.2\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only -0.07",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.12; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "b15d7dcaa47b:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        -1.5944173713200323e-06,
+        8.702379381792987e-06,
+        0.373268038656563,
+        0.9277235424625211
+      ],
+      "confidence": 0.19655127454015608,
+      "quality": {
+        "gravity_confidence": 0.9912038189655443,
+        "gravity_residual_deg": 1.9847082555478102e-20,
+        "forward_confidence": 0.1982955178131618,
+        "forward_correlation": 0.6485167475748872,
+        "longitudinal_correlation": -0.04179421670996121,
+        "lateral_correlation": -0.06315016907040921,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 18835.0,
+        "total_sample_count": 51746.0,
+        "duration_s": 5174.499000072479,
+        "forward_lag_s": 4.6000000000000005
+      },
+      "notes": [
+        "the speed reference had to be shifted by +4.6s to line up with the accelerometer, lifting the correlation to 0.65. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only -0.04",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.06; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "b3afee4fde18:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        4.7172915270897235e-05,
+        9.396518053565818e-06,
+        0.03611926355730444,
+        0.9993474853555692
+      ],
+      "confidence": 0.18497556484222394,
+      "quality": {
+        "gravity_confidence": 0.9823958327685013,
+        "gravity_residual_deg": 1.3668789733092669e-18,
+        "forward_confidence": 0.18829025803269353,
+        "forward_correlation": 0.7393439354096182,
+        "longitudinal_correlation": -0.10949029476341693,
+        "lateral_correlation": 0.08850896510348387,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.3,
+        "dynamic_sample_count": 449.0,
+        "total_sample_count": 1789.0,
+        "duration_s": 178.79900002479553,
+        "forward_lag_s": 7.2
+      },
+      "notes": [
+        "the speed reference had to be shifted by +7.2s to line up with the accelerometer, lifting the correlation to 0.74. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 18.0\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only -0.11",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only 0.09; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "b3cfa0685988:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        -0.0053184849135419175,
+        0.013807356244924155,
+        -0.020342375803924548,
+        0.999683579128117
+      ],
+      "confidence": 0.00019792544682562335,
+      "quality": {
+        "gravity_confidence": 0.7792803251183014,
+        "gravity_residual_deg": 5.490995558816027e-16,
+        "forward_confidence": 0.0002539849146012721,
+        "forward_correlation": 0.3009890378294442,
+        "longitudinal_correlation": 0.008347158124812,
+        "lateral_correlation": 0.8224308793034016,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 83.0,
+        "total_sample_count": 73482.0,
+        "duration_s": 3580.236000061035,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "the lag search found no distinct peak (best 0.46 versus a median of 0.38 across \u00b115s); no lag was applied",
+        "the two halves of the data disagree by 15.5\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only 0.01"
+      ]
+    },
+    {
+      "segment_id": "b5f5d659485e:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        -9.461724224333148e-06,
+        3.352853158873792e-06,
+        0.4035353845109046,
+        0.9149640393736087
+      ],
+      "confidence": 0.19310992487426992,
+      "quality": {
+        "gravity_confidence": 0.988896963470755,
+        "gravity_residual_deg": 1.5524895189733113e-19,
+        "forward_confidence": 0.19527810480528474,
+        "forward_correlation": 0.755648911212331,
+        "longitudinal_correlation": 0.008831453971992316,
+        "lateral_correlation": -0.11359738472325791,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 16523.0,
+        "total_sample_count": 64388.0,
+        "duration_s": 6438.7009999752045,
+        "forward_lag_s": 3.6
+      },
+      "notes": [
+        "the speed reference had to be shifted by +3.6s to line up with the accelerometer, lifting the correlation to 0.76. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 37.1\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only 0.01",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.11; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "b771523b2a83:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        1.89008193195092e-05,
+        2.0213282494828583e-05,
+        -0.006090878284290003,
+        0.9999814500459038
+      ],
+      "confidence": 0.31031640197597005,
+      "quality": {
+        "gravity_confidence": 0.9881062427538541,
+        "gravity_residual_deg": 8.383710616964307e-17,
+        "forward_confidence": 0.3140516561368114,
+        "forward_correlation": 0.749770990265635,
+        "longitudinal_correlation": -0.04865948464581361,
+        "lateral_correlation": 0.025590798173786553,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.3,
+        "dynamic_sample_count": 1026.0,
+        "total_sample_count": 3676.0,
+        "duration_s": 367.5,
+        "forward_lag_s": 5.4
+      },
+      "notes": [
+        "the speed reference had to be shifted by +5.4s to line up with the accelerometer, lifting the correlation to 0.75. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only -0.05",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only 0.03; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "b898b14918ea:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        -3.588878080653286e-06,
+        3.8652651336340445e-06,
+        0.0937246989593239,
+        0.9955981522568048
+      ],
+      "confidence": 0.25591451122832115,
+      "quality": {
+        "gravity_confidence": 0.9819692761409123,
+        "gravity_residual_deg": 1.0985754558022848e-19,
+        "forward_confidence": 0.2606135624059968,
+        "forward_correlation": 0.9080983122806591,
+        "longitudinal_correlation": 0.06711147568708326,
+        "lateral_correlation": -0.13123176751779153,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.3,
+        "dynamic_sample_count": 372.0,
+        "total_sample_count": 1110.0,
+        "duration_s": 110.90000009536743,
+        "forward_lag_s": 3.4000000000000004
+      },
+      "notes": [
+        "the speed reference had to be shifted by +3.4s to line up with the accelerometer, lifting the correlation to 0.91. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 43.4\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only 0.07",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.13; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "b98958cc351e:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        3.3877819216556836e-05,
+        -2.822362612573734e-05,
+        -0.06673515543710748,
+        0.997770723705855
+      ],
+      "confidence": 0.25585188480767573,
+      "quality": {
+        "gravity_confidence": 0.9799929329454621,
+        "gravity_residual_deg": 9.293398502624385e-18,
+        "forward_confidence": 0.2610752345312211,
+        "forward_correlation": 0.909175547239516,
+        "longitudinal_correlation": 0.39001596868378197,
+        "lateral_correlation": 0.17638413280579338,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.7569110641321111,
+        "dynamic_sample_count": 538.0,
+        "total_sample_count": 954.0,
+        "duration_s": 95.29999995231628,
+        "forward_lag_s": 0.6000000000000001
+      },
+      "notes": [
+        "the speed reference had to be shifted by +0.6s to line up with the accelerometer, lifting the correlation to 0.91. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 25.9\u00b0, above the 15\u00b0 limit",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only 0.18; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "bb4a6ff8b36a:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        -1.4181388973976942e-05,
+        1.6395900829842556e-05,
+        -0.23244740165588504,
+        0.9726089681847944
+      ],
+      "confidence": 0.15371284692406473,
+      "quality": {
+        "gravity_confidence": 0.9852358273851933,
+        "gravity_residual_deg": 1.6929073780350893e-18,
+        "forward_confidence": 0.15601629848562976,
+        "forward_correlation": 0.6640380297998028,
+        "longitudinal_correlation": -0.022432392726598145,
+        "lateral_correlation": -0.010351500450443862,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 651.0,
+        "total_sample_count": 2885.0,
+        "duration_s": 288.39999985694885,
+        "forward_lag_s": 5.4
+      },
+      "notes": [
+        "the speed reference had to be shifted by +5.4s to line up with the accelerometer, lifting the correlation to 0.66. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 67.2\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only -0.02",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.01; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "bd191de76af1:000",
+      "status": "INSUFFICIENT_MOTION",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.9773144724550707,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": null,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 0.0,
+        "total_sample_count": 556.0,
+        "duration_s": 55.5,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "0 sample(s) show longitudinal acceleration above 0.4 m/s\u00b2 while moving above 2.0 m/s; need 50. The vehicle never accelerated decisively enough to reveal its heading.",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    },
+    {
+      "segment_id": "c33f936d8de8:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        -4.8832639094108156e-05,
+        2.8957556238451747e-05,
+        -0.6455391575688451,
+        0.7637271717191547
+      ],
+      "confidence": 0.25907603724951594,
+      "quality": {
+        "gravity_confidence": 0.9843565787024101,
+        "gravity_residual_deg": 1.2420108672523735e-18,
+        "forward_confidence": 0.2631932806209645,
+        "forward_correlation": 0.9141176547822505,
+        "longitudinal_correlation": -0.0016754650374851525,
+        "lateral_correlation": -0.034741801495426924,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 801.0,
+        "total_sample_count": 3138.0,
+        "duration_s": 313.7000000476837,
+        "forward_lag_s": 4.0
+      },
+      "notes": [
+        "the speed reference had to be shifted by +4.0s to line up with the accelerometer, lifting the correlation to 0.91. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 31.9\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only -0.00",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.03; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "c352dd554b95:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        6.356417624795408e-07,
+        1.4220965241356948e-05,
+        -0.07497406859264305,
+        0.9971854836669183
+      ],
+      "confidence": 0.09898638464619831,
+      "quality": {
+        "gravity_confidence": 0.9888575978676387,
+        "gravity_residual_deg": 2.69421450699474e-18,
+        "forward_confidence": 0.10010175869574288,
+        "forward_correlation": 0.5335707702900667,
+        "longitudinal_correlation": -0.008555302143230904,
+        "lateral_correlation": -0.12860679164173447,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 5319.0,
+        "total_sample_count": 15826.0,
+        "duration_s": 1582.5,
+        "forward_lag_s": 4.2
+      },
+      "notes": [
+        "the speed reference had to be shifted by +4.2s to line up with the accelerometer, lifting the correlation to 0.53. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 35.9\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only -0.01",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.13; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "c3e5f69ec8f4:000",
+      "status": "INSUFFICIENT_MOTION",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.9806273683199497,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": null,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.3,
+        "dynamic_sample_count": 1.0,
+        "total_sample_count": 284.0,
+        "duration_s": 28.299999952316284,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "1 sample(s) show longitudinal acceleration above 0.4 m/s\u00b2 while moving above 2.0 m/s; need 50. The vehicle never accelerated decisively enough to reveal its heading.",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    },
+    {
+      "segment_id": "c51e706ffc90:000",
+      "status": "INSUFFICIENT_MOTION",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.9948076903395754,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": null,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 7.0,
+        "total_sample_count": 6699.0,
+        "duration_s": 669.7999999523163,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "7 sample(s) show longitudinal acceleration above 0.4 m/s\u00b2 while moving above 2.0 m/s; need 50. The vehicle never accelerated decisively enough to reveal its heading.",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    },
+    {
+      "segment_id": "c674f8de297f:000",
+      "status": "INSUFFICIENT_MOTION",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.987041704631446,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": null,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.3,
+        "dynamic_sample_count": 33.0,
+        "total_sample_count": 4673.0,
+        "duration_s": 2335.9990000724792,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "33 sample(s) show longitudinal acceleration above 0.4 m/s\u00b2 while moving above 2.0 m/s; need 50. The vehicle never accelerated decisively enough to reveal its heading.",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    },
+    {
+      "segment_id": "c743ad854bd5:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        4.1184389751763667e-07,
+        -2.5175301607734588e-05,
+        0.5504249635108488,
+        0.8348846380848766
+      ],
+      "confidence": 0.46724547886597034,
+      "quality": {
+        "gravity_confidence": 0.9871473909994446,
+        "gravity_residual_deg": 5.200387484068041e-19,
+        "forward_confidence": 0.47332899132003403,
+        "forward_correlation": 0.9015502790533713,
+        "longitudinal_correlation": -0.04718468438341718,
+        "lateral_correlation": -0.10183212924630257,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.6294616150936789,
+        "dynamic_sample_count": 3873.0,
+        "total_sample_count": 11486.0,
+        "duration_s": 1148.5,
+        "forward_lag_s": 4.6000000000000005
+      },
+      "notes": [
+        "the speed reference had to be shifted by +4.6s to line up with the accelerometer, lifting the correlation to 0.90. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only -0.05",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.10; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "c8360323ca02:000",
+      "status": "INSUFFICIENT_MOTION",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.9906685906138054,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": null,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 1.0,
+        "total_sample_count": 447.0,
+        "duration_s": 44.60099983215332,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "1 sample(s) show longitudinal acceleration above 0.4 m/s\u00b2 while moving above 2.0 m/s; need 50. The vehicle never accelerated decisively enough to reveal its heading.",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    },
+    {
+      "segment_id": "cac38e6d5a1f:000",
+      "status": "MAG_DISTURBED",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.8276615777671977,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": 0.1448507332064595,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 76.0,
+        "total_sample_count": 86440.0,
+        "duration_s": 2510.856999874115,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "magnetometer could not substitute: unusable",
+        "the lag search found no distinct peak (best 0.15 versus a median of 0.11 across \u00b115s); no lag was applied",
+        "the two halves of the data disagree by 85.7\u00b0, above the 15\u00b0 limit",
+        "predicted and observed longitudinal acceleration correlate at only 0.14; the recovered axis is not supported by the data",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    },
+    {
+      "segment_id": "cae29ddeeff1:000",
+      "status": "INSUFFICIENT_MOTION",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.9863662210427071,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": null,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.9438320542654762,
+        "dynamic_sample_count": 0.0,
+        "total_sample_count": 452.0,
+        "duration_s": 45.099000215530396,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "0 sample(s) show longitudinal acceleration above 0.4 m/s\u00b2 while moving above 2.0 m/s; need 50. The vehicle never accelerated decisively enough to reveal its heading.",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    },
+    {
+      "segment_id": "cd923def23f5:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        -1.9047242910755606e-05,
+        4.387336594980868e-05,
+        -0.18812810696129026,
+        0.9821444970489279
+      ],
+      "confidence": 0.16768426562162875,
+      "quality": {
+        "gravity_confidence": 0.9857910293138732,
+        "gravity_residual_deg": 1.6514354615478693e-18,
+        "forward_confidence": 0.17010122899813743,
+        "forward_correlation": 0.6969028676623207,
+        "longitudinal_correlation": 0.00692222810168262,
+        "lateral_correlation": -0.21516836834126044,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 1735.0,
+        "total_sample_count": 4909.0,
+        "duration_s": 490.7999999523163,
+        "forward_lag_s": 5.0
+      },
+      "notes": [
+        "the speed reference had to be shifted by +5.0s to line up with the accelerometer, lifting the correlation to 0.70. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 33.2\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only 0.01",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.22; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "cfabd101e8e0:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        -3.474804505085813e-05,
+        2.619805688404937e-05,
+        0.902562891236168,
+        0.4305580396063281
+      ],
+      "confidence": 0.13692465210357715,
+      "quality": {
+        "gravity_confidence": 0.9847412144124964,
+        "gravity_residual_deg": 4.0364734657289735e-19,
+        "forward_confidence": 0.1390463302434918,
+        "forward_correlation": 0.6244414372348142,
+        "longitudinal_correlation": 0.0063646682002430136,
+        "lateral_correlation": 0.009284702516354213,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.3,
+        "dynamic_sample_count": 1798.0,
+        "total_sample_count": 4519.0,
+        "duration_s": 452.9859998226166,
+        "forward_lag_s": 4.4
+      },
+      "notes": [
+        "the speed reference had to be shifted by +4.4s to line up with the accelerometer, lifting the correlation to 0.62. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 107.4\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only 0.01",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only 0.01; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "d1fb2b7e3ad0:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        -1.9081353340600325e-05,
+        4.3858541436740914e-05,
+        -0.1873643287214909,
+        0.9822904896389232
+      ],
+      "confidence": 0.16788874569907392,
+      "quality": {
+        "gravity_confidence": 0.9857910293138732,
+        "gravity_residual_deg": 1.3978833781264876e-18,
+        "forward_confidence": 0.17030865640553378,
+        "forward_correlation": 0.6973868649462455,
+        "longitudinal_correlation": 0.010781761301872817,
+        "lateral_correlation": -0.21504627353622413,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 1732.0,
+        "total_sample_count": 4909.0,
+        "duration_s": 490.7999999523163,
+        "forward_lag_s": 5.0
+      },
+      "notes": [
+        "the speed reference had to be shifted by +5.0s to line up with the accelerometer, lifting the correlation to 0.70. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 32.8\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only 0.01",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.22; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "d37056443067:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        3.1995275697023135e-05,
+        0.00011222426759977697,
+        -0.6531281197269292,
+        0.7572474137321186
+      ],
+      "confidence": 0.1046251504792206,
+      "quality": {
+        "gravity_confidence": 0.983235557972711,
+        "gravity_residual_deg": 2.2688206862981947e-18,
+        "forward_confidence": 0.10640903863865793,
+        "forward_correlation": 0.5482877568235351,
+        "longitudinal_correlation": 0.07021920683718724,
+        "lateral_correlation": 0.03696615062944246,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.3,
+        "dynamic_sample_count": 505.0,
+        "total_sample_count": 1281.0,
+        "duration_s": 128.0,
+        "forward_lag_s": -2.2
+      },
+      "notes": [
+        "the speed reference had to be shifted by -2.2s to line up with the accelerometer, lifting the correlation to 0.55. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 101.6\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only 0.07",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only 0.04; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "d4286914fd02:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        3.401431912302206e-05,
+        -2.8058970065779598e-05,
+        -0.061894692807968846,
+        0.9980826844795613
+      ],
+      "confidence": 0.2587765114444449,
+      "quality": {
+        "gravity_confidence": 0.9799929329454621,
+        "gravity_residual_deg": 7.053332715719798e-18,
+        "forward_confidence": 0.26405956894675503,
+        "forward_correlation": 0.9161389942090952,
+        "longitudinal_correlation": 0.4183798147085053,
+        "lateral_correlation": 0.1752706214780262,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.7569110641321111,
+        "dynamic_sample_count": 540.0,
+        "total_sample_count": 954.0,
+        "duration_s": 95.29999995231628,
+        "forward_lag_s": 0.6000000000000001
+      },
+      "notes": [
+        "the speed reference had to be shifted by +0.6s to line up with the accelerometer, lifting the correlation to 0.92. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 26.3\u00b0, above the 15\u00b0 limit",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only 0.18; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "d80cb5cebc5e:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        9.315387113561381e-05,
+        9.289481523183045e-06,
+        0.26486816151801196,
+        0.964284630308982
+      ],
+      "confidence": 0.1899094182844599,
+      "quality": {
+        "gravity_confidence": 0.9865428173553941,
+        "gravity_residual_deg": 6.051465794300307e-17,
+        "forward_confidence": 0.19249992493336107,
+        "forward_correlation": 0.9813812067827303,
+        "longitudinal_correlation": -0.037705590288453376,
+        "lateral_correlation": -0.30296263276010366,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.9477147243488913,
+        "dynamic_sample_count": 108.0,
+        "total_sample_count": 668.0,
+        "duration_s": 66.70000004768372,
+        "forward_lag_s": 2.0
+      },
+      "notes": [
+        "the speed reference had to be shifted by +2.0s to line up with the accelerometer, lifting the correlation to 0.98. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 17.2\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only -0.04",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.30; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "dac55cdbb0b0:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        -0.00040239598670629046,
+        0.00011148334862401296,
+        -0.2618078458615161,
+        0.965119929073214
+      ],
+      "confidence": 0.26792553342380093,
+      "quality": {
+        "gravity_confidence": 0.9811941297951784,
+        "gravity_residual_deg": 2.028849177956325e-17,
+        "forward_confidence": 0.27306067707491244,
+        "forward_correlation": 0.9371415798414624,
+        "longitudinal_correlation": 0.09631391141634915,
+        "lateral_correlation": -0.2097207177594533,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.3,
+        "dynamic_sample_count": 306.0,
+        "total_sample_count": 652.0,
+        "duration_s": 65.09999990463257,
+        "forward_lag_s": 2.2
+      },
+      "notes": [
+        "the speed reference had to be shifted by +2.2s to line up with the accelerometer, lifting the correlation to 0.94. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 27.5\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only 0.10",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.21; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "dc92ec49c6de:000",
+      "status": "INSUFFICIENT_MOTION",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.9932867588047969,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": null,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 5.0,
+        "total_sample_count": 5690.0,
+        "duration_s": 568.9010000228882,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "5 sample(s) show longitudinal acceleration above 0.4 m/s\u00b2 while moving above 2.0 m/s; need 50. The vehicle never accelerated decisively enough to reveal its heading.",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    },
+    {
+      "segment_id": "dcfad1472878:000",
+      "status": "INSUFFICIENT_MOTION",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.9881660422206848,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": null,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 0.0,
+        "total_sample_count": 85041.0,
+        "duration_s": 8504.348999977112,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "0 sample(s) show longitudinal acceleration above 0.4 m/s\u00b2 while moving above 2.0 m/s; need 50. The vehicle never accelerated decisively enough to reveal its heading.",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    },
+    {
+      "segment_id": "ddca3a613dc2:000",
+      "status": "INSUFFICIENT_MOTION",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.8809936461035349,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": null,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 1.0,
+        "total_sample_count": 156.0,
+        "duration_s": 15.498000144958496,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "1 sample(s) show longitudinal acceleration above 0.4 m/s\u00b2 while moving above 2.0 m/s; need 50. The vehicle never accelerated decisively enough to reveal its heading.",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    },
+    {
+      "segment_id": "e07de2f95c2b:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        -9.304624989396698e-06,
+        -6.474771394772275e-05,
+        0.9680415812706528,
+        0.2507897379323398
+      ],
+      "confidence": 0.09942296151119502,
+      "quality": {
+        "gravity_confidence": 0.9808077214683298,
+        "gravity_residual_deg": 7.711734504503557e-19,
+        "forward_confidence": 0.10136845309736418,
+        "forward_correlation": 0.5365263905605164,
+        "longitudinal_correlation": -0.001501278244720155,
+        "lateral_correlation": 0.23054313850479122,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.3,
+        "dynamic_sample_count": 721.0,
+        "total_sample_count": 1564.0,
+        "duration_s": 156.30100011825562,
+        "forward_lag_s": -6.2
+      },
+      "notes": [
+        "the speed reference had to be shifted by -6.2s to line up with the accelerometer, lifting the correlation to 0.54. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 38.9\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only -0.00"
+      ]
+    },
+    {
+      "segment_id": "e0ea65fc0a2f:000",
+      "status": "INSUFFICIENT_MOTION",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.9895319004406232,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": null,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.704847301767515,
+        "dynamic_sample_count": 1.0,
+        "total_sample_count": 610.0,
+        "duration_s": 60.90000009536743,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "1 sample(s) show longitudinal acceleration above 0.4 m/s\u00b2 while moving above 2.0 m/s; need 50. The vehicle never accelerated decisively enough to reveal its heading.",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    },
+    {
+      "segment_id": "e7dd97db647b:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        -3.4185834019184795e-05,
+        2.6927561563741703e-05,
+        0.89324886334234,
+        0.4495625276241925
+      ],
+      "confidence": 0.1360690182458483,
+      "quality": {
+        "gravity_confidence": 0.9847412144124964,
+        "gravity_residual_deg": 2.6942452223730306e-19,
+        "forward_confidence": 0.13817743814757266,
+        "forward_correlation": 0.6224140223443362,
+        "longitudinal_correlation": 0.013636254018467539,
+        "lateral_correlation": 0.011565771328231332,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.3,
+        "dynamic_sample_count": 1770.0,
+        "total_sample_count": 4519.0,
+        "duration_s": 452.9859998226166,
+        "forward_lag_s": 4.4
+      },
+      "notes": [
+        "the speed reference had to be shifted by +4.4s to line up with the accelerometer, lifting the correlation to 0.62. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 102.2\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only 0.01",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only 0.01; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "e94b492767c8:000",
+      "status": "INSUFFICIENT_MOTION",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.9935138931204253,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": null,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.3,
+        "dynamic_sample_count": 0.0,
+        "total_sample_count": 645.0,
+        "duration_s": 64.40000009536743,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "0 sample(s) show longitudinal acceleration above 0.4 m/s\u00b2 while moving above 2.0 m/s; need 50. The vehicle never accelerated decisively enough to reveal its heading.",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    },
+    {
+      "segment_id": "eafbdc315806:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        1.347043892976453e-06,
+        -2.4776729897190736e-06,
+        0.10143775802672596,
+        0.9948418875572932
+      ],
+      "confidence": 0.17822379752383702,
+      "quality": {
+        "gravity_confidence": 0.9837729736033024,
+        "gravity_residual_deg": 3.038547931086936e-19,
+        "forward_confidence": 0.18116354312016725,
+        "forward_correlation": 0.7227149339470569,
+        "longitudinal_correlation": 0.21344407960652786,
+        "lateral_correlation": -0.014670836075100408,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 4250.0,
+        "total_sample_count": 10991.0,
+        "duration_s": 1098.9980001449585,
+        "forward_lag_s": 0.6000000000000001
+      },
+      "notes": [
+        "the speed reference had to be shifted by +0.6s to line up with the accelerometer, lifting the correlation to 0.72. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 24.6\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only 0.21",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.01; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "ebc743e3e724:000",
+      "status": "INSUFFICIENT_MOTION",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.8632080520264168,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": null,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 23.0,
+        "total_sample_count": 11630.0,
+        "duration_s": 5814.5,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "23 sample(s) show longitudinal acceleration above 0.4 m/s\u00b2 while moving above 2.0 m/s; need 50. The vehicle never accelerated decisively enough to reveal its heading.",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    },
+    {
+      "segment_id": "ed067f770ac8:000",
+      "status": "INSUFFICIENT_MOTION",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.9530568430959018,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": null,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 15.0,
+        "total_sample_count": 11132.0,
+        "duration_s": 5566.02799987793,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "15 sample(s) show longitudinal acceleration above 0.4 m/s\u00b2 while moving above 2.0 m/s; need 50. The vehicle never accelerated decisively enough to reveal its heading.",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    },
+    {
+      "segment_id": "eda01aff8e4d:000",
+      "status": "INSUFFICIENT_MOTION",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.8865107478718866,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": null,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 47.0,
+        "total_sample_count": 75555.0,
+        "duration_s": 7554.944999933243,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "47 sample(s) show longitudinal acceleration above 0.4 m/s\u00b2 while moving above 2.0 m/s; need 50. The vehicle never accelerated decisively enough to reveal its heading.",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    },
+    {
+      "segment_id": "ee2c003b48da:000",
+      "status": "INSUFFICIENT_MOTION",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.9925882397933837,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": null,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.3,
+        "dynamic_sample_count": 1.0,
+        "total_sample_count": 646.0,
+        "duration_s": 64.4980001449585,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "1 sample(s) show longitudinal acceleration above 0.4 m/s\u00b2 while moving above 2.0 m/s; need 50. The vehicle never accelerated decisively enough to reveal its heading.",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    },
+    {
+      "segment_id": "ef23269dffe1:000",
+      "status": "INSUFFICIENT_MOTION",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.9878680251765368,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": null,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.7460950227538876,
+        "dynamic_sample_count": 2.0,
+        "total_sample_count": 307.0,
+        "duration_s": 30.600000143051147,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "2 sample(s) show longitudinal acceleration above 0.4 m/s\u00b2 while moving above 2.0 m/s; need 50. The vehicle never accelerated decisively enough to reveal its heading.",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    },
+    {
+      "segment_id": "ef9cf5419e1f:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        -4.602181513080565e-05,
+        1.5581849094577142e-05,
+        -0.8119320501587758,
+        0.5837519537990138
+      ],
+      "confidence": 0.25754515911653475,
+      "quality": {
+        "gravity_confidence": 0.9852123212087063,
+        "gravity_residual_deg": 9.949034549296554e-19,
+        "forward_confidence": 0.26141081833057656,
+        "forward_correlation": 0.9099585761046786,
+        "longitudinal_correlation": 0.048851827182417894,
+        "lateral_correlation": -0.25243555614968843,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.9150856388595325,
+        "dynamic_sample_count": 400.0,
+        "total_sample_count": 1935.0,
+        "duration_s": 193.39999985694885,
+        "forward_lag_s": 3.2
+      },
+      "notes": [
+        "the speed reference had to be shifted by +3.2s to line up with the accelerometer, lifting the correlation to 0.91. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 56.7\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only 0.05",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.25; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "f37db4374cc0:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        4.722058041324366e-05,
+        9.153975754972798e-06,
+        0.030983211675154422,
+        0.9995199038942216
+      ],
+      "confidence": 0.18463386859156242,
+      "quality": {
+        "gravity_confidence": 0.9823958327685013,
+        "gravity_residual_deg": 3.232151871666435e-19,
+        "forward_confidence": 0.18794243871255392,
+        "forward_correlation": 0.7385323569959591,
+        "longitudinal_correlation": -0.1127381864720694,
+        "lateral_correlation": 0.08762116307092951,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.3,
+        "dynamic_sample_count": 462.0,
+        "total_sample_count": 1789.0,
+        "duration_s": 178.79900002479553,
+        "forward_lag_s": 7.2
+      },
+      "notes": [
+        "the speed reference had to be shifted by +7.2s to line up with the accelerometer, lifting the correlation to 0.74. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 22.2\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only -0.11",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only 0.09; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "f6681389a3ae:000",
+      "status": "LOW_HEADING_CONFIDENCE",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.9810797653793447,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": 0.22621025203724396,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.3,
+        "dynamic_sample_count": 2008.0,
+        "total_sample_count": 4210.0,
+        "duration_s": 420.90000009536743,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "the lag search found no distinct peak (best 0.31 versus a median of 0.24 across \u00b115s); no lag was applied",
+        "predicted and observed longitudinal acceleration correlate at only 0.23; the recovered axis is not supported by the data",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    },
+    {
+      "segment_id": "f86e535305a7:000",
+      "status": "INSUFFICIENT_MOTION",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.9806273683199497,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": null,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.3,
+        "dynamic_sample_count": 1.0,
+        "total_sample_count": 284.0,
+        "duration_s": 28.299999952316284,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "1 sample(s) show longitudinal acceleration above 0.4 m/s\u00b2 while moving above 2.0 m/s; need 50. The vehicle never accelerated decisively enough to reveal its heading.",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    },
+    {
+      "segment_id": "fa0b8dc8dddf:000",
+      "status": "MAG_DISTURBED",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.9839195353364057,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": 0.18242152811475604,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 37185.0,
+        "total_sample_count": 126526.0,
+        "duration_s": 12652.5,
+        "forward_lag_s": 5.0
+      },
+      "notes": [
+        "magnetometer could not substitute: abrupt direction change, dip inconsistent",
+        "the speed reference had to be shifted by +5.0s to line up with the accelerometer, lifting the correlation to 0.18. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 86.3\u00b0, above the 15\u00b0 limit",
+        "predicted and observed longitudinal acceleration correlate at only 0.18; the recovered axis is not supported by the data",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    },
+    {
+      "segment_id": "fa378298fb40:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        -5.603064510460451e-05,
+        -1.7496101530004852e-05,
+        -0.19075311460530747,
+        0.9816380421636214
+      ],
+      "confidence": 0.1579473683463322,
+      "quality": {
+        "gravity_confidence": 0.9788075601583259,
+        "gravity_residual_deg": 2.645316113651987e-19,
+        "forward_confidence": 0.1613671315746515,
+        "forward_correlation": 0.6765233070075202,
+        "longitudinal_correlation": -0.00034894363672374875,
+        "lateral_correlation": -0.18757359896537376,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.3,
+        "dynamic_sample_count": 883.0,
+        "total_sample_count": 2079.0,
+        "duration_s": 207.79999995231628,
+        "forward_lag_s": 4.800000000000001
+      },
+      "notes": [
+        "the speed reference had to be shifted by +4.8s to line up with the accelerometer, lifting the correlation to 0.68. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 83.1\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only -0.00",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.19; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "fa60a662386f:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        -1.7074113028579483e-05,
+        2.8783037789650192e-05,
+        -0.606767927988877,
+        0.7948790351016287
+      ],
+      "confidence": 0.12600217987586604,
+      "quality": {
+        "gravity_confidence": 0.9837005932423001,
+        "gravity_residual_deg": 8.884222304796e-19,
+        "forward_confidence": 0.1280899704050802,
+        "forward_correlation": 0.8089860313553368,
+        "longitudinal_correlation": -0.06457920457903706,
+        "lateral_correlation": -0.1050732415492596,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.3,
+        "dynamic_sample_count": 78.0,
+        "total_sample_count": 918.0,
+        "duration_s": 91.70000004768372,
+        "forward_lag_s": 2.4000000000000004
+      },
+      "notes": [
+        "the speed reference had to be shifted by +2.4s to line up with the accelerometer, lifting the correlation to 0.81. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 19.1\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only -0.06",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.11; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "fbf968d0ce57:000",
+      "status": "INSUFFICIENT_MOTION",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.9981429334076818,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": null,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.9205538445259205,
+        "dynamic_sample_count": 0.0,
+        "total_sample_count": 20476.0,
+        "duration_s": 2047.5,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "0 sample(s) show longitudinal acceleration above 0.4 m/s\u00b2 while moving above 2.0 m/s; need 50. The vehicle never accelerated decisively enough to reveal its heading.",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    },
+    {
+      "segment_id": "fc23e971b8f3:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        3.285614736714567e-05,
+        -7.08025220887277e-05,
+        0.32326154021179304,
+        0.9463096588999691
+      ],
+      "confidence": 0.7747547777347188,
+      "quality": {
+        "gravity_confidence": 0.9861037952881659,
+        "gravity_residual_deg": 2.9670632605132367e-18,
+        "forward_confidence": 0.7856726456552322,
+        "forward_correlation": 0.9367552430265453,
+        "longitudinal_correlation": 0.03127364062776453,
+        "lateral_correlation": -0.20580498884347412,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 1569.0,
+        "total_sample_count": 5879.0,
+        "duration_s": 587.798999786377,
+        "forward_lag_s": 4.4
+      },
+      "notes": [
+        "the speed reference had to be shifted by +4.4s to line up with the accelerometer, lifting the correlation to 0.94. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only 0.03",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.21; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "fdb0c5fe8db0:000",
+      "status": "SUCCESS",
+      "q_vehicle_phone": [
+        -2.9916521485768064e-05,
+        -7.675531344966356e-06,
+        0.2557335859284235,
+        0.9667472948368036
+      ],
+      "confidence": 0.03485928301899338,
+      "quality": {
+        "gravity_confidence": 0.9848386550418771,
+        "gravity_residual_deg": 1.6631295005843655e-19,
+        "forward_confidence": 0.035395932968848694,
+        "forward_correlation": 0.38259051026064694,
+        "longitudinal_correlation": 0.0036983769251977493,
+        "lateral_correlation": -0.06888082196596292,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.0,
+        "dynamic_sample_count": 10498.0,
+        "total_sample_count": 23705.0,
+        "duration_s": 2369.7779998779297,
+        "forward_lag_s": 4.4
+      },
+      "notes": [
+        "the speed reference had to be shifted by +4.4s to line up with the accelerometer, lifting the correlation to 0.38. This is residual Phase 2 synchronization error, measured here and not written back to any stored data.",
+        "the two halves of the data disagree by 58.8\u00b0, above the 15\u00b0 limit",
+        "longitudinal check: vehicle-frame a_x correlates with dv/dt at only 0.00",
+        "lateral check: vehicle-frame a_y correlates with v\u00b7\u03c9_z at only -0.07; cornering does not look like cornering"
+      ]
+    },
+    {
+      "segment_id": "ffadddf6b48a:000",
+      "status": "INSUFFICIENT_MOTION",
+      "q_vehicle_phone": null,
+      "confidence": 0.0,
+      "quality": {
+        "gravity_confidence": 0.9874589131195497,
+        "gravity_residual_deg": null,
+        "forward_confidence": 0.0,
+        "forward_correlation": null,
+        "longitudinal_correlation": null,
+        "lateral_correlation": null,
+        "angular_rate_consistency": null,
+        "magnetometer_weight": 0.9429621014496957,
+        "dynamic_sample_count": 0.0,
+        "total_sample_count": 329.0,
+        "duration_s": 32.800999879837036,
+        "forward_lag_s": 0.0
+      },
+      "notes": [
+        "0 sample(s) show longitudinal acceleration above 0.4 m/s\u00b2 while moving above 2.0 m/s; need 50. The vehicle never accelerated decisively enough to reveal its heading.",
+        "yaw is reported as unresolved rather than guessed"
+      ]
+    }
+  ]
+}

@@ -26,6 +26,9 @@ dependencies = [
     "numpy>=1.26",
     "pandas>=2.1",
     "matplotlib>=3.8",
+    # Parquet is the canonical storage format for Phase 2 derived data; see
+    # docs/datasets/io_vnbd_phase2_contract.md for why it was chosen.
+    "pyarrow>=16.0",
 ]
 
 [project.optional-dependencies]
