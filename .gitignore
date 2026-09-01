@@ -94,6 +94,14 @@ reports/*
 !reports/sensor_alignment/plots/
 !reports/sensor_alignment/plots/*.png
 
+# And again for the Phase 4 inertial baseline: the root README links the report,
+# and it is the number every later phase is measured against, so it has to be
+# readable without re-running a 1.8 GB dataset through three phases first.
+!reports/navigation/
+!reports/navigation/Phase4_Inertial_Mechanization_Validation.md
+!reports/navigation/plots/
+!reports/navigation/plots/*.png
+
 ## ---------------------------------------------------------------------------
 ## Data (see data/README.md — datasets are NEVER committed to Git)
 ## ---------------------------------------------------------------------------

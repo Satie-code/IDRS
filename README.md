@@ -45,10 +45,18 @@ filter, magnetometer quality assessment, and a phone→vehicle alignment engine
 that reports a confidence and refuses to fabricate yaw when the data cannot
 support it.
 
-**Still no model, training, INS, EKF, fusion, or navigation code.** Phase 3
-produces orientation and alignment estimates; integrating them into position or
-velocity begins in Phase 4. See [`docs/sih/phase3_scope.md`](docs/sih/phase3_scope.md)
-for the exact boundary and
+Phase 4 added the **baseline dead-reckoning engine**
+([`python/idr/navigation/`](python/idr/navigation/)): a strapdown inertial
+mechanization that turns those orientation and alignment estimates into a
+continuously propagated attitude, velocity and position. It is deliberately
+**unaided** — no GNSS after initialization, no reference-velocity feedback, no
+filter — because its purpose is to be the honest baseline that Phase 5's fusion
+is measured against. An unaided solution on consumer MEMS sensors drifts
+quickly, and the validation report says by how much rather than hiding it.
+
+**Still no model, training, EKF, UKF, fusion, non-holonomic constraints, map
+matching, or Android code.** See
+[`docs/sih/phase4_scope.md`](docs/sih/phase4_scope.md) for the exact boundary and
 [`docs/development/engineering_rules.md`](docs/development/engineering_rules.md)
 for the rules (Rule 10: don't start future phases early).
 
@@ -57,9 +65,11 @@ Key documents:
 - [`reports/io_vnbd/IO_VNBD_Forensic_Report.md`](reports/io_vnbd/IO_VNBD_Forensic_Report.md) — Phase 1 findings
 - [`reports/io_vnbd/IO_VNBD_Phase2_Preprocessing_Report.md`](reports/io_vnbd/IO_VNBD_Phase2_Preprocessing_Report.md) — Phase 2 run report
 - [`docs/datasets/io_vnbd_phase2_contract.md`](docs/datasets/io_vnbd_phase2_contract.md) — **the canonical data contract**
-- [`docs/architecture/sensor_frame_conventions.md`](docs/architecture/sensor_frame_conventions.md) — **the frame conventions Phase 4 builds on**
-- [`docs/mathematics/phase3_orientation.md`](docs/mathematics/phase3_orientation.md) — the implemented equations
+- [`docs/architecture/sensor_frame_conventions.md`](docs/architecture/sensor_frame_conventions.md) — **the binding frame conventions**
+- [`docs/mathematics/phase3_orientation.md`](docs/mathematics/phase3_orientation.md) — orientation and alignment equations
+- [`docs/mathematics/phase4_mechanization.md`](docs/mathematics/phase4_mechanization.md) — **the mechanization equations Phase 5 builds on**
 - [`reports/sensor_alignment/Phase3_Sensor_Frame_Validation.md`](reports/sensor_alignment/Phase3_Sensor_Frame_Validation.md) — Phase 3 validation report
+- [`reports/navigation/Phase4_Inertial_Mechanization_Validation.md`](reports/navigation/Phase4_Inertial_Mechanization_Validation.md) — Phase 4 baseline results and drift analysis
 
 ## Architecture overview
 
@@ -183,7 +193,19 @@ writes a validation report, figures and metadata. Read-only with respect to
 both raw and canonical data:
 
 ```bash
-python -m idr.frames.runner --processed data/processed/io_vnbd     --metadata data/metadata/io_vnbd --report-output reports/sensor_alignment
+python -m idr.frames.runner --processed data/processed/io_vnbd \
+    --metadata data/metadata/io_vnbd --report-output reports/sensor_alignment
+```
+
+### Inertial baseline (Phase 4)
+
+Propagates the unaided dead-reckoning trajectory over the canonical Parquet and
+writes the validation report, drift figures and metadata. Read-only with
+respect to both raw and canonical data:
+
+```bash
+python -m idr.navigation.runner --processed data/processed/io_vnbd \
+    --metadata data/metadata/io_vnbd --report-output reports/navigation
 ```
 
 Full details, including pre-commit setup, in

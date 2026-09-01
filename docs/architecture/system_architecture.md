@@ -25,8 +25,11 @@ Android / Edge  (not yet implemented)
   artifacts (`models/exported/`) consumed by the navigation core; does not
   itself run on-device. Implemented so far: dataset acquisition and forensics
   (`dataset/`, Phase 1), canonicalization and the ML-ready pipeline
-  (`pipeline/`, Phase 2), and sensor frames, orientation and phone→vehicle
-  alignment (`frames/`, Phase 3). No model exists yet.
+  (`pipeline/`, Phase 2), sensor frames, orientation and phone→vehicle
+  alignment (`frames/`, Phase 3), and the strapdown inertial mechanization that
+  turns those into a propagated trajectory (`navigation/`, Phase 4). No model
+  exists yet, and no filter or fusion — the Phase 4 solution is deliberately
+  unaided, so that whatever Phase 5 adds can be measured against it.
 - **Navigation Core (C++)** — the reusable inertial-navigation /
   sensor-fusion engine. Lives under `core/`. Deployable in four contexts
   without modification to its public interface: dataset replay, desktop
@@ -56,6 +59,11 @@ Rotations are named for the frames they connect, destination first, so
 `R_navigation_phone = R_navigation_vehicle @ R_vehicle_phone`. The full
 statement, including what about the phone frame is genuinely unknown, is in
 [`sensor_frame_conventions.md`](sensor_frame_conventions.md).
+
+Phase 4 adds the origin the navigation frame had been missing: a local tangent
+plane anchored at a stated geodetic point, so a position in metres is a
+location rather than an offset from nothing. A trajectory carries its origin
+rather than leaving the caller to remember it.
 
 See [`software_architecture.md`](software_architecture.md) for how this
 maps onto the actual repository structure.
